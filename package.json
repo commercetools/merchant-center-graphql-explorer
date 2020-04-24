@@ -1,0 +1,42 @@
+{
+  "name": "merchant-center-graphql-explorer",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "mc-scripts build",
+    "start": "mc-scripts start",
+    "start:prod:local": "NODE_ENV=production mc-http-server --config=$(pwd)/env.json --use-local-assets",
+    "i18n:build": "mc-scripts extract-intl --output-path=$(pwd)/src/i18n/data 'src/**/!(*.spec).js' --build-translations",
+    "test": "jest --config jest.test.config.js",
+    "test:watch": "jest --config jest.test.config.js --watch"
+  },
+  "dependencies": {
+    "@commercetools-frontend/actions-global": "16.7.0",
+    "@commercetools-frontend/application-components": "16.7.0",
+    "@commercetools-frontend/application-shell": "16.7.0",
+    "@commercetools-frontend/assets": "16.0.0",
+    "@commercetools-frontend/i18n": "16.6.0",
+    "@commercetools-frontend/mc-http-server": "16.7.0",
+    "@commercetools-frontend/permissions": "16.7.0",
+    "@commercetools-uikit/flat-button": "10.18.4",
+    "@commercetools-uikit/icons": "10.18.4",
+    "@commercetools-uikit/spacings": "10.18.4",
+    "@commercetools-uikit/text": "10.18.4",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-apollo": "3.1.5",
+    "react-dom": "16.13.1",
+    "react-intl": "3.4.0",
+    "react-redux": "7.2.0",
+    "react-router-dom": "5.1.2",
+    "redux": "4.0.5"
+  },
+  "devDependencies": {
+    "@commercetools-frontend/jest-preset-mc-app": "16.7.0",
+    "@commercetools-frontend/mc-scripts": "16.7.0",
+    "@testing-library/react": "10.0.2",
+    "enzyme": "3.11.0",
+    "jest": "25.4.0"
+  }
+}
