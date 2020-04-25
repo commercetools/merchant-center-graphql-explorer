@@ -1,0 +1,14 @@
+.graphiql-explorer-node {
+  padding-left: 4px;
+}
+
+.graphiql-container .topBar,
+.graphiql-container .history-title-bar,
+.graphiql-container .doc-explorer-title,
+.graphiql-container .doc-explorer-title-bar {
+  height: 48px;
+}
+
+.graphiql-operation-title-bar input {
+  width: unset !important;
+}

@@ -26,12 +26,12 @@ export const ApplicationStarter = () => (
         <Redirect
           exact={true}
           from="/:projectKey"
-          to="/:projectKey/examples-starter"
+          to="/:projectKey/graphql-explorer"
         />
       )
     }
     <Route
-      path="/:projectKey/examples-starter"
+      path="/:projectKey/graphql-explorer"
       component={AsyncApplicationRoutes}
     />
     {/* Catch-all route */}

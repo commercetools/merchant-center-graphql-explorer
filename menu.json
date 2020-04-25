@@ -1,22 +1,131 @@
 {
-  "key": "examples-starter",
-  "uriPath": "examples-starter",
+  "key": "graphql-explorer",
+  "uriPath": "graphql-explorer",
   "icon": "RocketIcon",
-  "permissions": ["ViewProducts"],
+  "permissions": [],
   "featureToggle": null,
-  "submenu": [],
   "labelAllLocales": [
     {
       "locale": "en",
-      "value": "Starter"
+      "value": "GraphQL Explorer"
     },
     {
       "locale": "de",
-      "value": "Starter"
+      "value": "GraphQL Explorer"
     },
     {
       "locale": "es",
-      "value": "Starter"
+      "value": "GraphQL Explorer"
+    },
+    {
+      "locale": "fr",
+      "value": "GraphQL Explorer"
+    },
+    {
+      "locale": "ja",
+      "value": "GraphQL Explorer"
+    },
+    {
+      "locale": "zh_CH",
+      "value": "GraphQL Explorer"
+    }
+  ],
+  "submenu": [
+    {
+      "key": "graphql-explorer-platform",
+      "uriPath": "graphql-explorer/platform",
+      "permissions": [],
+      "featureToggle": null,
+      "labelAllLocales": [
+        {
+          "locale": "en",
+          "value": "commercetools platform"
+        },
+        {
+          "locale": "de",
+          "value": "commercetools platform"
+        },
+        {
+          "locale": "es",
+          "value": "commercetools platform"
+        },
+        {
+          "locale": "fr",
+          "value": "commercetools platform"
+        },
+        {
+          "locale": "ja",
+          "value": "commercetools platform"
+        },
+        {
+          "locale": "zh_CH",
+          "value": "commercetools platform"
+        }
+      ]
+    },
+    {
+      "key": "graphql-explorer-users",
+      "uriPath": "graphql-explorer/users",
+      "permissions": [],
+      "featureToggle": null,
+      "labelAllLocales": [
+        {
+          "locale": "en",
+          "value": "Users"
+        },
+        {
+          "locale": "de",
+          "value": "Users"
+        },
+        {
+          "locale": "es",
+          "value": "Users"
+        },
+        {
+          "locale": "fr",
+          "value": "Users"
+        },
+        {
+          "locale": "ja",
+          "value": "Users"
+        },
+        {
+          "locale": "zh_CH",
+          "value": "Users"
+        }
+      ]
+    },
+    {
+      "key": "graphql-explorer-user-settings",
+      "uriPath": "graphql-explorer/user-settings",
+      "permissions": [],
+      "featureToggle": null,
+      "labelAllLocales": [
+        {
+          "locale": "en",
+          "value": "User settings"
+        },
+        {
+          "locale": "de",
+          "value": "User settings"
+        },
+        {
+          "locale": "es",
+          "value": "User settings"
+        },
+        {
+          "locale": "fr",
+          "value": "User settings"
+        },
+        {
+          "locale": "ja",
+          "value": "User settings"
+        },
+        {
+          "locale": "zh_CH",
+          "value": "User settings"
+        }
+      ]
     }
   ]
 }

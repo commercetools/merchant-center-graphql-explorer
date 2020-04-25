@@ -1,6 +1,6 @@
 export const PERMISSIONS = {
-  ManageProducts: 'ManageProducts',
-  ViewProducts: 'ViewProducts',
+  ManageProjectSettings: 'ManageProjectSettings',
+  ViewProjectSettings: 'ViewProjectSettings',
 };
 
 export const FEATURE_FLAGS = {};
