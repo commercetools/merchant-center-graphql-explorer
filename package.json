@@ -9,7 +9,8 @@
     "start:prod:local": "NODE_ENV=production mc-http-server --config=$(pwd)/env.json --use-local-assets",
     "i18n:build": "mc-scripts extract-intl --output-path=$(pwd)/src/i18n/data 'src/**/!(*.spec).js' --build-translations",
     "test": "jest --config jest.test.config.js",
-    "test:watch": "jest --config jest.test.config.js --watch"
+    "test:watch": "jest --config jest.test.config.js --watch",
+    "compile-html": "mc-scripts compile-html --headers=$(pwd)/now-deployment/headers.prod.json --config=$(pwd)/now-deployment/env.prod.json --use-local-assets --transformer $(pwd)/now-deployment/transformer.js"
   },
   "dependencies": {
     "@commercetools-frontend/actions-global": "16.7.0",
@@ -28,6 +29,7 @@
     "graphiql": "0.17.5",
     "graphiql-explorer": "0.6.2",
     "graphql": "14.5.8",
+    "jest": "25.4.0",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-apollo": "3.1.5",

@@ -7,7 +7,7 @@ describe('rendering', () => {
   beforeEach(() => {
     wrapper = shallow(<ApplicationStarter />);
   });
-  it('should render examples-starter route', () => {
-    expect(wrapper).toRender({ path: '/:projectKey/examples-starter' });
+  it('should render graphql-explorer route', () => {
+    expect(wrapper).toRender({ path: '/:projectKey/graphql-explorer' });
   });
 });
