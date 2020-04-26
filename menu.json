@@ -96,34 +96,34 @@
       ]
     },
     {
-      "key": "graphql-explorer-user-settings",
-      "uriPath": "graphql-explorer/user-settings",
+      "key": "graphql-explorer-settings",
+      "uriPath": "graphql-explorer/settings",
       "permissions": [],
       "featureToggle": null,
       "labelAllLocales": [
         {
           "locale": "en",
-          "value": "User settings"
+          "value": "Settings"
         },
         {
           "locale": "de",
-          "value": "User settings"
+          "value": "Settings"
         },
         {
           "locale": "es",
-          "value": "User settings"
+          "value": "Settings"
         },
         {
           "locale": "fr",
-          "value": "User settings"
+          "value": "Settings"
         },
         {
           "locale": "ja",
-          "value": "User settings"
+          "value": "Settings"
         },
         {
           "locale": "zh_CH",
-          "value": "User settings"
+          "value": "Settings"
         }
       ]
     }

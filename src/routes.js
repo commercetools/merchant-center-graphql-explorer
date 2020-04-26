@@ -37,7 +37,7 @@ const ApplicationRoutes = ({ match }) => (
     <Route path={`${match.path}/users`}>
       <Editor target="mc" initialQuery={initialQueryMc} />
     </Route>
-    <Route path={`${match.path}/user-settings`}>
+    <Route path={`${match.path}/settings`}>
       <Editor target="settings" initialQuery={initialQuerySettings} />
     </Route>
     <Redirect exact={true} from={`${match.path}/*`} to={match.url} />
@@ -70,8 +70,8 @@ const ApplicationRoutes = ({ match }) => (
               <li>
                 <FlatButton
                   as={Link}
-                  to={`${match.url}/user-settings`}
-                  label="Explore the Merchant Center User Settings GraphQL API"
+                  to={`${match.url}/settings`}
+                  label="Explore the Merchant Center Settings GraphQL API"
                 />
               </li>
             </ul>
