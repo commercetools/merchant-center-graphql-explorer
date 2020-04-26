@@ -1,12 +1,12 @@
-import React from "react";
-import PropTypes from "prop-types";
-import { Switch, Route, Redirect, Link } from "react-router-dom";
-import Text from "@commercetools-uikit/text";
-import Spacings from "@commercetools-uikit/spacings";
-import Constraints from "@commercetools-uikit/constraints";
-import FlatButton from "@commercetools-uikit/flat-button";
-import { ContentNotification } from "@commercetools-uikit/notifications";
-import Editor from "./components/editor";
+import React from 'react';
+import PropTypes from 'prop-types';
+import { Switch, Route, Redirect, Link } from 'react-router-dom';
+import Text from '@commercetools-uikit/text';
+import Spacings from '@commercetools-uikit/spacings';
+import Constraints from '@commercetools-uikit/constraints';
+import FlatButton from '@commercetools-uikit/flat-button';
+import { ContentNotification } from '@commercetools-uikit/notifications';
+import Editor from './components/editor';
 
 const initialQueryMc = `# shift-option/alt-click on a query below to jump to it in the explorer
 # option/alt-click on a field in the explorer to select all subfields
@@ -86,7 +86,7 @@ const ApplicationRoutes = ({ match }) => (
     </Route>
   </Switch>
 );
-ApplicationRoutes.displayName = "ApplicationRoutes";
+ApplicationRoutes.displayName = 'ApplicationRoutes';
 ApplicationRoutes.propTypes = {
   match: PropTypes.shape({
     path: PropTypes.string.isRequired,

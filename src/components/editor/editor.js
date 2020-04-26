@@ -1,10 +1,11 @@
-import "graphiql/graphiql.css";
-import "./graphiql-overrides.css";
-import React from "react";
-import GraphiQL from "graphiql";
-import GraphiQLExplorer from "graphiql-explorer";
-import { buildClientSchema, getIntrospectionQuery, parse } from "graphql";
-import { actions, useAsyncDispatch } from "@commercetools-frontend/sdk";
+import 'graphiql/graphiql.css';
+import './graphiql-overrides.css';
+import React from 'react';
+import PropTypes from 'prop-types';
+import GraphiQL from 'graphiql';
+import GraphiQLExplorer from 'graphiql-explorer';
+import { buildClientSchema, getIntrospectionQuery, parse } from 'graphql';
+import { actions, useAsyncDispatch } from '@commercetools-frontend/sdk';
 
 const useFetcher = ({ target }) => {
   const dispatch = useAsyncDispatch();
@@ -12,10 +13,10 @@ const useFetcher = ({ target }) => {
     (params) =>
       dispatch(
         actions.post({
-          uri: "/graphql",
+          uri: '/graphql',
           payload: JSON.stringify(params),
           headers: {
-            "X-Graphql-Target": target,
+            'X-Graphql-Target': target,
           },
         })
       ).catch((error) => error.body || error),
@@ -25,7 +26,7 @@ const useFetcher = ({ target }) => {
 
 const getHydratedQuery = (props) => {
   const value = window.localStorage.getItem(`graphiql:query:${props.target}`);
-  console.log("storage", value);
+  console.log('storage', value);
   if (!value) {
     window.localStorage.removeItem(`graphiql:query:${props.target}`);
     return props.initialQuery;
@@ -47,74 +48,87 @@ const Editor = (props) => {
       setSchema(buildClientSchema(result.data));
     };
     exec();
-  }, [props.target]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [props.target, fetcher]);
   // From https://github.com/OneGraph/graphiql-explorer-example/blob/3f51a36ca1a891cd32561ab25581c5630be3446e/src/App.js#L104-L160
-  const handleInspectOperation = React.useCallback((cm, mousePos) => {
-    const parsedQuery = parse(query || "");
+  const handleInspectOperation = React.useCallback(
+    (cm, mousePos) => {
+      const parsedQuery = parse(query || '');
 
-    if (!parsedQuery) {
-      console.error("Couldn't parse query document");
-      return null;
-    }
-
-    var token = cm.getTokenAt(mousePos);
-    var start = { line: mousePos.line, ch: token.start };
-    var end = { line: mousePos.line, ch: token.end };
-    var relevantMousePos = {
-      start: cm.indexFromPos(start),
-      end: cm.indexFromPos(end),
-    };
-
-    var position = relevantMousePos;
-
-    var def = parsedQuery.definitions.find((definition) => {
-      if (!definition.loc) {
-        console.log("Missing location information for definition");
-        return false;
+      if (!parsedQuery) {
+        console.error("Couldn't parse query document");
+        return;
       }
 
-      const { start, end } = definition.loc;
-      return start <= position.start && end >= position.end;
-    });
+      const token = cm.getTokenAt(mousePos);
+      const start = { line: mousePos.line, ch: token.start };
+      const end = { line: mousePos.line, ch: token.end };
+      const relevantMousePos = {
+        start: cm.indexFromPos(start),
+        end: cm.indexFromPos(end),
+      };
 
-    if (!def) {
-      console.error(
-        "Unable to find definition corresponding to mouse position"
-      );
-      return null;
-    }
+      const position = relevantMousePos;
 
-    var operationKind =
-      def.kind === "OperationDefinition"
-        ? def.operation
-        : def.kind === "FragmentDefinition"
-        ? "fragment"
-        : "unknown";
+      const def = parsedQuery.definitions.find((definition) => {
+        if (!definition.loc) {
+          console.log('Missing location information for definition');
+          return false;
+        }
+        return (
+          definition.loc.start <= position.start &&
+          definition.loc.end >= position.end
+        );
+      });
 
-    var operationName =
-      def.kind === "OperationDefinition" && !!def.name
-        ? def.name.value
-        : def.kind === "FragmentDefinition" && !!def.name
-        ? def.name.value
-        : "unknown";
+      if (!def) {
+        console.error(
+          'Unable to find definition corresponding to mouse position'
+        );
+        return;
+      }
 
-    var selector = `.graphiql-explorer-root #${operationKind}-${operationName}`;
+      let operationKind;
+      let operationName;
+      switch (def.kind) {
+        case 'OperationDefinition':
+          operationKind = def.operation;
+          if (def.name) {
+            operationName = def.name.value;
+          }
+          break;
+        case 'FragmentDefinition':
+          operationKind = 'fragment';
+          if (def.name) {
+            operationName = def.name.value;
+          }
+          break;
 
-    var el = document.querySelector(selector);
-    el && el.scrollIntoView();
-  });
+        default:
+          operationKind = 'unknown';
+          operationName = 'unknown';
+          break;
+      }
+
+      const selector = `.graphiql-explorer-root #${operationKind}-${operationName}`;
+
+      const el = document.querySelector(selector);
+      el && el.scrollIntoView();
+    },
+    [query]
+  );
   // Extra configuration for editor
   React.useEffect(() => {
     const editor = graphiqlRef.current.getQueryEditor();
-    editor.setOption("extraKeys", {
+    editor.setOption('extraKeys', {
       ...(editor.options.extraKeys || {}),
-      "Shift-Alt-LeftClick": handleInspectOperation,
+      'Shift-Alt-LeftClick': handleInspectOperation,
     });
-  }, [graphiqlRef]);
+  }, [graphiqlRef, handleInspectOperation]);
 
   const handleToggleExplorer = React.useCallback(() => {
     setExplorerIsOpen((prevState) => !prevState);
-  });
+  }, []);
 
   return (
     <div className="graphiql-container">
@@ -163,6 +177,11 @@ const Editor = (props) => {
       </GraphiQL>
     </div>
   );
+};
+Editor.displayName = 'Editor';
+Editor.propTypes = {
+  target: PropTypes.string.isRequired,
+  initialQuery: PropTypes.string.isRequired,
 };
 
 export default Editor;

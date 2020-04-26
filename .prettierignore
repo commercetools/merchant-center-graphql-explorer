@@ -1,0 +1,6 @@
+src/i18n/*.json
+dist/
+public/
+.percy.yml
+.cache
+.yarn

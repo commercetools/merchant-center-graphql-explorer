@@ -45,7 +45,7 @@ jobs:
         run: yarn build
 
       - name: Running linters and tests
-        run: yarn run jest --projects jest.test.config.js
+        run: yarn run jest --projects jest.{eslint,test}.config.js
         env:
           CI: true
 
