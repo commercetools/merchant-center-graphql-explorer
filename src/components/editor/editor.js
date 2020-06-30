@@ -181,6 +181,8 @@ const Editor = (props) => {
 Editor.displayName = 'Editor';
 Editor.propTypes = {
   target: PropTypes.string.isRequired,
+  // Note: Used in getter function.
+  // eslint-disable-next-line react/no-unused-prop-types
   initialQuery: PropTypes.string.isRequired,
 };
 
