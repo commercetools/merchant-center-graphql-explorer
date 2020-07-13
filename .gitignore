@@ -92,6 +92,7 @@ public
 # Parcel
 .parcel-cache
 
-# Vercel / ZEIT Now
-now.json
+# Vercel
+vercel.json
 .now
+.vercel
