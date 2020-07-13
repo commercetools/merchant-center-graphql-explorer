@@ -53,4 +53,4 @@ jobs:
         if: github.ref == 'refs/heads/master'
         run: |
           yarn compile-html
-          yarn run now --prod --scope=commercetools-playground --confirm --no-clipboard --token="${{ secrets.VERCEL_TOKEN }}"
+          yarn run vercel --prod --scope=commercetools-playground --confirm --no-clipboard --token="${{ secrets.VERCEL_TOKEN }}"

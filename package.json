@@ -7,7 +7,7 @@
     "build": "mc-scripts build",
     "start": "mc-scripts start",
     "start:prod:local": "NODE_ENV=production mc-http-server --config=$(pwd)/env.json --use-local-assets",
-    "compile-html": "mc-scripts compile-html --headers=$(pwd)/now-deployment/headers.prod.json --config=$(pwd)/now-deployment/env.prod.json --use-local-assets --transformer $(pwd)/now-deployment/transformer.js",
+    "compile-html": "mc-scripts compile-html --headers=$(pwd)/vercel-deployment/headers.prod.json --config=$(pwd)/vercel-deployment/env.prod.json --use-local-assets --transformer $(pwd)/vercel-deployment/transformer.js",
     "i18n:build": "mc-scripts extract-intl --output-path=$(pwd)/src/i18n/data 'src/**/!(*.spec).js' --build-translations",
     "lint": "jest --config jest.eslint.config.js",
     "test": "jest --config jest.test.config.js",
@@ -70,6 +70,6 @@
     "jest-silent-reporter": "0.2.1",
     "jest-watch-typeahead": "0.6.0",
     "lint-staged": "10.2.11",
-    "now": "19.1.1"
+    "vercel": "19.1.2"
   }
 }

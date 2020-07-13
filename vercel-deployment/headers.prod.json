@@ -1,10 +1,10 @@
 {
   "csp": {
     "script-src": [
-      "merchant-center-graphql-explorer.commercetools-playground.now.sh"
+      "merchant-center-graphql-explorer.commercetools-playground.vercel.app"
     ],
     "connect-src": [
-      "merchant-center-graphql-explorer.commercetools-playground.now.sh",
+      "merchant-center-graphql-explorer.commercetools-playground.vercel.app",
       "mc-api.europe-west1.gcp.commercetools.com",
       "mc-api.us-central1.gcp.commercetools.com",
       "mc-api.us-east-2.aws.commercetools.com",
@@ -13,7 +13,7 @@
       "mc-api.commercetools.co"
     ],
     "style-src": [
-      "merchant-center-graphql-explorer.commercetools-playground.now.sh"
+      "merchant-center-graphql-explorer.commercetools-playground.vercel.app"
     ]
   }
 }
