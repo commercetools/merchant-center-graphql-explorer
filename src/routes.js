@@ -27,7 +27,14 @@ query ProjectInfo {
   }
 }
 `;
-const initialQuerySettings = ``;
+const initialQuerySettings = `# shift-option/alt-click on a query below to jump to it in the explorer
+# option/alt-click on a field in the explorer to select all subfields
+query ProjectExtension {
+  projectExtension {
+    id
+  }
+}
+`;
 
 const ApplicationRoutes = ({ match }) => (
   <Switch>
