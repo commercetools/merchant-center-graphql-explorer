@@ -1077,31 +1077,31 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@commercetools-frontend/actions-global@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/actions-global/-/actions-global-0.0.0-canary-202061712340.tgz#4320729565ac4232af25e0348481dddc0fe6fa55"
-  integrity sha512-fT+R8mwJ1AZ2+vZ0aMueSNEMicirYz5g8QC8tSD8WWTnI0EJk3sIcb5qLvDbBY1DA6m1sHIBFM4/TBI6Farkjg==
+"@commercetools-frontend/actions-global@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/actions-global/-/actions-global-16.15.0.tgz#8693b84c92efdf98d07c41fbe5fe1a256c1b6fa3"
+  integrity sha512-m4//k7Gm6dbc6JOJI1h4+pzxWKCqq3VvAi9ZpK39zTtpO2Pem/BIuTiiVrCUAqCzXfpdacbORiEsSD88kY73VQ==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
     "@commercetools-frontend/browser-history" "16.14.0"
-    "@commercetools-frontend/constants" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/constants" "16.15.0"
     "@commercetools-frontend/notifications" "16.14.0"
     "@types/lodash" "^4.14.155"
     lodash "4.17.19"
     lodash-es "4.17.15"
     redux-thunk "2.3.0"
 
-"@commercetools-frontend/application-components@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-components/-/application-components-0.0.0-canary-202061712340.tgz#e9bf9fc37284c22d9f541964414e00914437d38a"
-  integrity sha512-J4OhHaFErdmrRZmMWhD6lBxrk0bUf1sdesJn6oxZCFt1P0c0yloEsd1ayr8ge7XpnJgaAD/7anEUP0VkzwLEJg==
+"@commercetools-frontend/application-components@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-components/-/application-components-16.15.0.tgz#b761f52fcfecf0123eaa21b4313d03f2d53f8317"
+  integrity sha512-FkeAV4Ux7hRZGxuNDHyq47cfE4KgjopR7Lms3CJoVEj+LxWLXylrcCvzYvjha+oO6JVA3NRL4aiToGqO+BLC0w==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
     "@commercetools-frontend/assets" "16.9.1"
-    "@commercetools-frontend/constants" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/i18n" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/constants" "16.15.0"
+    "@commercetools-frontend/i18n" "16.15.0"
     "@commercetools-uikit/card" "^10.21.0"
     "@commercetools-uikit/constraints" "^10.21.0"
     "@commercetools-uikit/design-system" "^10.18.4"
@@ -1121,10 +1121,10 @@
     react-modal "3.11.2"
     react-required-if "1.0.3"
 
-"@commercetools-frontend/application-config@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-config/-/application-config-0.0.0-canary-202061712340.tgz#29d1d15fd1a8811a5f44b4a7280eec3a8e16f643"
-  integrity sha512-0HrEVWS+BLUw8Fx6EQHGIeFAIj6p7fp27xDBGaZFHK1tcGKvogK+/yQOGvyZa2AeuSkrSmuqi5nyY1GFjZxQ9w==
+"@commercetools-frontend/application-config@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-config/-/application-config-16.15.0.tgz#a4481be453f2e1a94e6d3bc5fb1c14ae7efb3515"
+  integrity sha512-li2QI5GWSECINgPZedoYP0eoGbNQlEO7hT32j25eCy0E1H+m3Hq8/53zenLm2kN6d9ro5tNyZcJtDEM3RcQmlQ==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
@@ -1133,15 +1133,15 @@
     cosmiconfig "6.0.0"
     lodash "4.17.19"
 
-"@commercetools-frontend/application-shell-connectors@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-shell-connectors/-/application-shell-connectors-0.0.0-canary-202061712340.tgz#b75a5d3119bc7ae0cac15e2a5ed399b461e9a581"
-  integrity sha512-bdWAmz0wpzqvmnpeFfOmt5uqHsU/GNAdeTIUgzG6WCIF+vyWeTGmUbS3CmVdjcWky0NTt0CbmQnEr70xfhQ4Qw==
+"@commercetools-frontend/application-shell-connectors@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-shell-connectors/-/application-shell-connectors-16.15.0.tgz#21764080360f7fd73400ba8be9a0e7cb5a1b3336"
+  integrity sha512-7U9vxEARgZ7XaF4CmsEd0ch2uaFs46qVpVXbQf3+8V9KjOLRAB0fQ1gq3a++kgbwTKLYj6Dnsq6IPpzj/prL6A==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/constants" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/sentry" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/constants" "16.15.0"
+    "@commercetools-frontend/sentry" "16.15.0"
     "@types/graphql" "^14.5.0"
     "@types/lodash" "^4.14.155"
     "@types/prop-types" "^15.7.3"
@@ -1155,27 +1155,27 @@
     moment-timezone "^0.5.26"
     prop-types "15.7.2"
 
-"@commercetools-frontend/application-shell@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-shell/-/application-shell-0.0.0-canary-202061712340.tgz#84b714d8398136c8bab4e5050678263e2b43c5fb"
-  integrity sha512-EuEjruW1m0HOKiVpB+KTQU7z2lCFzrAJZ9dtQlo/i4nTkHVSuJrV+ibhcqsisad6X3+71jTcZd8+2FAxTA6MiQ==
+"@commercetools-frontend/application-shell@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/application-shell/-/application-shell-16.15.0.tgz#b8b1346378be22829baac72badab23b95a3aee0c"
+  integrity sha512-Of67dRDox2xSy5+8risPhAFhzzVKcPx2EzMhAZ4N+betJ5TnAatSMWX4yOfbJuWKSAQnxJkG+mZg/6bQDbPTWQ==
   dependencies:
     "@apollo/react-testing" "3.1.4"
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/actions-global" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/application-components" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/application-shell-connectors" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/actions-global" "16.15.0"
+    "@commercetools-frontend/application-components" "16.15.0"
+    "@commercetools-frontend/application-shell-connectors" "16.15.0"
     "@commercetools-frontend/assets" "16.9.1"
     "@commercetools-frontend/browser-history" "16.14.0"
-    "@commercetools-frontend/constants" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/i18n" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/l10n" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/constants" "16.15.0"
+    "@commercetools-frontend/i18n" "16.15.0"
+    "@commercetools-frontend/l10n" "16.15.0"
     "@commercetools-frontend/notifications" "16.14.0"
-    "@commercetools-frontend/permissions" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/react-notifications" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/sdk" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/sentry" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/permissions" "16.15.0"
+    "@commercetools-frontend/react-notifications" "16.15.0"
+    "@commercetools-frontend/sdk" "16.15.0"
+    "@commercetools-frontend/sentry" "16.15.0"
     "@commercetools-frontend/url-utils" "16.14.0"
     "@commercetools-uikit/avatar" "^10.21.0"
     "@commercetools-uikit/design-system" "^10.18.4"
@@ -1239,10 +1239,10 @@
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/assets/-/assets-16.9.1.tgz#f255a294faaf6be8858741358f5ebb2d81174b48"
   integrity sha512-8nUGlIlenINANXw1ueQ24Ma7FEEWBq0Kf69fr5R+Jvz5a79sXx7hDE37pKQd9IRxvQBzI0GUfwzor1SDAs3jTw==
 
-"@commercetools-frontend/babel-preset-mc-app@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/babel-preset-mc-app/-/babel-preset-mc-app-0.0.0-canary-202061712340.tgz#d71c0a269a68a27e5d9b5752bfc477652b00c038"
-  integrity sha512-XE/N8UxWvrLrJi4E3BJpD4BZsZQVbmqyqCUrHuMUR2LXPpseamSiZsjOSeZeq5WTBPUZSP5D7XNRR5L+XpwcTA==
+"@commercetools-frontend/babel-preset-mc-app@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/babel-preset-mc-app/-/babel-preset-mc-app-16.15.0.tgz#46a04c8e54596e066dc52fe17ba914e10ac9a7da"
+  integrity sha512-GdJJEwGc8MNaUFv3RehBkv8q6xQjga6ikSpJd150vslOTGQ/hutdvXqbm0D3Pa/X3M3ffkMv6sEDpWfwk7INDg==
   dependencies:
     "@babel/core" "7.10.4"
     "@babel/plugin-proposal-class-properties" "7.10.4"
@@ -1279,10 +1279,10 @@
     history-query-enhancer "1.0.4"
     qss "2.0.3"
 
-"@commercetools-frontend/constants@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/constants/-/constants-0.0.0-canary-202061712340.tgz#d8eeadc1ce35e056faa4cedec541e41ce97ca83d"
-  integrity sha512-uhlYrJwzyIdhwe+7Am1jmVFpaV2RMsM0L2xFQTgFP3nkRJTy90QvfwXQyadXmqaOpHKEZs12VVdaEbCgC9cJdw==
+"@commercetools-frontend/constants@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/constants/-/constants-16.15.0.tgz#8e37c31febb23b61ffeae819d04de05754034253"
+  integrity sha512-VE+CCpgprixnfW72MTdnpnEeguhH0lIGOTyD7DEQy/4Sc12OYxANtKZUluEBg2JBpPf04j565vz6ztUZ+Awcww==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
@@ -1292,25 +1292,25 @@
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/eslint-config-mc-app/-/eslint-config-mc-app-16.11.1.tgz#50d150197691c46e097ac7cbd52194d9fa1cdd77"
   integrity sha512-UuKbcJ9Xz0HOXv/jPUoDVyvl4ZKDTPOIH8xCsfkf1pzdhGDkCUqyKNFao6DVfouonTcDoH3Q8u15H38QGtnDQA==
 
-"@commercetools-frontend/i18n@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/i18n/-/i18n-0.0.0-canary-202061712340.tgz#a31ae8c75a81f88b1e7ff076812d85d7350acdce"
-  integrity sha512-CB+LxW9+uWvIV6r80hukv9CoTQLcVu3JuVSlxxkRbWV9zIc9++zCKAFCDmLYfIzPJWVgmuaWL4v/BJInwbfdTw==
+"@commercetools-frontend/i18n@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/i18n/-/i18n-16.15.0.tgz#e4eb16bdfe111c0293b2dfcedbc54eb6bdaa2b84"
+  integrity sha512-hYkm5AjSfzY4a8lfY1EixqHxJGr3sii8wnhXPlZR9qVPO1BapUzxMTLCFCluta0V3/e8CtcURcSGnwDwWH93VQ==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/sentry" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/sentry" "16.15.0"
     "@commercetools-uikit/i18n" "^10.13.0"
     "@types/prop-types" "^15.7.3"
     moment "^2.24.0"
     prop-types "15.7.2"
 
-"@commercetools-frontend/jest-preset-mc-app@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/jest-preset-mc-app/-/jest-preset-mc-app-0.0.0-canary-202061712340.tgz#303a0551e06088840b2b92abffd33a8653883328"
-  integrity sha512-AFpMA0jZPsIt2hCOpWRnuuWtyvFeodzuKbvAeQKwtotCBCWexuWIQrp0hndB/O8wEH2IsvflzbMu5ae6+h9CZw==
+"@commercetools-frontend/jest-preset-mc-app@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/jest-preset-mc-app/-/jest-preset-mc-app-16.15.0.tgz#039c5f60dd1ed8ebb8b6410914df56cd85988544"
+  integrity sha512-KrSOIYTAmzQa7TmgUORhCP9j7opWunRNrlEeQmwpLJaMBbD41XPh6SY93/Qs+RvORGYTUhk473k1fcs17k9oWA==
   dependencies:
-    "@commercetools-frontend/babel-preset-mc-app" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/babel-preset-mc-app" "16.15.0"
     "@commercetools/enzyme-extensions" "5.0.0"
     "@commercetools/jest-enzyme-matchers" "1.1.2"
     "@sheerun/mutationobserver-shim" "0.3.3"
@@ -1336,14 +1336,14 @@
     ts-jest "26.1.2"
     unfetch "4.1.0"
 
-"@commercetools-frontend/l10n@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/l10n/-/l10n-0.0.0-canary-202061712340.tgz#0296bc3c16e0dd602677be5a116cf92252ad5d55"
-  integrity sha512-o87rnaNAfzQ8CXtw1NTyPG89n0MBSiUAXYt+RJJJ2JVc499BiOUEzUSaM4s+UwpBnk4dEx59FvHAwtjPIWpRvQ==
+"@commercetools-frontend/l10n@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/l10n/-/l10n-16.15.0.tgz#c6de784351639ba33b0fa0786ce400ec498c4114"
+  integrity sha512-ZzrSNQWgY46qseTMKGU9Ks3inkwgBd4s2HhML72o12bSJR+8Hs+CgybFh4kFxKnufGLA0XxA2l8glmdggGPwJA==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/sentry" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/sentry" "16.15.0"
     "@types/prop-types" "^15.7.3"
     moment "^2.24.0"
     prop-types "15.7.2"
@@ -1355,28 +1355,28 @@
   dependencies:
     pug "3.0.0"
 
-"@commercetools-frontend/mc-html-template@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/mc-html-template/-/mc-html-template-0.0.0-canary-202061712340.tgz#bcd6b47aa0b4578ccce0680dff1b65ebff60d4f1"
-  integrity sha512-aDkOFMUoNF3kiiKK1xhNbfaU2aseJvo7P6aqpLawUNZYjNiYnayS/7AHBjAVS9Zsm3J4LLx7a9b7FD45o8oe4w==
+"@commercetools-frontend/mc-html-template@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/mc-html-template/-/mc-html-template-16.15.0.tgz#3a9b1b5f116b091dd09c1c840ba2e05ff503cf40"
+  integrity sha512-cd0oocVvdW0AvkbRUOC2M5r16as/MneRYvJ+pVZEEMa2y39i7YJ2Pv1hSG3a0q+TNnuus70mvVGLdPCiq0Wg8A==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/application-config" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/application-config" "16.15.0"
     core-js "3.6.5"
     node-fetch "2.6.0"
     serialize-javascript "4.0.0"
     uglify-es "3.3.9"
     uglifycss "0.0.29"
 
-"@commercetools-frontend/mc-http-server@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/mc-http-server/-/mc-http-server-0.0.0-canary-202061712340.tgz#fa5e6a0715ccc9f62a7a6468849344699e0c0c7c"
-  integrity sha512-RBVGESeHg73tJnJBcEfHGzAF0tYeedgJLOU+lx/zuQroXUVNw5yfEJDpmMPRcnzh5aVWKC9VT/oYrEUr33KPzw==
+"@commercetools-frontend/mc-http-server@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/mc-http-server/-/mc-http-server-16.15.0.tgz#e4d25210eda9c34b3b6470e6416b39f5d945db16"
+  integrity sha512-0ZlwKGiK0zomWpRGVFbb0/buraDoxco6UeNRnyfcT9rsW0ghNPfJafwy+aA/jbOr+WnAkBgpzVvdisV9zIW3mw==
   dependencies:
     "@commercetools-frontend/assets" "16.9.1"
     "@commercetools-frontend/mc-dev-authentication" "16.9.1"
-    "@commercetools-frontend/mc-html-template" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/mc-html-template" "16.15.0"
     "@promster/express" "4.1.11"
     "@promster/server" "4.2.12"
     compression "1.7.4"
@@ -1388,18 +1388,18 @@
     prom-client "12.0.0"
     shelljs "0.8.4"
 
-"@commercetools-frontend/mc-scripts@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/mc-scripts/-/mc-scripts-0.0.0-canary-202061712340.tgz#8935a4a6d54fa7c5d59d6a4eb7e41f982149abe9"
-  integrity sha512-pFtNGjL/oA45Haw3/KORppcIWKWOX8lbbgDS9EwAJjSIXIZRplYyRmCWqPSuciNlVU6eRwn4tIxq60MD3dboIw==
+"@commercetools-frontend/mc-scripts@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/mc-scripts/-/mc-scripts-16.15.0.tgz#b7754852db3a7831d9f589ed0df6c152af1a5fa8"
+  integrity sha512-FglAvWZc8uS0i39XE0k05PaW2Lhq1ODC+dNwSINk7O9Mr3jsuMmmk+qh5WNkvjLYSlzRnlMB0LIpC7VPm1gZMQ==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/application-config" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/application-config" "16.15.0"
     "@commercetools-frontend/assets" "16.9.1"
-    "@commercetools-frontend/babel-preset-mc-app" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/babel-preset-mc-app" "16.15.0"
     "@commercetools-frontend/mc-dev-authentication" "16.9.1"
-    "@commercetools-frontend/mc-html-template" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/mc-html-template" "16.15.0"
     "@svgr/webpack" "5.4.0"
     babel-loader "8.1.0"
     babel-plugin-react-intl "7.7.0"
@@ -1447,14 +1447,14 @@
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
 
-"@commercetools-frontend/permissions@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/permissions/-/permissions-0.0.0-canary-202061712340.tgz#601628a3c81ae0e7167c99f38a4f1b08ebca864f"
-  integrity sha512-MYG+W6AaKF+D9s0lNPxsyinHoACVUP5/I6knc73gNP0QhQp58deLoc1P8+/yL2FWgJtdNyQhOTjwH0WBeAuElQ==
+"@commercetools-frontend/permissions@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/permissions/-/permissions-16.15.0.tgz#2c9f68934b92af6b9502da94d94a2dac1e2ad01f"
+  integrity sha512-RWdWamqTcTtp0QKQ9+qlkQcZSJ0nd8OvKZv9t8tmHB4ZQ7+y6a7ILbJM2ZuusOiVb8LddocyQeMKSSrE2lGoOg==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/application-shell-connectors" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/application-shell-connectors" "16.15.0"
     "@types/lodash" "^4.14.155"
     "@types/prop-types" "^15.7.3"
     lodash "4.17.19"
@@ -1462,17 +1462,17 @@
     prop-types "15.7.2"
     tiny-warning "1.0.3"
 
-"@commercetools-frontend/react-notifications@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/react-notifications/-/react-notifications-0.0.0-canary-202061712340.tgz#cdc40216cc0f836868ae248d5d0ce1b0a2b032b1"
-  integrity sha512-dSmVAAN/NufJHje6wEqtNiNglEPVTrvT8O8lC1ULZ0aSBVCeEWuoAHReWMdbE3NQM3eeWEXuUeTsm5q8Fw7LnQ==
+"@commercetools-frontend/react-notifications@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/react-notifications/-/react-notifications-16.15.0.tgz#a91cb2db606d16d83fffa23fb20ab8a1600b5721"
+  integrity sha512-cR+WR33oP3N1L4cdpEHllYNfhs8rgll8XT7Nb4enEdU8Gb+DH6r9eMy6fyWBczJuKcI+ccl//y12Jbhs1/EFgg==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/actions-global" "0.0.0-canary-202061712340"
-    "@commercetools-frontend/constants" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/actions-global" "16.15.0"
+    "@commercetools-frontend/constants" "16.15.0"
     "@commercetools-frontend/notifications" "16.14.0"
-    "@commercetools-frontend/sentry" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/sentry" "16.15.0"
     "@commercetools-uikit/icon-button" "^10.21.0"
     "@commercetools-uikit/icons" "^10.22.0"
     "@commercetools-uikit/spacings" "^10.18.5"
@@ -1488,14 +1488,14 @@
     prop-types "15.7.2"
     reselect "4.0.0"
 
-"@commercetools-frontend/sdk@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/sdk/-/sdk-0.0.0-canary-202061712340.tgz#916d5de8faaf8aa8207972d936f22576b55c34c0"
-  integrity sha512-SN5QOdzrddRGTOnJqw7j1BXe7A/6z/BibB8VEsxF2Nv79A9OGmvvCrKYwTw5Ev+bkATWWathHRoVsu2VzOsoVw==
+"@commercetools-frontend/sdk@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/sdk/-/sdk-16.15.0.tgz#f19d1ed78bec70ac6e065a87e2ef65e3396cdd8d"
+  integrity sha512-9GKLO/vcnpaVTH/J2VFm245J2xqkM6tG0cf4gZfmFcUTLRcxwPMwJuqwa4oAsYth0G8rAWYJWLgn7EpmZOcnvg==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/constants" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/constants" "16.15.0"
     "@commercetools/api-request-builder" "5.6.1"
     "@commercetools/http-user-agent" "2.1.2"
     "@commercetools/sdk-client" "2.1.2"
@@ -1508,14 +1508,14 @@
     qss "2.0.3"
     unfetch "4.1.0"
 
-"@commercetools-frontend/sentry@0.0.0-canary-202061712340":
-  version "0.0.0-canary-202061712340"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/sentry/-/sentry-0.0.0-canary-202061712340.tgz#a280502c1837b54f43cb8b9850ab52ee5b2ea389"
-  integrity sha512-/EftOwZJm6sjZn5B9H5ijLhSgkjQGSbRAT7HcIUIrPEuZWOSCDcqn3L5DStvIqJChF3glBmKlsWXlZKxHY+qRA==
+"@commercetools-frontend/sentry@16.15.0":
+  version "16.15.0"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/sentry/-/sentry-16.15.0.tgz#4f83ca44d965ee68a10ecf8295e4bbb18d642456"
+  integrity sha512-c0UFiqYNZfbQq0Fv4/m9WrYvJjTmd0/DWaSPZYI/dLHeXSZ8t3edrNBk6QPACwQxm+x6fs8m7ZYJtnWrZ8B7IQ==
   dependencies:
     "@babel/runtime" "7.10.4"
     "@babel/runtime-corejs3" "7.10.4"
-    "@commercetools-frontend/constants" "0.0.0-canary-202061712340"
+    "@commercetools-frontend/constants" "16.15.0"
     "@sentry/browser" "5.19.2"
     "@types/prop-types" "^15.7.3"
     prop-types "15.7.2"
