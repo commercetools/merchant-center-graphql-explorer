@@ -1,0 +1,21 @@
+{
+  "name": "GraphQL Explorer",
+  "entryPointUriPath": "graphql-explorer",
+  "cloudIdentifier": "gcp-eu",
+  "env": {
+    "production": {
+      "url": "https://merchant-center-graphql-explorer.commercetools-playground.vercel.app"
+    }
+  },
+  "headers": {
+    "csp": {
+      "connect-src": [
+        "mc-api.australia-southeast1.gcp.commercetools.com",
+        "mc-api.europe-west1.gcp.commercetools.com",
+        "mc-api.us-central1.gcp.commercetools.com",
+        "mc-api.us-east-2.aws.commercetools.com",
+        "mc-api.eu-central-1.aws.commercetools.com"
+      ]
+    }
+  }
+}
