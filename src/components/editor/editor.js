@@ -20,13 +20,14 @@ const useFetcher = ({ target }) => {
           },
         })
       ).catch((error) => error.body || error),
+    // Do not use `dispatch` otherwise we end up in an infinite loop.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     [target]
   );
 };
 
 const getHydratedQuery = (props) => {
   const value = window.localStorage.getItem(`graphiql:query:${props.target}`);
-  console.log('storage', value);
   if (!value) {
     window.localStorage.removeItem(`graphiql:query:${props.target}`);
     return props.initialQuery;
@@ -72,7 +73,7 @@ const Editor = (props) => {
 
       const def = parsedQuery.definitions.find((definition) => {
         if (!definition.loc) {
-          console.log('Missing location information for definition');
+          console.warn('Missing location information for definition');
           return false;
         }
         return (

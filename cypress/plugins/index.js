@@ -27,7 +27,6 @@ module.exports = (on, cypressConfig) => {
   if (!process.env.CI) {
     const path = require('path');
     const envPath = path.join(__dirname, '../.env');
-    console.log('Loading environment variables from', envPath);
     require('dotenv').config({ path: envPath });
   }
 
