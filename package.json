@@ -48,7 +48,7 @@
     "@commercetools-frontend/mc-scripts": "16.16.4",
     "@commitlint/cli": "9.1.2",
     "@commitlint/config-conventional": "9.1.2",
-    "@testing-library/cypress": "6.0.1",
+    "@testing-library/cypress": "7.0.1",
     "@testing-library/react": "10.4.9",
     "babel-eslint": "10.1.0",
     "bulk-update-versions": "1.1.0",
