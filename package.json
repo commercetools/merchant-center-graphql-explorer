@@ -45,7 +45,7 @@
   "devDependencies": {
     "@commercetools-frontend/eslint-config-mc-app": "16.16.4",
     "@commercetools-frontend/jest-preset-mc-app": "16.18.0",
-    "@commercetools-frontend/mc-scripts": "16.18.0",
+    "@commercetools-frontend/mc-scripts": "17.0.1",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@testing-library/cypress": "7.0.1",
