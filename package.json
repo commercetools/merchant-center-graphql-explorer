@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "@commercetools-frontend/actions-global": "16.16.0",
-    "@commercetools-frontend/application-components": "16.18.0",
+    "@commercetools-frontend/application-components": "17.0.1",
     "@commercetools-frontend/application-shell": "16.18.1",
     "@commercetools-frontend/assets": "16.15.3",
     "@commercetools-frontend/i18n": "16.18.0",
