@@ -1033,10 +1033,25 @@
     core-js-pure "^3.0.0"
     regenerator-runtime "^0.13.4"
 
+"@babel/runtime-corejs3@7.12.1":
+  version "7.12.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime-corejs3/-/runtime-corejs3-7.12.1.tgz#51b9092befbeeed938335a109dbe0df51451e9dc"
+  integrity sha512-umhPIcMrlBZ2aTWlWjUseW9LjQKxi1dpFlQS8DzsxB//5K+u6GLTC/JliPKHsd5kJVPIU6X/Hy0YvWOYPcMxBw==
+  dependencies:
+    core-js-pure "^3.0.0"
+    regenerator-runtime "^0.13.4"
+
 "@babel/runtime@7.11.2", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.10.3", "@babel/runtime@^7.11.2", "@babel/runtime@^7.4.4", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.8.4", "@babel/runtime@^7.8.7", "@babel/runtime@^7.9.2", "@babel/runtime@^7.9.6":
   version "7.11.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.11.2.tgz#f549c13c754cc40b87644b9fa9f09a6a95fe0736"
   integrity sha512-TeWkU52so0mPtDcaCTxNBI/IHiz0pZgr8VEFqXFtZWpYD08ZB6FaSwVAS8MKRQAP3bYKiVjwysOJgMFY28o6Tw==
+  dependencies:
+    regenerator-runtime "^0.13.4"
+
+"@babel/runtime@7.12.1":
+  version "7.12.1"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.1.tgz#b4116a6b6711d010b2dad3b7b6e43bf1b9954740"
+  integrity sha512-J5AIf3vPj3UwXaAzb5j1xM4WAQDX3EMgemF8rjCP3SoW09LfRKAXQKt6CoVYl230P6iWdRcBbnLDDdnqWxZSCA==
   dependencies:
     regenerator-runtime "^0.13.4"
 
@@ -1096,6 +1111,21 @@
     "@commercetools-frontend/browser-history" "16.16.0"
     "@commercetools-frontend/constants" "16.16.0"
     "@commercetools-frontend/notifications" "16.16.0"
+    "@types/lodash" "^4.14.155"
+    lodash "4.17.20"
+    lodash-es "4.17.15"
+    redux-thunk "2.3.0"
+
+"@commercetools-frontend/actions-global@17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/actions-global/-/actions-global-17.0.1.tgz#0d83072fa2db5ecb132b706dc52e68539b06aa33"
+  integrity sha512-8IUjalEQgL4Gtnx6yv6LLcb+PTdFnlY41KFd3nZ287fIxzSLNbSzmbJIYHOHE6q/DSR+dcOVSL18TGRG9Jpwtw==
+  dependencies:
+    "@babel/runtime" "7.12.1"
+    "@babel/runtime-corejs3" "7.12.1"
+    "@commercetools-frontend/browser-history" "17.0.1"
+    "@commercetools-frontend/constants" "17.0.1"
+    "@commercetools-frontend/notifications" "17.0.1"
     "@types/lodash" "^4.14.155"
     lodash "4.17.20"
     lodash-es "4.17.15"
@@ -1285,6 +1315,18 @@
     history-query-enhancer "1.0.4"
     qss "2.0.3"
 
+"@commercetools-frontend/browser-history@17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/browser-history/-/browser-history-17.0.1.tgz#1199faa34988337b0c7a8d742a61ea0a5e31d22a"
+  integrity sha512-bQJnY29BYc/LMqf96J7h+7Ezh9UsGvn1UMtKqUiM+mdHV3KB96V2hrZwowDwZLfpYKzDv++HcaJm11WB35pxog==
+  dependencies:
+    "@babel/runtime" "7.12.1"
+    "@babel/runtime-corejs3" "7.12.1"
+    "@types/history" "^4.7.6"
+    history "4.10.1"
+    history-query-enhancer "1.0.4"
+    qss "2.0.3"
+
 "@commercetools-frontend/constants@16.16.0":
   version "16.16.0"
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/constants/-/constants-16.16.0.tgz#9b36426b17a3e88e42873c4df3e688d74ab529de"
@@ -1292,6 +1334,14 @@
   dependencies:
     "@babel/runtime" "7.11.2"
     "@babel/runtime-corejs3" "7.11.2"
+
+"@commercetools-frontend/constants@17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/constants/-/constants-17.0.1.tgz#45b7a32f86cb581fe231bf6f83f9e297fe237044"
+  integrity sha512-oLJcPuMqfnduEGLg1EEoWh1w7AsKG63K8PRokTCpNDsAeptIHlKGtN3DbVnTa6oxWxGpIEsqW4L4IwaxIcQCvg==
+  dependencies:
+    "@babel/runtime" "7.12.1"
+    "@babel/runtime-corejs3" "7.12.1"
 
 "@commercetools-frontend/eslint-config-mc-app@16.16.4":
   version "16.16.4"
@@ -1452,6 +1502,14 @@
   dependencies:
     "@babel/runtime" "7.11.2"
     "@babel/runtime-corejs3" "7.11.2"
+
+"@commercetools-frontend/notifications@17.0.1":
+  version "17.0.1"
+  resolved "https://registry.yarnpkg.com/@commercetools-frontend/notifications/-/notifications-17.0.1.tgz#a39211f5a0880fe102ed3910c87d6b5dd42ec319"
+  integrity sha512-hQKM+09aTSrDRXmRf2VeLiZFCylX/UGk4VlX4HjmvOwqYdPAqKCPszVxaHIcsDIzZx2RiOKSFnay7aD9j3+eTg==
+  dependencies:
+    "@babel/runtime" "7.12.1"
+    "@babel/runtime-corejs3" "7.12.1"
 
 "@commercetools-frontend/permissions@16.18.0":
   version "16.18.0"
