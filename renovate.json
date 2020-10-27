@@ -1,6 +1,6 @@
 {
   "extends": [
-    "config:base",
+    "config:base"
   ],
   "separateMajorMinor": true,
   "packageRules": [
