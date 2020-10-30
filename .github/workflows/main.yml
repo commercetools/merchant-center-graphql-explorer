@@ -81,10 +81,11 @@ jobs:
           CYPRESS_CI: "true"
           CYPRESS_LOGIN_USER: ${{ secrets.CYPRESS_LOGIN_USER }}
           CYPRESS_LOGIN_PASSWORD: ${{ secrets.CYPRESS_LOGIN_PASSWORD }}
-          CYPRESS_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
+          CYPRESS_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}
+          HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
 
       - name: Deploying application to Vercel
         if: github.ref == 'refs/heads/master'
         run: |
           yarn compile-html
-          yarn run vercel --prod --scope=commercetools-playground --confirm --no-clipboard --token="${{ secrets.VERCEL_TOKEN }}"
+          yarn vercel --prod --scope=commercetools-playground --confirm --no-clipboard --token="${{ secrets.VERCEL_TOKEN }}"
