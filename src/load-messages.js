@@ -3,17 +3,17 @@ const loadMessages = (lang) => {
   switch (lang) {
     case 'de':
       loadAppI18nPromise = import(
-        './i18n/data/de.json' /* webpackChunkName: "app-i18n-de" */
+        './i18n/compiled-data/de.json' /* webpackChunkName: "app-i18n-de" */
       );
       break;
     case 'es':
       loadAppI18nPromise = import(
-        './i18n/data/es.json' /* webpackChunkName: "app-i18n-es" */
+        './i18n/compiled-data/es.json' /* webpackChunkName: "app-i18n-es" */
       );
       break;
     default:
       loadAppI18nPromise = import(
-        './i18n/data/en.json' /* webpackChunkName: "app-i18n-en" */
+        './i18n/compiled-data/en.json' /* webpackChunkName: "app-i18n-en" */
       );
   }
 
