@@ -17,13 +17,13 @@
     "versions:uikit": "bulk-update-versions --match '@commercetools-uikit/(.*)'"
   },
   "dependencies": {
-    "@commercetools-frontend/actions-global": "16.16.0",
-    "@commercetools-frontend/application-components": "16.18.0",
-    "@commercetools-frontend/application-shell": "16.18.2",
+    "@commercetools-frontend/actions-global": "17.1.1",
+    "@commercetools-frontend/application-components": "17.1.1",
+    "@commercetools-frontend/application-shell": "17.1.1",
     "@commercetools-frontend/assets": "16.15.3",
-    "@commercetools-frontend/i18n": "16.18.0",
+    "@commercetools-frontend/i18n": "17.1.1",
     "@commercetools-frontend/mc-http-server": "16.18.0",
-    "@commercetools-frontend/permissions": "16.18.0",
+    "@commercetools-frontend/permissions": "17.1.1",
     "@commercetools-uikit/flat-button": "10.36.0",
     "@commercetools-uikit/icons": "10.38.0",
     "@commercetools-uikit/notifications": "10.38.0",
@@ -43,9 +43,9 @@
     "redux": "4.0.5"
   },
   "devDependencies": {
-    "@commercetools-frontend/eslint-config-mc-app": "16.16.4",
-    "@commercetools-frontend/jest-preset-mc-app": "16.18.0",
-    "@commercetools-frontend/mc-scripts": "16.18.0",
+    "@commercetools-frontend/eslint-config-mc-app": "17.1.0",
+    "@commercetools-frontend/jest-preset-mc-app": "17.1.0",
+    "@commercetools-frontend/mc-scripts": "17.1.2",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@testing-library/cypress": "7.0.1",
