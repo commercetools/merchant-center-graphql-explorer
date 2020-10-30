@@ -89,3 +89,5 @@ jobs:
         run: |
           yarn compile-html
           yarn vercel --prod --scope=commercetools-playground --confirm --no-clipboard --token="${{ secrets.VERCEL_TOKEN }}"
+        env:
+          HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
