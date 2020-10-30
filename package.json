@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "prebuild": "yarn compile-data",
     "build": "mc-scripts build",
     "start": "dotenv -- mc-scripts start",
     "compile-html": "NODE_ENV=production dotenv -- mc-scripts compile-html --transformer $(pwd)/vercel-deployment/transformer.js",
