@@ -10,11 +10,7 @@
   "headers": {
     "csp": {
       "connect-src": [
-        "mc-api.australia-southeast1.gcp.commercetools.com",
-        "mc-api.europe-west1.gcp.commercetools.com",
-        "mc-api.us-central1.gcp.commercetools.com",
-        "mc-api.us-east-2.aws.commercetools.com",
-        "mc-api.eu-central-1.aws.commercetools.com"
+        "${env:HOST_GCP_STAGING}"
       ]
     }
   }
