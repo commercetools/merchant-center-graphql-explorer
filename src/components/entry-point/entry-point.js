@@ -1,4 +1,4 @@
-import React from 'react';
+import { lazy, Component } from 'react';
 import { Redirect, Route, Switch } from 'react-router-dom';
 import {
   ApplicationShell,
@@ -13,7 +13,7 @@ import loadMessages from '../../load-messages';
 // Here we split up the main (app) bundle with the actual application business logic.
 // Splitting by route is usually recommended and you can potentially have a splitting
 // point for each route. More info at https://reactjs.org/docs/code-splitting.html
-const AsyncApplicationRoutes = React.lazy(() =>
+const AsyncApplicationRoutes = lazy(() =>
   import('../../routes' /* webpackChunkName: "starter-routes" */)
 );
 
@@ -44,7 +44,7 @@ ApplicationStarter.displayName = 'ApplicationStarter';
 // in order to catch possible errors on rendering/mounting.
 setupGlobalErrorListener();
 
-class EntryPoint extends React.Component {
+class EntryPoint extends Component {
   static displayName = 'EntryPoint';
   render() {
     return (

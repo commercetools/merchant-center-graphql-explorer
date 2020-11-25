@@ -1,6 +1,6 @@
 import 'graphiql/graphiql.css';
 import './graphiql-overrides.css';
-import React from 'react';
+import { useCallback, useRef, useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import GraphiQL from 'graphiql';
 import GraphiQLExplorer from 'graphiql-explorer';
@@ -9,7 +9,7 @@ import { actions, useAsyncDispatch } from '@commercetools-frontend/sdk';
 
 const useFetcher = ({ target }) => {
   const dispatch = useAsyncDispatch();
-  return React.useCallback(
+  return useCallback(
     (params) =>
       dispatch(
         actions.post({
@@ -36,13 +36,13 @@ const getHydratedQuery = (props) => {
 };
 
 const Editor = (props) => {
-  const graphiqlRef = React.useRef();
-  const [schema, setSchema] = React.useState(null);
-  const [query, setQuery] = React.useState(null);
-  const [explorerIsOpen, setExplorerIsOpen] = React.useState(true);
+  const graphiqlRef = useRef();
+  const [schema, setSchema] = useState(null);
+  const [query, setQuery] = useState(null);
+  const [explorerIsOpen, setExplorerIsOpen] = useState(true);
   const fetcher = useFetcher({ target: props.target });
   // Set things up on first render
-  React.useEffect(() => {
+  useEffect(() => {
     setQuery(getHydratedQuery(props));
     const exec = async () => {
       const result = await fetcher({ query: getIntrospectionQuery() });
@@ -52,7 +52,7 @@ const Editor = (props) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.target, fetcher]);
   // From https://github.com/OneGraph/graphiql-explorer-example/blob/3f51a36ca1a891cd32561ab25581c5630be3446e/src/App.js#L104-L160
-  const handleInspectOperation = React.useCallback(
+  const handleInspectOperation = useCallback(
     (cm, mousePos) => {
       const parsedQuery = parse(query || '');
 
@@ -119,7 +119,7 @@ const Editor = (props) => {
     [query]
   );
   // Extra configuration for editor
-  React.useEffect(() => {
+  useEffect(() => {
     const editor = graphiqlRef.current.getQueryEditor();
     editor.setOption('extraKeys', {
       ...(editor.options.extraKeys || {}),
@@ -127,7 +127,7 @@ const Editor = (props) => {
     });
   }, [graphiqlRef, handleInspectOperation]);
 
-  const handleToggleExplorer = React.useCallback(() => {
+  const handleToggleExplorer = useCallback(() => {
     setExplorerIsOpen((prevState) => !prevState);
   }, []);
 
