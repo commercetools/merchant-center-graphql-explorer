@@ -1,13 +1,13 @@
 name: Main workflow
 
 # The event triggers are configured as following:
-# - on branch master, trigger the workflow on every push
+# - on branch main, trigger the workflow on every push
 # - on any pull request, trigger the workflow
 # This is to avoid running the workflow twice on pull requests.
 on:
   push:
     branches:
-      - master
+      - main
   pull_request:
 
 jobs:
@@ -85,7 +85,7 @@ jobs:
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
 
       - name: Deploying application to Vercel
-        if: github.ref == 'refs/heads/master'
+        if: github.ref == 'refs/heads/main'
         run: |
           yarn compile-html
           yarn vercel --prod --scope=commercetools-playground --confirm --no-clipboard --token="${{ secrets.VERCEL_TOKEN }}"
