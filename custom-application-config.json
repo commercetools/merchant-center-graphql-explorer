@@ -3,9 +3,32 @@
   "entryPointUriPath": "graphql-explorer",
   "cloudIdentifier": "gcp-eu",
   "env": {
+    "development": {
+      "initialProjectKey": "${env:CTP_INITIAL_PROJECT_KEY}"
+    },
     "production": {
       "url": "https://merchant-center-graphql-explorer.commercetools-playground.vercel.app"
     }
+  },
+  "oAuthScopes": {
+    "view": [
+      "view_api_clients",
+      "view_cart_discounts",
+      "view_customer_groups",
+      "view_customers",
+      "view_discount_codes",
+      "view_import_sinks",
+      "view_orders",
+      "view_payments",
+      "view_products",
+      "view_project_settings",
+      "view_shipping_methods",
+      "view_states",
+      "view_stores",
+      "view_tax_categories",
+      "view_types"
+    ],
+    "manage": []
   },
   "headers": {
     "csp": {

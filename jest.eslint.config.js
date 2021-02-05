@@ -4,5 +4,5 @@ module.exports = {
   moduleFileExtensions: ['js'],
   modulePathIgnorePatterns: ['dist', 'public'],
   testMatch: ['<rootDir>/**/*.js'],
-  watchPlugins: ['jest-watch-typeahead/filename', 'jest-watch-master'],
+  watchPlugins: ['jest-watch-typeahead/filename'],
 };
