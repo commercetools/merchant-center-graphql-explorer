@@ -56,7 +56,7 @@ jobs:
         run: yarn build
 
       - name: Running linters and tests
-        run: yarn run jest --projects jest.{eslint,test}.config.js
+        run: yarn jest --projects jest.{eslint,test}.config.js
         env:
           CI: true
 
@@ -72,16 +72,18 @@ jobs:
           key: ${{ runner.os }}-cypress-${{ hashFiles('**/package.json') }}
 
       - name: Installing Cypress binary
-        run: yarn run cypress install && yarn run cypress cache list
+        run: yarn cypress install && yarn cypress cache list
 
       - name: Running End-to-End tests
-        run: yarn run start-server-and-test 'yarn start:prod:local' 3001 'yarn test:e2e'
+        run: yarn start-server-and-test 'yarn start:prod:local' 3001 'yarn test:e2e'
         env:
           NODE_ENV: test
           CYPRESS_CI: "true"
           CYPRESS_LOGIN_USER: ${{ secrets.CYPRESS_LOGIN_USER }}
           CYPRESS_LOGIN_PASSWORD: ${{ secrets.CYPRESS_LOGIN_PASSWORD }}
           CYPRESS_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}
+          CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
+          ENABLE_OIDC_FOR_DEVELOPMENT: "true"
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
 
       - name: Deploying application to Vercel

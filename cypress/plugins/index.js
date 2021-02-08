@@ -19,7 +19,7 @@
 
 // Reference: https://docs.cypress.io/api/plugins/configuration-api.html#Promises
 
-/* eslint-disable global-require */
+const customApplications = require('@commercetools-frontend/cypress/task');
 
 // plugins file
 module.exports = (on, cypressConfig) => {
@@ -29,6 +29,10 @@ module.exports = (on, cypressConfig) => {
     const envPath = path.join(__dirname, '../.env');
     require('dotenv').config({ path: envPath });
   }
+
+  on('task', {
+    ...customApplications,
+  });
 
   return {
     ...cypressConfig,

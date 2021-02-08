@@ -1,4 +1,4 @@
-import { URL_GRAPHQL_EXPLORER } from '../support/urls';
+import { applicationBaseRoute, entryPointUriPath } from '../support/constants';
 
 const testCases = [
   {
@@ -21,9 +21,9 @@ const testCases = [
 testCases.forEach((testCase) => {
   describe(`rendering graphiql for "${testCase.urlPath}"`, () => {
     it('should render page and execute query', () => {
-      cy.login({ redirectToUri: URL_GRAPHQL_EXPLORER });
+      cy.loginByOidc({ entryPointUriPath });
       cy.findByText(testCase.linkName).click();
-      cy.url().should('include', `${URL_GRAPHQL_EXPLORER}/${testCase.urlPath}`);
+      cy.url().should('include', `${applicationBaseRoute}/${testCase.urlPath}`);
       cy.findByText(testCase.queryName).should('exist');
       cy.findByTitle(/^Execute Query/).click();
       cy.findByText('"data"').should('exist');
