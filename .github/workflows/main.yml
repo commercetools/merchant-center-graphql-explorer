@@ -93,3 +93,4 @@ jobs:
           yarn vercel --prod --scope=commercetools-playground --confirm --no-clipboard --token="${{ secrets.VERCEL_TOKEN }}"
         env:
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
+          CTP_INITIAL_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}

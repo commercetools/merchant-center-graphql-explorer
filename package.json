@@ -16,8 +16,8 @@
     "test": "jest --config jest.test.config.js",
     "test:watch": "jest --config jest.test.config.js --watch",
     "test:e2e": "cypress run",
-    "versions:appkit": "bulk-update-versions --match '@commercetools-frontend/(.*)'",
-    "versions:uikit": "bulk-update-versions --match '@commercetools-uikit/(.*)'"
+    "versions:appkit": "manypkg upgrade @commercetools-frontend",
+    "versions:uikit": "manypkg upgrade @commercetools-uikit"
   },
   "dependencies": {
     "@apollo/client": "3.3.9",
@@ -51,9 +51,9 @@
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@formatjs/cli": "3.0.5",
+    "@manypkg/cli": "0.17.0",
     "@testing-library/cypress": "7.0.3",
     "@testing-library/react": "11.2.5",
-    "bulk-update-versions": "1.1.2",
     "cypress": "6.4.0",
     "dotenv": "8.2.0",
     "dotenv-cli": "4.0.0",
