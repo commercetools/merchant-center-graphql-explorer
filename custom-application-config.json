@@ -7,7 +7,7 @@
       "initialProjectKey": "${env:CTP_INITIAL_PROJECT_KEY}"
     },
     "production": {
-      "url": "https://merchant-center-graphql-explorer.commercetools-playground.vercel.app"
+      "url": "https://merchant-center-graphql-explorer-commercetools-playground.vercel.app"
     }
   },
   "oAuthScopes": {
