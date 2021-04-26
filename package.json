@@ -43,7 +43,7 @@
     "@manypkg/cli": "0.17.0",
     "@testing-library/cypress": "7.0.5",
     "@testing-library/react": "11.2.6",
-    "cypress": "6.9.1",
+    "cypress": "7.2.0",
     "dotenv": "8.2.0",
     "dotenv-cli": "4.0.0",
     "eslint": "7.23.0",
