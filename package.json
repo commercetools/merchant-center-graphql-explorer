@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "prepare": "husky install",
     "postinstall": "manypkg check",
     "prebuild": "yarn compile-data",
     "build": "mc-scripts build",
