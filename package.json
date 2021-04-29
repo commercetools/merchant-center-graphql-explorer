@@ -67,6 +67,6 @@
     "react-router-dom": "5.2.0",
     "redux": "4.1.0",
     "start-server-and-test": "1.12.1",
-    "vercel": "21.3.3"
+    "vercel": "22.0.1"
   }
 }
