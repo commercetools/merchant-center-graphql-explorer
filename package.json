@@ -45,7 +45,7 @@
     "@testing-library/cypress": "7.0.6",
     "@testing-library/react": "11.2.6",
     "cypress": "7.3.0",
-    "dotenv": "8.6.0",
+    "dotenv": "9.0.2",
     "eslint": "7.26.0",
     "eslint-formatter-pretty": "4.0.0",
     "graphiql": "1.4.1",
