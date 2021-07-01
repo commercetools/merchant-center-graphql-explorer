@@ -52,7 +52,7 @@
     "graphiql-explorer": "0.6.3",
     "graphql": "15.5.1",
     "husky": "6.0.0",
-    "jest": "26.6.3",
+    "jest": "27.0.6",
     "jest-runner-eslint": "0.10.1",
     "jest-silent-reporter": "0.5.0",
     "jest-watch-typeahead": "0.6.4",
