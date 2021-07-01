@@ -28,7 +28,7 @@
     "@commercetools-frontend/application-shell": "20.5.2",
     "@commercetools-frontend/assets": "18.5.4",
     "@commercetools-frontend/cypress": "20.5.2",
-    "@commercetools-frontend/eslint-config-mc-app": "19.4.0",
+    "@commercetools-frontend/eslint-config-mc-app": "20.5.1",
     "@commercetools-frontend/i18n": "20.5.2",
     "@commercetools-frontend/jest-preset-mc-app": "20.5.2",
     "@commercetools-frontend/mc-scripts": "20.5.2",
