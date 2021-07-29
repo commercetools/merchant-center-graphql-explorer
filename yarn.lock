@@ -2174,11 +2174,6 @@
     unfetch "4.2.0"
     uuid "8.3.2"
 
-"@commercetools-frontend/assets@18.5.4":
-  version "18.5.4"
-  resolved "https://registry.yarnpkg.com/@commercetools-frontend/assets/-/assets-18.5.4.tgz#9f199935e38b7e701ea2581b3ebb6ef0e4e05c6f"
-  integrity sha512-Wlh8m9pp/u/wGpdTUgtomYCqO/U7w91l4581rAVeRY09/F6KX12DCqPkoGe7tdxR9A3CKJVSvYOP1y/fISw2kQ==
-
 "@commercetools-frontend/assets@20.8.0":
   version "20.8.0"
   resolved "https://registry.yarnpkg.com/@commercetools-frontend/assets/-/assets-20.8.0.tgz#285cdce614b80b2445222d77cf63a1947f319fe0"

@@ -36,5 +36,31 @@
         "${env:HOST_GCP_STAGING}"
       ]
     }
+  },
+  "menuLinks": {
+    "icon": "${path:@commercetools-frontend/assets/application-icons/rocket.svg}",
+    "permissions": [],
+    "defaultLabel": "Graphql Explorer",
+    "labelAllLocales": [],
+    "submenuLinks": [
+      {
+        "uriPath": "platform",
+        "permissions": [],
+        "defaultLabel": "commercetools platform",
+        "labelAllLocales": []
+      },
+      {
+        "uriPath": "users",
+        "permissions": [],
+        "defaultLabel": "Users",
+        "labelAllLocales": []
+      },
+      {
+        "uriPath": "settings",
+        "permissions": [],
+        "defaultLabel": "Settings",
+        "labelAllLocales": []
+      }
+    ]
   }
 }
