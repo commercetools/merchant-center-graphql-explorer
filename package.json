@@ -19,8 +19,7 @@
     "test:watch": "jest --config jest.test.config.js --watch",
     "test:e2e": "cypress run",
     "versions:appkit": "manypkg upgrade @commercetools-frontend",
-    "versions:uikit": "manypkg upgrade @commercetools-uikit",
-    "vercel-build": "yarn build && yarn compile-html"
+    "versions:uikit": "manypkg upgrade @commercetools-uikit"
   },
   "dependencies": {
     "@apollo/client": "3.4.5",
