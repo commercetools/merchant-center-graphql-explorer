@@ -4,10 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
-    "prepare": "husky install",
-    "postinstall": "manypkg check",
-    "prebuild": "yarn compile-data",
-    "build": "mc-scripts build",
+    "build": "yarn compile-data && mc-scripts build",
     "start": "mc-scripts start",
     "compile-html": "NODE_ENV=production mc-scripts compile-html --transformer $(pwd)/vercel-transformer.js",
     "compile-html:local": "NODE_ENV=production MC_APP_ENV=development mc-scripts compile-html --transformer @commercetools-frontend/mc-dev-authentication/transformer-local.js",
@@ -67,5 +64,7 @@
     "redux": "4.1.1",
     "start-server-and-test": "1.13.1",
     "vercel": "23.1.1"
-  }
+  },
+  "packageManager": "yarn@3.1.0",
+  "license": "MIT"
 }
