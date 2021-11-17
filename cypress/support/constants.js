@@ -1,5 +1,5 @@
 export const projectKey = Cypress.env('PROJECT_KEY');
 
-export const entryPointUriPath = 'graphql-explorer';
+export const entryPointUriPath = 'graphql-explorer-commercetools';
 
-export const applicationBaseRoute = `/${projectKey}/graphql-explorer`;
+export const applicationBaseRoute = `/${projectKey}/${entryPointUriPath}`;

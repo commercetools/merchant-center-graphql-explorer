@@ -1,13 +1,14 @@
 {
   "name": "GraphQL Explorer",
-  "entryPointUriPath": "graphql-explorer",
+  "entryPointUriPath": "graphql-explorer-commercetools",
   "cloudIdentifier": "gcp-eu",
   "env": {
     "development": {
       "initialProjectKey": "${env:CTP_INITIAL_PROJECT_KEY}"
     },
     "production": {
-      "url": "https://merchant-center-graphql-explorer-qnl4h50vb.vercel.app"
+      "applicationId": "${env:APPLICATION_ID}",
+      "url": "https://merchant-center-graphql-explorer-commercetools-playground.vercel.app"
     }
   },
   "oAuthScopes": {
@@ -39,25 +40,25 @@
   },
   "menuLinks": {
     "icon": "${path:@commercetools-frontend/assets/application-icons/rocket.svg}",
-    "permissions": [],
+    "permissions": ["ViewGraphqlExplorerCommercetools"],
     "defaultLabel": "Graphql Explorer",
     "labelAllLocales": [],
     "submenuLinks": [
       {
         "uriPath": "platform",
-        "permissions": [],
+        "permissions": ["ViewGraphqlExplorerCommercetools"],
         "defaultLabel": "commercetools platform",
         "labelAllLocales": []
       },
       {
         "uriPath": "users",
-        "permissions": [],
+        "permissions": ["ViewGraphqlExplorerCommercetools"],
         "defaultLabel": "Users",
         "labelAllLocales": []
       },
       {
         "uriPath": "settings",
-        "permissions": [],
+        "permissions": ["ViewGraphqlExplorerCommercetools"],
         "defaultLabel": "Settings",
         "labelAllLocales": []
       }

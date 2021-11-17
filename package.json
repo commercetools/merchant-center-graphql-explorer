@@ -9,7 +9,7 @@
     "prebuild": "yarn compile-data",
     "build": "mc-scripts build",
     "start": "mc-scripts start",
-    "compile-html": "NODE_ENV=production mc-scripts compile-html --transformer $(pwd)/vercel-deployment/transformer.js",
+    "compile-html": "NODE_ENV=production mc-scripts compile-html --transformer $(pwd)/vercel-transformer.js",
     "compile-html:local": "NODE_ENV=production MC_APP_ENV=development mc-scripts compile-html --transformer @commercetools-frontend/mc-dev-authentication/transformer-local.js",
     "start:prod:local": "yarn compile-html:local && mc-scripts serve",
     "extract-intl": "formatjs extract --format=$(pwd)/intl-formatter.js --out-file=$(pwd)/src/i18n/data/core.json 'src/**/!(*.spec).js'",
@@ -19,7 +19,8 @@
     "test:watch": "jest --config jest.test.config.js --watch",
     "test:e2e": "cypress run",
     "versions:appkit": "manypkg upgrade @commercetools-frontend",
-    "versions:uikit": "manypkg upgrade @commercetools-uikit"
+    "versions:uikit": "manypkg upgrade @commercetools-uikit",
+    "vercel-build": "yarn build && yarn compile-html"
   },
   "dependencies": {
     "@apollo/client": "3.4.5",
