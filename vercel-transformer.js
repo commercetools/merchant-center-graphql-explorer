@@ -12,14 +12,14 @@ module.exports = ({ headers }) => {
         destination: '/api/fallback',
       },
       {
-        source: '/(.*)',
-        destination: '/public/index.html',
+        source: '/:path*',
+        destination: '/index.html',
       },
     ],
     // https://vercel.com/docs/cli#project-configuration/headers
     headers: [
       {
-        source: '/(.*)',
+        source: '/:path*',
         headers: Object.entries(
           Object.assign({ 'Cache-Control': 'no-cache' }, headers)
         ).map(([key, value]) => ({ key, value })),
