@@ -2300,9 +2300,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-shell@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/application-shell@npm:20.10.6"
+"@commercetools-frontend/application-shell@npm:20.10.7":
+  version: 20.10.7
+  resolution: "@commercetools-frontend/application-shell@npm:20.10.7"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
@@ -2385,7 +2385,7 @@ __metadata:
     react-redux: 7.x
     react-router-dom: 5.x
     redux: 4.x
-  checksum: 089a0436bc02292f6678ff9bcb0a09062b7ea06fb6e887cd8b55f66865e3db0dd57aade72a2fa508cceff496f033d8f3155ebc949f3d03e63b1f4c9d5ebd3d54
+  checksum: 27b637aa4720e657cba5328085d117d6a565e4bd2e005fa91472ec1a28383985dd434a3d5a84b835482bd528665541d1676d3835e76d6eff2e9c0f5fe98ac831
   languageName: node
   linkType: hard
 
@@ -2517,9 +2517,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/jest-preset-mc-app@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/jest-preset-mc-app@npm:20.10.6"
+"@commercetools-frontend/jest-preset-mc-app@npm:20.10.7":
+  version: 20.10.7
+  resolution: "@commercetools-frontend/jest-preset-mc-app@npm:20.10.7"
   dependencies:
     "@commercetools-frontend/babel-preset-mc-app": 20.10.6
     "@sheerun/mutationobserver-shim": 0.3.3
@@ -2538,7 +2538,7 @@ __metadata:
     setimmediate: 1.0.5
     ts-jest: 27.0.7
     unfetch: 4.2.0
-  checksum: 765a87d8e350977cd5abe1dbb2c477c5083228e9fdee34ce3679f2fc2af91af34af73ce2f202619307abebbda2282f60463f75816d850fc75bfd5b382c831cef
+  checksum: 4005e4eb8caa23b9c32c848634f985b5f2a48cc6f075dc6935263b52fc8296be95ae11ca1dd70f26d5fe80dbefcc0e2ba143cc4637d55caf63c6848b96930d19
   languageName: node
   linkType: hard
 
@@ -13933,12 +13933,12 @@ __metadata:
     "@apollo/client": 3.4.5
     "@commercetools-frontend/actions-global": 20.10.6
     "@commercetools-frontend/application-components": 20.10.6
-    "@commercetools-frontend/application-shell": 20.10.6
+    "@commercetools-frontend/application-shell": 20.10.7
     "@commercetools-frontend/assets": 20.10.6
     "@commercetools-frontend/cypress": 20.10.6
     "@commercetools-frontend/eslint-config-mc-app": 20.10.6
     "@commercetools-frontend/i18n": 20.10.6
-    "@commercetools-frontend/jest-preset-mc-app": 20.10.6
+    "@commercetools-frontend/jest-preset-mc-app": 20.10.7
     "@commercetools-frontend/mc-scripts": 20.10.6
     "@commercetools-frontend/permissions": 20.10.6
     "@commercetools-uikit/flat-button": 12.2.4
