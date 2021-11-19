@@ -132,50 +132,52 @@ const Editor = (props) => {
   }, []);
 
   return (
-    <div className="graphiql-container">
-      <GraphiQLExplorer
-        schema={schema}
-        query={query}
-        onEdit={setQuery}
-        onRunOperation={(operationName) =>
-          graphiqlRef.current.handleRunQuery(operationName)
-        }
-        explorerIsOpen={explorerIsOpen}
-        onToggleExplorer={handleToggleExplorer}
-      />
-      <GraphiQL
-        ref={graphiqlRef}
-        fetcher={fetcher}
-        schema={schema}
-        query={query}
-        onEditQuery={setQuery}
-        storage={{
-          getItem: (key) =>
-            window.localStorage.getItem(`${key}:${props.target}`),
-          setItem: (key, value) =>
-            window.localStorage.setItem(`${key}:${props.target}`, value),
-          removeItem: (key) =>
-            window.localStorage.removeItem(`${key}:${props.target}`),
-        }}
-      >
-        <GraphiQL.Toolbar>
-          <GraphiQL.Button
-            onClick={() => graphiqlRef.current.handlePrettifyQuery()}
-            label="Prettify"
-            title="Prettify Query (Shift-Ctrl-P)"
-          />
-          <GraphiQL.Button
-            onClick={() => graphiqlRef.current.handleToggleHistory()}
-            label="History"
-            title="Show History"
-          />
-          <GraphiQL.Button
-            onClick={handleToggleExplorer}
-            label="Explorer"
-            title="Toggle Explorer"
-          />
-        </GraphiQL.Toolbar>
-      </GraphiQL>
+    <div>
+      <div className="graphiql-container">
+        <GraphiQLExplorer
+          schema={schema}
+          query={query}
+          onEdit={setQuery}
+          onRunOperation={(operationName) =>
+            graphiqlRef.current.handleRunQuery(operationName)
+          }
+          explorerIsOpen={explorerIsOpen}
+          onToggleExplorer={handleToggleExplorer}
+        />
+        <GraphiQL
+          ref={graphiqlRef}
+          fetcher={fetcher}
+          schema={schema}
+          query={query}
+          onEditQuery={setQuery}
+          storage={{
+            getItem: (key) =>
+              window.localStorage.getItem(`${key}:${props.target}`),
+            setItem: (key, value) =>
+              window.localStorage.setItem(`${key}:${props.target}`, value),
+            removeItem: (key) =>
+              window.localStorage.removeItem(`${key}:${props.target}`),
+          }}
+        >
+          <GraphiQL.Toolbar>
+            <GraphiQL.Button
+              onClick={() => graphiqlRef.current.handlePrettifyQuery()}
+              label="Prettify"
+              title="Prettify Query (Shift-Ctrl-P)"
+            />
+            <GraphiQL.Button
+              onClick={() => graphiqlRef.current.handleToggleHistory()}
+              label="History"
+              title="Show History"
+            />
+            <GraphiQL.Button
+              onClick={handleToggleExplorer}
+              label="Explorer"
+              title="Toggle Explorer"
+            />
+          </GraphiQL.Toolbar>
+        </GraphiQL>
+      </div>
     </div>
   );
 };
