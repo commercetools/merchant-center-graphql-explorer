@@ -2194,16 +2194,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/actions-global@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/actions-global@npm:20.10.6"
+"@commercetools-frontend/actions-global@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/actions-global@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
     "@commercetools-frontend/browser-history": 20.10.6
-    "@commercetools-frontend/constants": 20.10.6
+    "@commercetools-frontend/constants": 20.11.0
     "@commercetools-frontend/notifications": 20.10.6
-    "@commercetools-frontend/sentry": 20.10.6
+    "@commercetools-frontend/sentry": 20.11.0
     "@types/lodash": ^4.14.167
     "@types/react": ^17.0.16
     "@types/react-redux": ^7.1.16
@@ -2213,21 +2213,21 @@ __metadata:
     react: 17.x
     react-redux: 7.x
     redux: 4.x
-  checksum: 3b60b82cbd1b0739674b994806436a8374a7f4c88f5cb6e79001069687254008091e3f8746b06c682c541dfe094138241cf5cc28b1543976d907b77ac6b65abe
+  checksum: a0ed38f8a22ced6b64e92a9d3ce86f964e391467dfc9e34a537d883f658c6365280248e3eb5c2e924f2e1d7b3e55888e8d843d8d7fbfae010760ee88f627b8cf
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-components@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/application-components@npm:20.10.6"
+"@commercetools-frontend/application-components@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/application-components@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/application-shell-connectors": 20.10.6
+    "@commercetools-frontend/application-shell-connectors": 20.11.0
     "@commercetools-frontend/assets": 20.10.6
-    "@commercetools-frontend/constants": 20.10.6
-    "@commercetools-frontend/i18n": 20.10.6
-    "@commercetools-frontend/l10n": 20.10.6
+    "@commercetools-frontend/constants": 20.11.0
+    "@commercetools-frontend/i18n": 20.11.0
+    "@commercetools-frontend/l10n": 20.11.0
     "@commercetools-uikit/async-select-input": ^12.2.2
     "@commercetools-uikit/card": ^12.2.2
     "@commercetools-uikit/constraints": ^12.2.2
@@ -2256,13 +2256,13 @@ __metadata:
     react: 17.x
     react-dom: 17.x
     react-intl: 5.x
-  checksum: 546a5bb5ffd7eea22e544a4fcc16a2b79cb9e38ef9ce9ef84d45015aa75759ffad9658e858bf46c612259dbf29110189a15a39780b770343ac08eea61f0c9f42
+  checksum: 1003d99e37ca6bc61f6cc081442c3de429a9a79acb90ec024d31513cdaec77e73e15c17f2bcfb561d614b962166bb157145fd2398d828512fae911d317fe94b4
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-config@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/application-config@npm:20.10.6"
+"@commercetools-frontend/application-config@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/application-config@npm:20.11.0"
   dependencies:
     "@babel/register": 7.15.3
     "@babel/runtime": 7.15.4
@@ -2273,18 +2273,18 @@ __metadata:
     cosmiconfig: 7.0.1
     lodash: 4.17.21
     omit-empty-es: 1.1.3
-  checksum: 2f28ed4867f2b902b9ba499f69ec4682d0f0e4a64c234d1f3a1cb73d363bd90f970c3cfee8ec75d0320448548c06788645188ac31eee0207da23d9e509c13813
+  checksum: 163092c21362e6570836dae6d825a8672f7b5eb42c3ebc6132bd80e3a4def13c1272e66673d59d3d340811b18322cef25c12da819d71cddccf7a6e9f295d277b
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-shell-connectors@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/application-shell-connectors@npm:20.10.6"
+"@commercetools-frontend/application-shell-connectors@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/application-shell-connectors@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/constants": 20.10.6
-    "@commercetools-frontend/sentry": 20.10.6
+    "@commercetools-frontend/constants": 20.11.0
+    "@commercetools-frontend/sentry": 20.11.0
     "@emotion/react": 11.5.0
     "@types/lodash": ^4.14.167
     "@types/prop-types": ^15.7.3
@@ -2296,29 +2296,29 @@ __metadata:
   peerDependencies:
     "@apollo/client": 3.x
     react: 17.x
-  checksum: 566a82e5dc0b473e1546cd638c7f9a127ece56a7a096e73843b664b1ae18b05099981eaca502f9ce8542433937c111114868e4af6c67c9ede7f8bca74833ff75
+  checksum: 3ab3ed06a3aa041b98a8552ae76ec72eea7da651da8d09dc590a5c49125dad21dbc6ed3d1c5384d7fe1daee5cf1cf7ec677a621dca280a6720596aea7601e15c
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-shell@npm:20.10.7":
-  version: 20.10.7
-  resolution: "@commercetools-frontend/application-shell@npm:20.10.7"
+"@commercetools-frontend/application-shell@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/application-shell@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/actions-global": 20.10.6
-    "@commercetools-frontend/application-components": 20.10.6
-    "@commercetools-frontend/application-shell-connectors": 20.10.6
+    "@commercetools-frontend/actions-global": 20.11.0
+    "@commercetools-frontend/application-components": 20.11.0
+    "@commercetools-frontend/application-shell-connectors": 20.11.0
     "@commercetools-frontend/assets": 20.10.6
     "@commercetools-frontend/browser-history": 20.10.6
-    "@commercetools-frontend/constants": 20.10.6
-    "@commercetools-frontend/i18n": 20.10.6
-    "@commercetools-frontend/l10n": 20.10.6
+    "@commercetools-frontend/constants": 20.11.0
+    "@commercetools-frontend/i18n": 20.11.0
+    "@commercetools-frontend/l10n": 20.11.0
     "@commercetools-frontend/notifications": 20.10.6
-    "@commercetools-frontend/permissions": 20.10.6
-    "@commercetools-frontend/react-notifications": 20.10.6
-    "@commercetools-frontend/sdk": 20.10.6
-    "@commercetools-frontend/sentry": 20.10.6
+    "@commercetools-frontend/permissions": 20.11.0
+    "@commercetools-frontend/react-notifications": 20.11.0
+    "@commercetools-frontend/sdk": 20.11.0
+    "@commercetools-frontend/sentry": 20.11.0
     "@commercetools-frontend/url-utils": 20.10.6
     "@commercetools-uikit/avatar": ^12.2.2
     "@commercetools-uikit/card": ^12.2.2
@@ -2385,7 +2385,7 @@ __metadata:
     react-redux: 7.x
     react-router-dom: 5.x
     redux: 4.x
-  checksum: 27b637aa4720e657cba5328085d117d6a565e4bd2e005fa91472ec1a28383985dd434a3d5a84b835482bd528665541d1676d3835e76d6eff2e9c0f5fe98ac831
+  checksum: e3cddcaba54ab03e9def029876ebd17a9164b577e80617a9eef83ef19c8d844e7e15b2b5e582f2ec0eedda2f5804d60ae063eb5f3af54d31f5ccb5ac705bd465
   languageName: node
   linkType: hard
 
@@ -2443,28 +2443,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/constants@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/constants@npm:20.10.6"
+"@commercetools-frontend/constants@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/constants@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-  checksum: 36a441f26cbae60fde1d17cac9bdd5e228645e11ab37620cf7296c4ebca1f1fd91154088cbccf365db34eed8d90a0a269c789e472a8edcb236f827233d1d713c
+  checksum: 2f418b4e49ad609a914020066f537a2354c087bbc6c15c0b1d8d02a277ed29c78402e4e424742167ea362592bd7811813f007b76c2d64cb32c768e798651471b
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/cypress@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/cypress@npm:20.10.6"
+"@commercetools-frontend/cypress@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/cypress@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/application-config": 20.10.6
+    "@commercetools-frontend/application-config": 20.11.0
     "@manypkg/get-packages": 1.1.1
     uuid: 8.3.2
   peerDependencies:
     cypress: 5.x || 6.x || 7.x || 8.x
-  checksum: 3659f3deeccfcbd9328bba1cd0d6b3336382ff0ca78e7b6862df6d62cbab15ed291a82073b1229e1753da0b4692323db2c2d67c05c41e391ad0945a994d48108
+  checksum: 18b455f61083d3141b00150a109e84b42c5d538774d711cc528629b1e659844cbcb03c665a7d7731ad372b82e410b4ad90e71381605ccf886e5a725e0fb437a6
   languageName: node
   linkType: hard
 
@@ -2495,14 +2495,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/i18n@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/i18n@npm:20.10.6"
+"@commercetools-frontend/i18n@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/i18n@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
     "@commercetools-community-kit/i18n": ^0.2.7
-    "@commercetools-frontend/sentry": 20.10.6
+    "@commercetools-frontend/sentry": 20.11.0
     "@commercetools-uikit/i18n": ^12.0.7
     "@emotion/react": 11.5.0
     "@formatjs/icu-messageformat-parser": 2.0.14
@@ -2513,13 +2513,13 @@ __metadata:
   peerDependencies:
     react: 17.x
     react-intl: 5.x
-  checksum: 547602726aadb20d0149375faecb32ef7679cdda842fa1bdfdec98adb3a2d05836bf56c802afbc57b9699951b3f2023cb322209a5bc36f74df65357e88abb08a
+  checksum: 82e12fdf2aebd0cfed6a269f644a66ce4c39fe3a9bd2b2e0531de48e293871560bf3679fb6f8b225085e20425ca636a28128b09c60c5f3ad5e73407886d26a93
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/jest-preset-mc-app@npm:20.10.7":
-  version: 20.10.7
-  resolution: "@commercetools-frontend/jest-preset-mc-app@npm:20.10.7"
+"@commercetools-frontend/jest-preset-mc-app@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/jest-preset-mc-app@npm:20.11.0"
   dependencies:
     "@commercetools-frontend/babel-preset-mc-app": 20.10.6
     "@sheerun/mutationobserver-shim": 0.3.3
@@ -2533,22 +2533,22 @@ __metadata:
     jest-silent-reporter: 0.5.0
     jest-transform-graphql: 2.1.0
     jest-watch-typeahead: 1.0.0
-    make-plural: 6.2.2
+    make-plural: 7.0.0
     raf: 3.4.1
     setimmediate: 1.0.5
     ts-jest: 27.0.7
     unfetch: 4.2.0
-  checksum: 4005e4eb8caa23b9c32c848634f985b5f2a48cc6f075dc6935263b52fc8296be95ae11ca1dd70f26d5fe80dbefcc0e2ba143cc4637d55caf63c6848b96930d19
+  checksum: e632d826df4dc370d1211ea4fba35d884f36c37b5e05367325c32dcaa8e8b76091a7f47756a822d35bef59e9a8cbc32d1fe4abebd1d639e5ffffbf7d0909c0f8
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/l10n@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/l10n@npm:20.10.6"
+"@commercetools-frontend/l10n@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/l10n@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/sentry": 20.10.6
+    "@commercetools-frontend/sentry": 20.11.0
     "@emotion/react": 11.5.0
     "@types/prop-types": ^15.7.3
     "@types/react": ^17.0.16
@@ -2557,7 +2557,7 @@ __metadata:
     prop-types: 15.7.2
   peerDependencies:
     react: 17.x
-  checksum: 7f7d0c5bb4dba2ce1e37c46012a81d295fb07e382fb05458d1226a9e8851b2fca6793067915a6070cc556e36d414c38d57605102509c2da59e5a527a6fa3e528
+  checksum: 4cf27be7564ab8ddb50340f1c593517379005b59a40ce78e11a8df20441e8ac1f96fa40b05b2480b30d9e2588534e05e3f4629ac56337ef3c38c772942dfc119
   languageName: node
   linkType: hard
 
@@ -2570,32 +2570,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/mc-html-template@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/mc-html-template@npm:20.10.6"
+"@commercetools-frontend/mc-html-template@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/mc-html-template@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/application-config": 20.10.6
+    "@commercetools-frontend/application-config": 20.11.0
+    "@commercetools-frontend/constants": 20.11.0
     core-js: 3.19.0
     serialize-javascript: 6.0.0
     uglify-es: 3.3.9
     uglifycss: 0.0.29
-  checksum: ddab843797be90aa7b23c94d8674e13f7901137708360b94297d646a89c7b1a71f6f3e3799b4ce1e2c84f696bf2e0d853df7e6c51cf75da22440ece03112572c
+  checksum: b873e64b92d8c1635830e80af259354933762dcccc118619a731b98c1610f66f8a6fc0b28b43a704873068787c1b9d9518481c1fec6592bf05c6bc0c99861f34
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/mc-scripts@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/mc-scripts@npm:20.10.6"
+"@commercetools-frontend/mc-scripts@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/mc-scripts@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/application-config": 20.10.6
+    "@commercetools-frontend/application-config": 20.11.0
     "@commercetools-frontend/assets": 20.10.6
     "@commercetools-frontend/babel-preset-mc-app": 20.10.6
     "@commercetools-frontend/mc-dev-authentication": 20.10.6
-    "@commercetools-frontend/mc-html-template": 20.10.6
+    "@commercetools-frontend/mc-html-template": 20.11.0
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.1
     "@svgr/webpack": 5.5.0
     autoprefixer: 10.3.7
@@ -2634,7 +2635,7 @@ __metadata:
     webpackbar: 5.0.0-3
   bin:
     mc-scripts: bin/cli.js
-  checksum: 9dbb80b9df6c2410101e0dc2cc15f09b06b617ea6727fddb1892186a94e65729df55c87a57245459402f05c1eca8f8a4cb539f5fe8320c51af48e154584ea880
+  checksum: 670ef16dfb2b217e3f1b52c7854a72ec724976ec4f41349da0c9149d77787947c74be9cd5f1578902d4f1a34f874a8521d554c89ca9628d0059cd367d2cab37b
   languageName: node
   linkType: hard
 
@@ -2650,14 +2651,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/permissions@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/permissions@npm:20.10.6"
+"@commercetools-frontend/permissions@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/permissions@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/application-shell-connectors": 20.10.6
-    "@commercetools-frontend/sentry": 20.10.6
+    "@commercetools-frontend/application-shell-connectors": 20.11.0
+    "@commercetools-frontend/sentry": 20.11.0
     "@emotion/react": 11.5.0
     "@types/lodash": ^4.14.167
     "@types/prop-types": ^15.7.3
@@ -2668,20 +2669,20 @@ __metadata:
     tiny-warning: 1.0.3
   peerDependencies:
     react: 17.x
-  checksum: bf449a5c7eb32fb1f774ecded83cf1a17c751c4847cd8cd556957f3474964a98b3499eb1a715ef0d77163bd9e7336363955278555b5711c28ebe80e36ab9e2f2
+  checksum: 68b4a9c51e83f9f348dc83b51a22fd1bfeba92ade898e87fe1b747c820cb67bbc21ff9f9cd57a4795a2a6a7440747c5114e077a6cdbef497e4b83c04fcf19df3
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/react-notifications@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/react-notifications@npm:20.10.6"
+"@commercetools-frontend/react-notifications@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/react-notifications@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/actions-global": 20.10.6
-    "@commercetools-frontend/constants": 20.10.6
+    "@commercetools-frontend/actions-global": 20.11.0
+    "@commercetools-frontend/constants": 20.11.0
     "@commercetools-frontend/notifications": 20.10.6
-    "@commercetools-frontend/sentry": 20.10.6
+    "@commercetools-frontend/sentry": 20.11.0
     "@commercetools-uikit/design-system": ^12.2.2
     "@commercetools-uikit/icon-button": ^12.2.2
     "@commercetools-uikit/icons": ^12.2.2
@@ -2707,17 +2708,17 @@ __metadata:
     react-intl: 5.x
     react-redux: 7.x
     react-router-dom: 5.x
-  checksum: 37b89e1ac73e6b1f3c045efed96fc09050e6cfc3c902a554f497984f3d7c3c79dc0eaf115eef109f34d43d5b12aab7395c6d8f131eda4eb8011f5c0d2edd4cc4
+  checksum: dbb36474e6c8d958857ae2710eb2c78417439863a64805ea804c83c5da0f41cb295b0ce7d5b2d686e22ab5fa14d8b1de836d1b4e7c0826e7d8d4960beef7f3b7
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/sdk@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/sdk@npm:20.10.6"
+"@commercetools-frontend/sdk@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/sdk@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/constants": 20.10.6
+    "@commercetools-frontend/constants": 20.11.0
     "@commercetools/api-request-builder": 5.6.3
     "@commercetools/http-user-agent": 2.1.2
     "@commercetools/sdk-client": 2.1.2
@@ -2736,24 +2737,24 @@ __metadata:
     react: 17.x
     react-redux: 7.x
     redux: 4.x
-  checksum: 517aea88d6f658f822acacc985aaf511c7f58b4b8916ea8fc3c2a50e4373a90fd9a2d2e018a86c4bd21602ff96e7883afd6eb13ec59ecd17a75741dc78fbbaa7
+  checksum: ed4a770bc0cbab72ef9d24598f3efcd537861a6c4bb316b447344f70a2780116322bb3528d33ad8ddc1d6b62eacc152554a113d007a26adf617fae0a2003c4e2
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/sentry@npm:20.10.6":
-  version: 20.10.6
-  resolution: "@commercetools-frontend/sentry@npm:20.10.6"
+"@commercetools-frontend/sentry@npm:20.11.0":
+  version: 20.11.0
+  resolution: "@commercetools-frontend/sentry@npm:20.11.0"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
-    "@commercetools-frontend/constants": 20.10.6
+    "@commercetools-frontend/constants": 20.11.0
     "@sentry/browser": 6.13.3
     "@types/prop-types": ^15.7.3
     "@types/react": ^17.0.16
     prop-types: 15.7.2
   peerDependencies:
     react: 17.x
-  checksum: 8be0bfa394263e5593f64513f781428d95fd51e62099c6ec279b9d23dc5be17887ddc9994b0ce1c59167161f7b89c900eea44bbdf94945438d2dd6a8e14f3147
+  checksum: 998288e5bf16c3e6499c555ec34414ee642aa41a7a0b3edb73debe77d756031f4a03e8c09e0b386c29822289c51d1100e74cd4546c40afc6cebfa8916c45e443
   languageName: node
   linkType: hard
 
@@ -13778,10 +13779,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"make-plural@npm:6.2.2":
-  version: 6.2.2
-  resolution: "make-plural@npm:6.2.2"
-  checksum: 3358330c113e4586f8874a37f3ad613cd7c898ff9a0ae61d029dfbdce042ad0f76e88909464c5514be81166b842005913e58341e77f7b6378a2020630dcfc613
+"make-plural@npm:7.0.0":
+  version: 7.0.0
+  resolution: "make-plural@npm:7.0.0"
+  checksum: 6dc2069675c61ed960eeffd81bf22363bcaf2775ae2f5cb3f25f4be58e98208da8534354dec605787928a2dfbd61492dafd7310e2c5c03c0952e797b8ac86549
   languageName: node
   linkType: hard
 
@@ -13914,16 +13915,16 @@ __metadata:
   resolution: "merchant-center-graphql-explorer@workspace:."
   dependencies:
     "@apollo/client": 3.4.5
-    "@commercetools-frontend/actions-global": 20.10.6
-    "@commercetools-frontend/application-components": 20.10.6
-    "@commercetools-frontend/application-shell": 20.10.7
+    "@commercetools-frontend/actions-global": 20.11.0
+    "@commercetools-frontend/application-components": 20.11.0
+    "@commercetools-frontend/application-shell": 20.11.0
     "@commercetools-frontend/assets": 20.10.6
-    "@commercetools-frontend/cypress": 20.10.6
+    "@commercetools-frontend/cypress": 20.11.0
     "@commercetools-frontend/eslint-config-mc-app": 20.10.6
-    "@commercetools-frontend/i18n": 20.10.6
-    "@commercetools-frontend/jest-preset-mc-app": 20.10.7
-    "@commercetools-frontend/mc-scripts": 20.10.6
-    "@commercetools-frontend/permissions": 20.10.6
+    "@commercetools-frontend/i18n": 20.11.0
+    "@commercetools-frontend/jest-preset-mc-app": 20.11.0
+    "@commercetools-frontend/mc-scripts": 20.11.0
+    "@commercetools-frontend/permissions": 20.11.0
     "@commercetools-uikit/flat-button": 12.2.4
     "@commercetools-uikit/icons": 12.2.4
     "@commercetools-uikit/notifications": 12.2.4

@@ -102,6 +102,5 @@ public
 .parcel-cache
 
 # Vercel
-vercel.json
 .now
 .vercel
