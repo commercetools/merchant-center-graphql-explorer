@@ -5,6 +5,8 @@
 # https://github.com/vercel/vercel/discussions/5171
 branch_name="$VERCEL_GIT_COMMIT_REF"
 
+echo "Branch: $branch_name"
+
 if [[ "$branch_name" == "main" || "$branch_name" == "master" ]]; then
   # Proceed with the build
   exit 1;
