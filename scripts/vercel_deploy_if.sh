@@ -5,7 +5,10 @@
 # https://github.com/vercel/vercel/discussions/5171
 branch_name=$(git rev-parse --abbrev-ref HEAD)
 
+env | grep -e "VERCEL_"
+
 echo "Branch: $branch_name"
+exit 0
 
 if [[ "$branch_name" == "main" || "$branch_name" == "master" ]]; then
   # Proceed with the build
