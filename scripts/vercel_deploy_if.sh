@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 
-echo "VERCEL_GIT_COMMIT_REF: $VERCEL_GIT_COMMIT_REF"
+branch_name=$(git rev-parse --abbrev-ref HEAD)
 
-if [[ "$VERCEL_GIT_COMMIT_REF" == "main"  ]]; then
+echo "Branch: $branch_name"
+
+if [[ "$branch_name" == "main"  ]]; then
   # Proceed with the build
   exit 1;
 
