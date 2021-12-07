@@ -22,7 +22,7 @@
     "@apollo/client": "3.4.5",
     "@commercetools-frontend/actions-global": "20.12.0",
     "@commercetools-frontend/application-components": "20.12.0",
-    "@commercetools-frontend/application-shell": "0.0.0-canary-2021117112811",
+    "@commercetools-frontend/application-shell": "0.0.0-canary-2021117192036",
     "@commercetools-frontend/assets": "20.12.0",
     "@commercetools-frontend/cypress": "20.12.0",
     "@commercetools-frontend/eslint-config-mc-app": "20.10.6",

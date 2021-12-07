@@ -2300,9 +2300,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-shell@npm:0.0.0-canary-2021117112811":
-  version: 0.0.0-canary-2021117112811
-  resolution: "@commercetools-frontend/application-shell@npm:0.0.0-canary-2021117112811"
+"@commercetools-frontend/application-shell@npm:0.0.0-canary-2021117192036":
+  version: 0.0.0-canary-2021117192036
+  resolution: "@commercetools-frontend/application-shell@npm:0.0.0-canary-2021117192036"
   dependencies:
     "@babel/runtime": 7.15.4
     "@babel/runtime-corejs3": 7.15.4
@@ -2385,7 +2385,7 @@ __metadata:
     react-redux: 7.x
     react-router-dom: 5.x
     redux: 4.x
-  checksum: 7d240d1cc3b84f9a3a1ebafdaea4bbff38f3a1cbd4294976672f500bf1798853b39a23d6e373d145690325c068870e7fc32958a8194470c8a3fcd5e495a7e151
+  checksum: 0abeb20b201148be3f270fae6c2a268fd7a2b751611d7e5fa2cd5a44743943382a15b264ba91d4a7855e69afced592ce825aae97071b887d54304de9daf91b2f
   languageName: node
   linkType: hard
 
@@ -13720,7 +13720,7 @@ __metadata:
     "@apollo/client": 3.4.5
     "@commercetools-frontend/actions-global": 20.12.0
     "@commercetools-frontend/application-components": 20.12.0
-    "@commercetools-frontend/application-shell": 0.0.0-canary-2021117112811
+    "@commercetools-frontend/application-shell": 0.0.0-canary-2021117192036
     "@commercetools-frontend/assets": 20.12.0
     "@commercetools-frontend/cypress": 20.12.0
     "@commercetools-frontend/eslint-config-mc-app": 20.10.6
