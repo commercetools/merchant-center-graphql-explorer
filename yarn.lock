@@ -8969,6 +8969,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"dotenv@npm:13.0.1":
+  version: 13.0.1
+  resolution: "dotenv@npm:13.0.1"
+  checksum: 5bf1b8a6871b8f33d0bf3abe4b430b13ffc375568474e9fbb8a603af354d23b415fc0d21d1f55dab3abddf7cadcfc2894e08efed8dd63c13256de677fe33c6e6
+  languageName: node
+  linkType: hard
+
 "downshift@npm:6.1.7":
   version: 6.1.7
   resolution: "downshift@npm:6.1.7"
@@ -13740,7 +13747,7 @@ __metadata:
     "@testing-library/cypress": 8.0.0
     "@testing-library/react": 12.0.0
     cypress: 8.2.0
-    dotenv: 10.0.0
+    dotenv: 13.0.1
     eslint: 7.32.0
     eslint-formatter-pretty: 4.1.0
     graphiql: 1.4.2
