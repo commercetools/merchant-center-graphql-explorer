@@ -1,7 +1,7 @@
-// NOTE: those permissions are not used yet but they will be in the new custom apps model.
-export const PERMISSIONS = {
-  ManageGraphqlExplorer: 'ManageGraphqlExplorer',
-  ViewGraphqlExplorer: 'ViewGraphqlExplorer',
-};
+import { entryPointUriPathToPermissionKeys } from '@commercetools-frontend/application-shell/ssr';
+
+export const entryPointUriPath = 'graphql-explorer-commercetools';
+
+export const PERMISSIONS = entryPointUriPathToPermissionKeys(entryPointUriPath);
 
 export const FEATURE_FLAGS = {};

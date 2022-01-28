@@ -50,6 +50,10 @@ jobs:
 
       - name: Building application
         run: yarn build
+        env:
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
+          CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
 
       - name: Running linters and tests
         run: yarn jest --projects jest.{eslint,test}.config.js
@@ -78,7 +82,6 @@ jobs:
           CYPRESS_LOGIN_USER: ${{ secrets.CYPRESS_LOGIN_USER }}
           CYPRESS_LOGIN_PASSWORD: ${{ secrets.CYPRESS_LOGIN_PASSWORD }}
           CYPRESS_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}
-          ENABLE_OIDC_FOR_DEVELOPMENT: "true"
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
           CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
