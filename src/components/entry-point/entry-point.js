@@ -3,8 +3,6 @@ import {
   ApplicationShell,
   setupGlobalErrorListener,
 } from '@commercetools-frontend/application-shell';
-import { Sdk } from '@commercetools-frontend/sdk';
-import * as globalActions from '@commercetools-frontend/actions-global';
 import { FEATURE_FLAGS } from '../../constants';
 import loadMessages from '../../load-messages';
 
@@ -22,10 +20,6 @@ setupGlobalErrorListener();
 const EntryPoint = () => (
   <ApplicationShell
     environment={window.app}
-    onRegisterErrorListeners={({ dispatch }) => {
-      Sdk.Get.errorHandler = (error) =>
-        globalActions.handleActionError(error)(dispatch);
-    }}
     applicationMessages={loadMessages}
     featureFlags={FEATURE_FLAGS}
   >

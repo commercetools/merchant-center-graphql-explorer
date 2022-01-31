@@ -1711,7 +1711,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/actions-global@npm:21.0.0-rc.3, @commercetools-frontend/actions-global@npm:rc":
+"@commercetools-frontend/actions-global@npm:21.0.0-rc.3":
   version: 21.0.0-rc.3
   resolution: "@commercetools-frontend/actions-global@npm:21.0.0-rc.3"
   dependencies:
@@ -1734,7 +1734,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-components@npm:21.0.0-rc.3, @commercetools-frontend/application-components@npm:rc":
+"@commercetools-frontend/application-components@npm:21.0.0-rc.3":
   version: 21.0.0-rc.3
   resolution: "@commercetools-frontend/application-components@npm:21.0.0-rc.3"
   dependencies:
@@ -1776,20 +1776,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-config@npm:21.0.0-rc.4":
-  version: 21.0.0-rc.4
-  resolution: "@commercetools-frontend/application-config@npm:21.0.0-rc.4"
+"@commercetools-frontend/application-config@npm:21.0.0-rc.7":
+  version: 21.0.0-rc.7
+  resolution: "@commercetools-frontend/application-config@npm:21.0.0-rc.7"
   dependencies:
     "@babel/register": ^7.16.9
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
-    "@commercetools-frontend/babel-preset-mc-app": 21.0.0-rc.1
+    "@commercetools-frontend/babel-preset-mc-app": 21.0.0-rc.7
     ajv: 8.9.0
     core-js: ^3.20.3
     cosmiconfig: 7.0.1
     lodash: 4.17.21
     omit-empty-es: 1.1.3
-  checksum: db17fb54645e1e556f9196679ad11f26fc2e18996ace2051a9a1c70035bdca9d208f541c040f161eebf6517e263d9702f18ac8e76d2b2fb42bfd0a064c9ea7a1
+  checksum: 2ddf26f9f76a6614a368f0113a332c5bba3cec974b5807beeb20d753ec43ca97fc1c157043c66a46bdf3e063382c5d7acc98ef2d57bb10062001793028d4697a
   languageName: node
   linkType: hard
 
@@ -1816,9 +1816,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-shell@npm:21.0.0-rc.4, @commercetools-frontend/application-shell@npm:rc":
-  version: 21.0.0-rc.4
-  resolution: "@commercetools-frontend/application-shell@npm:21.0.0-rc.4"
+"@commercetools-frontend/application-shell@npm:21.0.0-rc.6":
+  version: 21.0.0-rc.6
+  resolution: "@commercetools-frontend/application-shell@npm:21.0.0-rc.6"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
@@ -1900,20 +1900,20 @@ __metadata:
     react-redux: 7.x
     react-router-dom: 5.x
     redux: 4.x
-  checksum: 36692e89a32e6601a54f4cb958eda674bc4dcee9d8b7f7f2b1eb5b19df35e96c0d234335b5514bde7433482b42a66a900aa9e7a9933a85654b0fae38b30dcbde
+  checksum: f2f764a547d01b26097c70c82c821aa5f2decb16b2e93871700921c614f098e93735fc17d94892c2c7fd510a27fea83bfd01ddc829786d2e1752bc828be46f41
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/assets@npm:21.0.0-rc.1, @commercetools-frontend/assets@npm:rc":
+"@commercetools-frontend/assets@npm:21.0.0-rc.1":
   version: 21.0.0-rc.1
   resolution: "@commercetools-frontend/assets@npm:21.0.0-rc.1"
   checksum: 8b363e18ec30acc55c30d4bb731b1b69e3a50bd6009ec415b4ecb40f7db281d7e184c3bba2f1f3b140b6f8f188aa0410682a3b7e88a970e93dcb7612a82b9c0e
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/babel-preset-mc-app@npm:21.0.0-rc.1":
-  version: 21.0.0-rc.1
-  resolution: "@commercetools-frontend/babel-preset-mc-app@npm:21.0.0-rc.1"
+"@commercetools-frontend/babel-preset-mc-app@npm:21.0.0-rc.7, @commercetools-frontend/babel-preset-mc-app@npm:^21.0.0-rc.7":
+  version: 21.0.0-rc.7
+  resolution: "@commercetools-frontend/babel-preset-mc-app@npm:21.0.0-rc.7"
   dependencies:
     "@babel/core": ^7.16.10
     "@babel/plugin-proposal-class-properties": ^7.16.7
@@ -1922,9 +1922,9 @@ __metadata:
     "@babel/plugin-proposal-export-namespace-from": ^7.16.7
     "@babel/plugin-proposal-logical-assignment-operators": ^7.16.7
     "@babel/plugin-proposal-object-rest-spread": ^7.16.7
-    "@babel/plugin-transform-classes": ^7.16.7
+    "@babel/plugin-proposal-private-methods": ^7.16.11
+    "@babel/plugin-proposal-private-property-in-object": ^7.16.7
     "@babel/plugin-transform-destructuring": ^7.16.7
-    "@babel/plugin-transform-react-display-name": ^7.16.7
     "@babel/plugin-transform-regenerator": ^7.16.7
     "@babel/plugin-transform-runtime": ^7.16.10
     "@babel/preset-env": ^7.16.11
@@ -1940,7 +1940,7 @@ __metadata:
     babel-plugin-preval: ^5.0.0
     babel-plugin-transform-react-remove-prop-types: ^0.4.24
     core-js: ^3.20.3
-  checksum: d50f6b61317ee81bf765c4577ea145ff541828678d25dc049d7691d5a9dd9f895b055420c60966d8cfa46fc0fefb52b26256902f094e7e6668dcffcec66c35f9
+  checksum: f9a99e45da58ea4df1a5b05ef9aaa6b064b330282f3ea1e22635e9cf47bc001a2c535b8341b3dde7a75fd830f80ae16e999cb88dbb9c703f2af6e12b1b144518
   languageName: node
   linkType: hard
 
@@ -1968,26 +1968,28 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/cypress@npm:rc":
-  version: 21.0.0-rc.4
-  resolution: "@commercetools-frontend/cypress@npm:21.0.0-rc.4"
+"@commercetools-frontend/cypress@npm:21.0.0-rc.7":
+  version: 21.0.0-rc.7
+  resolution: "@commercetools-frontend/cypress@npm:21.0.0-rc.7"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
-    "@commercetools-frontend/application-config": 21.0.0-rc.4
-    "@commercetools-frontend/application-shell": 21.0.0-rc.4
+    "@commercetools-frontend/application-config": 21.0.0-rc.7
+    "@commercetools-frontend/application-shell": 21.0.0-rc.6
     "@manypkg/get-packages": 1.1.3
     uuid: 8.3.2
   peerDependencies:
     cypress: 5.x || 6.x || 7.x || 8.x || 9.x
-  checksum: 40af5284d3240cc47e4d7d4177f0f2ae3f8755c4f000686f788c75b60a21eae7600c87a23bfaf6a245cc086f116f717e45b6a3e1a18c2ca7e04cc8fa6f621de6
+  checksum: 8e7b0bc6f4023265ba15e45e6aa7acdc548978c3f4c9c7e70cf41f29b8c89146cf30628b9d11053a17fac0d6b9007a74a960a73e888d5468ea94c50a4bd1d221
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/eslint-config-mc-app@npm:rc":
-  version: 21.0.0-rc.1
-  resolution: "@commercetools-frontend/eslint-config-mc-app@npm:21.0.0-rc.1"
+"@commercetools-frontend/eslint-config-mc-app@npm:21.0.0-rc.7":
+  version: 21.0.0-rc.7
+  resolution: "@commercetools-frontend/eslint-config-mc-app@npm:21.0.0-rc.7"
   dependencies:
+    "@commercetools-frontend/babel-preset-mc-app": ^21.0.0-rc.7
+    "@rushstack/eslint-patch": ^1.1.0
     "@typescript-eslint/eslint-plugin": ^5.10.0
     "@typescript-eslint/parser": ^5.10.0
     eslint-config-prettier: ^8.3.0
@@ -2005,11 +2007,11 @@ __metadata:
     eslint-plugin-testing-library: ^5.0.4
   peerDependencies:
     eslint: ">=8.0.0"
-  checksum: 9167ee46d256e371bb3e610821ea3340b59774155f477eab2105c480f37b81f51534afe6d33e3747b28d7c132269e9910a864f77bdbd27c32821b32a95052536
+  checksum: 9c6c82a09f6a7bf69799019c5885f2843a7c4fe0da68505f36701aa4eb0eb9c44ca9da3fa4fde5d19d41a2027dd9d46306211f5d59dc065deb496034a513f800
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/i18n@npm:21.0.0-rc.3, @commercetools-frontend/i18n@npm:rc":
+"@commercetools-frontend/i18n@npm:21.0.0-rc.3":
   version: 21.0.0-rc.3
   resolution: "@commercetools-frontend/i18n@npm:21.0.0-rc.3"
   dependencies:
@@ -2031,11 +2033,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/jest-preset-mc-app@npm:rc":
-  version: 21.0.0-rc.1
-  resolution: "@commercetools-frontend/jest-preset-mc-app@npm:21.0.0-rc.1"
+"@commercetools-frontend/jest-preset-mc-app@npm:21.0.0-rc.7":
+  version: 21.0.0-rc.7
+  resolution: "@commercetools-frontend/jest-preset-mc-app@npm:21.0.0-rc.7"
   dependencies:
-    "@commercetools-frontend/babel-preset-mc-app": 21.0.0-rc.1
+    "@commercetools-frontend/babel-preset-mc-app": 21.0.0-rc.7
     "@sheerun/mutationobserver-shim": 0.3.3
     "@testing-library/jest-dom": 5.16.1
     babel-jest: 27.4.6
@@ -2052,7 +2054,7 @@ __metadata:
     raf: 3.4.1
     setimmediate: 1.0.5
     unfetch: 4.2.0
-  checksum: 6eeb59a39918f98932eecbe4d26066be72218053ad89ed86405354b543768ca570245a08d7577c6eee2a6f5ef48d4722d04fd3bbad6296fe11d14bdc0dd9ee7d
+  checksum: 4bffa6eb05e8f13960cdc7bc134edbcdea9248bc28e170f6bb01e159159e7b3a7151e470e1f59f59bd617cd67bd34ac54feace5ed3e1a12425c69e279f754eac
   languageName: node
   linkType: hard
 
@@ -2084,33 +2086,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/mc-html-template@npm:21.0.0-rc.4":
-  version: 21.0.0-rc.4
-  resolution: "@commercetools-frontend/mc-html-template@npm:21.0.0-rc.4"
+"@commercetools-frontend/mc-html-template@npm:21.0.0-rc.7":
+  version: 21.0.0-rc.7
+  resolution: "@commercetools-frontend/mc-html-template@npm:21.0.0-rc.7"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
-    "@commercetools-frontend/application-config": 21.0.0-rc.4
+    "@commercetools-frontend/application-config": 21.0.0-rc.7
     "@commercetools-frontend/constants": 21.0.0-rc.3
     core-js: ^3.20.3
     serialize-javascript: 6.0.0
     uglify-js: 3.14.5
     uglifycss: 0.0.29
-  checksum: e1b3205aecfa051593548c55a37145ff7d19d575641c9e7b5106e0abe7057544dc5fdac4927c6ccd88048c556cea38652bbc50f9bc43d2cbc41a931601d6f28f
+  checksum: b6bce14354ef113e7a87576bb2f2a6d0eb7463440045ac450dc31935baedb9eeb2dcb63e99f8eaed5f8f3f389bfd339a030871176bb53e9a61800bd4d9db9888
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/mc-scripts@npm:rc":
-  version: 21.0.0-rc.4
-  resolution: "@commercetools-frontend/mc-scripts@npm:21.0.0-rc.4"
+"@commercetools-frontend/mc-scripts@npm:21.0.0-rc.7":
+  version: 21.0.0-rc.7
+  resolution: "@commercetools-frontend/mc-scripts@npm:21.0.0-rc.7"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
-    "@commercetools-frontend/application-config": 21.0.0-rc.4
+    "@commercetools-frontend/application-config": 21.0.0-rc.7
     "@commercetools-frontend/assets": 21.0.0-rc.1
-    "@commercetools-frontend/babel-preset-mc-app": 21.0.0-rc.1
+    "@commercetools-frontend/babel-preset-mc-app": 21.0.0-rc.7
     "@commercetools-frontend/mc-dev-authentication": 21.0.0-rc.1
-    "@commercetools-frontend/mc-html-template": 21.0.0-rc.4
+    "@commercetools-frontend/mc-html-template": 21.0.0-rc.7
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.4
     "@svgr/webpack": 6.2.0
     autoprefixer: 10.4.2
@@ -2151,7 +2153,7 @@ __metadata:
     webpackbar: 5.0.2
   bin:
     mc-scripts: bin/cli.js
-  checksum: c8822bc591bcee1fbf6ae8245fe80f87537f7c3c200aced90a477ee6c8cf0284afd95947988d4dd28969ed430a39134cdb64252e5c7f9cb710af1f764be54c41
+  checksum: 5ad1eabd96398824d384a66fa20a0d1cca2d3b275cd74ff9ce04ca4f1858fe4a02febd4dfa4028151aec7995c4c2b06b0589ea34c9323f6aec0f3fa4bd6efe4d
   languageName: node
   linkType: hard
 
@@ -2167,7 +2169,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/permissions@npm:21.0.0-rc.3, @commercetools-frontend/permissions@npm:rc":
+"@commercetools-frontend/permissions@npm:21.0.0-rc.3":
   version: 21.0.0-rc.3
   resolution: "@commercetools-frontend/permissions@npm:21.0.0-rc.3"
   dependencies:
@@ -3324,12 +3326,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/cli@npm:4.8.0":
-  version: 4.8.0
-  resolution: "@formatjs/cli@npm:4.8.0"
+"@formatjs/cli@npm:4.8.1":
+  version: 4.8.1
+  resolution: "@formatjs/cli@npm:4.8.1"
   dependencies:
-    "@formatjs/icu-messageformat-parser": 2.0.16
-    "@formatjs/ts-transformer": 3.9.0
+    "@formatjs/icu-messageformat-parser": 2.0.17
+    "@formatjs/ts-transformer": 3.9.1
     "@types/estree": ^0.0.50
     "@types/fs-extra": ^9.0.1
     "@types/json-stable-stringify": ^1.0.32
@@ -3346,7 +3348,7 @@ __metadata:
     vue: ^3.2.23
   bin:
     formatjs: bin/formatjs
-  checksum: a764f9a00631b42c2c643982629407d2eeb787165345d9ec1aa549e780606865c9ba8446dc597b793c5a670ee0841c14a2242c193f6812456d5a4c4d97376cf8
+  checksum: f9b56474e952ef1ed2e8153e93142315c8e7972c79a3cd1f000d03f1d6c6af90fb9ddf18557a878fc0649076ad9d6a4123bc431e98e8ecebd22c266189b0f076
   languageName: node
   linkType: hard
 
@@ -3357,6 +3359,16 @@ __metadata:
     "@formatjs/intl-localematcher": 0.2.22
     tslib: ^2.1.0
   checksum: e0321ba103f3f95d4dea526acca80651073fc8c210d9a447bc2124db0540ecd1e332a206eadfa2ccb533cc215678c6372ee8e516c5eca774decb6b64cd7b6b95
+  languageName: node
+  linkType: hard
+
+"@formatjs/ecma402-abstract@npm:1.11.2":
+  version: 1.11.2
+  resolution: "@formatjs/ecma402-abstract@npm:1.11.2"
+  dependencies:
+    "@formatjs/intl-localematcher": 0.2.23
+    tslib: ^2.1.0
+  checksum: 9688d278bc43c3792cbaa3707ebef92bc20f35e17c5f81b7c7b401a6688df4282a352e8a542f84ea941b16b61edb2524898b19f78bb79d3b0fe23c53517eb62d
   languageName: node
   linkType: hard
 
@@ -3380,6 +3392,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@formatjs/icu-messageformat-parser@npm:2.0.17":
+  version: 2.0.17
+  resolution: "@formatjs/icu-messageformat-parser@npm:2.0.17"
+  dependencies:
+    "@formatjs/ecma402-abstract": 1.11.2
+    "@formatjs/icu-skeleton-parser": 1.3.4
+    tslib: ^2.1.0
+  checksum: 312d23deeacd4812d225f609f23761ac52e7801aeba8f7ce5032c3b3d889b6394371197e10dfddac3d728d12ef3661a05ad0594671c98c82c5e6090c0a6401c0
+  languageName: node
+  linkType: hard
+
 "@formatjs/icu-skeleton-parser@npm:1.3.3":
   version: 1.3.3
   resolution: "@formatjs/icu-skeleton-parser@npm:1.3.3"
@@ -3390,25 +3413,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/intl-displaynames@npm:5.4.0":
-  version: 5.4.0
-  resolution: "@formatjs/intl-displaynames@npm:5.4.0"
+"@formatjs/icu-skeleton-parser@npm:1.3.4":
+  version: 1.3.4
+  resolution: "@formatjs/icu-skeleton-parser@npm:1.3.4"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.1
-    "@formatjs/intl-localematcher": 0.2.22
+    "@formatjs/ecma402-abstract": 1.11.2
     tslib: ^2.1.0
-  checksum: 1f3046780d5d6ca52fe3e6330d3e92c79c901841264d3a4926f072fb546f2b4c81e3038ca5438674a5fef0b35d1be43dcfb5ee62806a701ab6ed343cb8b6d7a1
+  checksum: a889062de7eb72f9a318780ccc126b45c0072c2e584b4524710958b2c38202043159c7cc93daa56696765385755b8a9fbcb827368d40c424cb97a9606e2a86d0
   languageName: node
   linkType: hard
 
-"@formatjs/intl-listformat@npm:6.5.0":
-  version: 6.5.0
-  resolution: "@formatjs/intl-listformat@npm:6.5.0"
+"@formatjs/intl-displaynames@npm:5.4.1":
+  version: 5.4.1
+  resolution: "@formatjs/intl-displaynames@npm:5.4.1"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.1
-    "@formatjs/intl-localematcher": 0.2.22
+    "@formatjs/ecma402-abstract": 1.11.2
+    "@formatjs/intl-localematcher": 0.2.23
     tslib: ^2.1.0
-  checksum: 5ffdaca57a23241c9fd418bf7ad3cfe7fe1eb4add8b034b81ae00a16a5147533ae2d8cfbf99bd21d9870c286347ece291667dccea0576a92442deef890f04597
+  checksum: 45ac1c91326f69762813b896e1f6d0bd0858cb6c5cf1a7fca05ff874356f34d3697023be8eb88d2f1b1c090b397857895fb869755a2974e2ca69e046f2703dcd
+  languageName: node
+  linkType: hard
+
+"@formatjs/intl-listformat@npm:6.5.1":
+  version: 6.5.1
+  resolution: "@formatjs/intl-listformat@npm:6.5.1"
+  dependencies:
+    "@formatjs/ecma402-abstract": 1.11.2
+    "@formatjs/intl-localematcher": 0.2.23
+    tslib: ^2.1.0
+  checksum: 593744d4bd4166100304c055941e9f9aff0a8672cdf97d0d0409030ebae943beebe4a99dc608cd933f5c896db9203c7a43a9e9852335ffc9bb39a98498a56000
   languageName: node
   linkType: hard
 
@@ -3421,31 +3454,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/intl@npm:1.18.3":
-  version: 1.18.3
-  resolution: "@formatjs/intl@npm:1.18.3"
+"@formatjs/intl-localematcher@npm:0.2.23":
+  version: 0.2.23
+  resolution: "@formatjs/intl-localematcher@npm:0.2.23"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.1
+    tslib: ^2.1.0
+  checksum: 65bf8a126f3ef263548c6b3a55f2e9b441ec2745e49e4f8b19ba887ba0d908cfb821a1e644f15d381de6221b4276c50d6469e25da54bba0cdb2ef882f1ca4dfe
+  languageName: node
+  linkType: hard
+
+"@formatjs/intl@npm:1.18.4":
+  version: 1.18.4
+  resolution: "@formatjs/intl@npm:1.18.4"
+  dependencies:
+    "@formatjs/ecma402-abstract": 1.11.2
     "@formatjs/fast-memoize": 1.2.1
-    "@formatjs/icu-messageformat-parser": 2.0.16
-    "@formatjs/intl-displaynames": 5.4.0
-    "@formatjs/intl-listformat": 6.5.0
-    intl-messageformat: 9.11.2
+    "@formatjs/icu-messageformat-parser": 2.0.17
+    "@formatjs/intl-displaynames": 5.4.1
+    "@formatjs/intl-listformat": 6.5.1
+    intl-messageformat: 9.11.3
     tslib: ^2.1.0
   peerDependencies:
     typescript: ^4.5
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2e979f4a89f1ce2fbf9523b632a7dafbe42061206dd0a930a75f1a17384aaa30caea7388effff91606afbf7215c2ad5bf1f6fc93c4fd753b39e838b89b369702
+  checksum: 2732ee3494c5b98e94ee5daca31a01e4d56c4ee4f5ffeca409a163c2611cb9e91413ea37a2a034703f4b5a4eeac689af2b6113d72f71a39caf14f8b03b6c83c5
   languageName: node
   linkType: hard
 
-"@formatjs/ts-transformer@npm:3.9.0":
-  version: 3.9.0
-  resolution: "@formatjs/ts-transformer@npm:3.9.0"
+"@formatjs/ts-transformer@npm:3.9.1":
+  version: 3.9.1
+  resolution: "@formatjs/ts-transformer@npm:3.9.1"
   dependencies:
-    "@formatjs/icu-messageformat-parser": 2.0.16
+    "@formatjs/icu-messageformat-parser": 2.0.17
     "@types/node": 14 || 16 || 17
     chalk: ^4.0.0
     tslib: ^2.1.0
@@ -3455,7 +3497,7 @@ __metadata:
   peerDependenciesMeta:
     ts-jest:
       optional: true
-  checksum: 66ea5bd8b9e093b8337baf54fb762c0ef62657c5721a7725b0293f832055d0c94f805d02c3645d553065b0d4bf3ac94da725ce320937b8cf5f81d823a92d7eb7
+  checksum: 44066343f3a113c26c86e042e632b2376a0a6e543ba3f5e7f6a5df6ff0d872183d58bb2a55f489d6db0f339f88d179f6d722b96d8dfc25eda26317e4d3327591
   languageName: node
   linkType: hard
 
@@ -8356,10 +8398,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:14.2.0":
-  version: 14.2.0
-  resolution: "dotenv@npm:14.2.0"
-  checksum: 85a0e44918ef49e64c278f757dab50a156b9a6ca67f708876fd81d265e575e35b67387fc681d910df99368d6c1edca66cd546edeb0f7db3b499cb876c999233e
+"dotenv@npm:14.3.2":
+  version: 14.3.2
+  resolution: "dotenv@npm:14.3.2"
+  checksum: 86c06758915d6facc35275f4a7fafc16705b6f3b44befaa8abca91367991efc8ff8db5437d3cc14778231d19fb97610fe82d60f8a53ba723cdb69fe4171439aa
   languageName: node
   linkType: hard
 
@@ -8953,9 +8995,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.7.0":
-  version: 8.7.0
-  resolution: "eslint@npm:8.7.0"
+"eslint@npm:8.8.0":
+  version: 8.8.0
+  resolution: "eslint@npm:8.8.0"
   dependencies:
     "@eslint/eslintrc": ^1.0.5
     "@humanwhocodes/config-array": ^0.9.2
@@ -8994,7 +9036,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 1c80375a48b0fe3ccae3c6354323e4f0e92e970f23abc5b9705b90b7aef514b69ebd0a63e74962d30789986c91fa41c0e25cd2f98f19e9e2a2d36aafdfc9ccc9
+  checksum: 41a7e85bf84cf9f2d758ef3e8d08020a39a2836703728b59535684681349bd021c2c6e24174462b844a914870d707d2151e0371198899d957b444de91adaa435
   languageName: node
   linkType: hard
 
@@ -10872,15 +10914,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"intl-messageformat@npm:9.11.2":
-  version: 9.11.2
-  resolution: "intl-messageformat@npm:9.11.2"
+"intl-messageformat@npm:9.11.3":
+  version: 9.11.3
+  resolution: "intl-messageformat@npm:9.11.3"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.1
+    "@formatjs/ecma402-abstract": 1.11.2
     "@formatjs/fast-memoize": 1.2.1
-    "@formatjs/icu-messageformat-parser": 2.0.16
+    "@formatjs/icu-messageformat-parser": 2.0.17
     tslib: ^2.1.0
-  checksum: 285636af87b26fe377160d02261fdec97799d4148a99f9b0f9eab5edc1a23d2b61febdad9481c1660a3ecb6da98f1ca94278413ef75b5f925180709e2bf1b7e0
+  checksum: 267b4f282831fb0e5de8753f549a8e13bf8f4c328080d3b0c7fe4ec03993cf52dd49c9273cbec1ceb0359f9ee52cac2dc8cf78506ed7606ecb6ae6799f484b54
   languageName: node
   linkType: hard
 
@@ -12493,9 +12535,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:12.3.1":
-  version: 12.3.1
-  resolution: "lint-staged@npm:12.3.1"
+"lint-staged@npm:12.3.2":
+  version: 12.3.2
+  resolution: "lint-staged@npm:12.3.2"
   dependencies:
     cli-truncate: ^3.1.0
     colorette: ^2.0.16
@@ -12512,7 +12554,7 @@ __metadata:
     yaml: ^1.10.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 53e4a0e6021221f8d712397996d4a10374f2ee287a0d62dab2e84ddd1e06f5cc4cb42ac909337c52feba20a13f89bfefe7939683003ccedc04ac6ec20fd65651
+  checksum: 35cab689dfc967ff95afeeaa7be7d1e19a131f36eeac9ac1d80240e0b20108286ce04f2d6bdf0b77fdf58db3ca5313bcbf2667dc6017335e604ff455caf69e33
   languageName: node
   linkType: hard
 
@@ -12970,16 +13012,17 @@ __metadata:
   resolution: "merchant-center-graphql-explorer@workspace:."
   dependencies:
     "@apollo/client": 3.5.7
-    "@commercetools-frontend/actions-global": rc
-    "@commercetools-frontend/application-components": rc
-    "@commercetools-frontend/application-shell": rc
-    "@commercetools-frontend/assets": rc
-    "@commercetools-frontend/cypress": rc
-    "@commercetools-frontend/eslint-config-mc-app": rc
-    "@commercetools-frontend/i18n": rc
-    "@commercetools-frontend/jest-preset-mc-app": rc
-    "@commercetools-frontend/mc-scripts": rc
-    "@commercetools-frontend/permissions": rc
+    "@commercetools-frontend/actions-global": 21.0.0-rc.3
+    "@commercetools-frontend/application-components": 21.0.0-rc.3
+    "@commercetools-frontend/application-shell": 21.0.0-rc.6
+    "@commercetools-frontend/assets": 21.0.0-rc.1
+    "@commercetools-frontend/cypress": 21.0.0-rc.7
+    "@commercetools-frontend/eslint-config-mc-app": 21.0.0-rc.7
+    "@commercetools-frontend/i18n": 21.0.0-rc.3
+    "@commercetools-frontend/jest-preset-mc-app": 21.0.0-rc.7
+    "@commercetools-frontend/mc-scripts": 21.0.0-rc.7
+    "@commercetools-frontend/permissions": 21.0.0-rc.3
+    "@commercetools-frontend/sdk": 21.0.0-rc.3
     "@commercetools-uikit/flat-button": 12.2.9
     "@commercetools-uikit/icons": 12.2.9
     "@commercetools-uikit/notifications": 12.2.9
@@ -12987,13 +13030,13 @@ __metadata:
     "@commercetools-uikit/text": 12.2.9
     "@commitlint/cli": 16.1.0
     "@commitlint/config-conventional": 16.0.0
-    "@formatjs/cli": 4.8.0
+    "@formatjs/cli": 4.8.1
     "@manypkg/cli": 0.19.1
     "@testing-library/cypress": 8.0.2
     "@testing-library/react": 12.1.2
     cypress: 9.3.1
-    dotenv: 14.2.0
-    eslint: 8.7.0
+    dotenv: 14.3.2
+    eslint: 8.8.0
     eslint-formatter-pretty: 4.1.0
     graphiql: 1.5.16
     graphiql-explorer: 0.6.3
@@ -13003,12 +13046,12 @@ __metadata:
     jest-runner-eslint: 0.11.1
     jest-silent-reporter: 0.5.0
     jest-watch-typeahead: 1.0.0
-    lint-staged: 12.3.1
+    lint-staged: 12.3.2
     prettier: 2.5.1
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2
-    react-intl: 5.24.3
+    react-intl: 5.24.4
     react-redux: 7.2.6
     react-router-dom: 5.3.0
     redux: 4.1.2
@@ -15279,19 +15322,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-intl@npm:5.24.3":
-  version: 5.24.3
-  resolution: "react-intl@npm:5.24.3"
+"react-intl@npm:5.24.4":
+  version: 5.24.4
+  resolution: "react-intl@npm:5.24.4"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.1
-    "@formatjs/icu-messageformat-parser": 2.0.16
-    "@formatjs/intl": 1.18.3
-    "@formatjs/intl-displaynames": 5.4.0
-    "@formatjs/intl-listformat": 6.5.0
+    "@formatjs/ecma402-abstract": 1.11.2
+    "@formatjs/icu-messageformat-parser": 2.0.17
+    "@formatjs/intl": 1.18.4
+    "@formatjs/intl-displaynames": 5.4.1
+    "@formatjs/intl-listformat": 6.5.1
     "@types/hoist-non-react-statics": ^3.3.1
     "@types/react": 16 || 17
     hoist-non-react-statics: ^3.3.2
-    intl-messageformat: 9.11.2
+    intl-messageformat: 9.11.3
     tslib: ^2.1.0
   peerDependencies:
     react: ^16.3.0 || 17
@@ -15299,7 +15342,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: e6ff97632f8037a0f8aafcf41b0acdb37b7de86d64dc9a09b450830515e6c7da640f5483ed7d52287aa4b5c23c1c3b2bff08380df19ef66239c1bfd8bebeed54
+  checksum: 34e53b96d9b4216b08f5294fd1bc40b3e00ff005c05bc02e5fdbd8d51758f0de0c14750b9fae37026f727003cec9802fb6108a5a402ea74028a1f03d65bb82cd
   languageName: node
   linkType: hard
 
