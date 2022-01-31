@@ -13,7 +13,7 @@ const config = {
     },
     production: {
       applicationId: '${env:APPLICATION_ID}',
-      url: 'https://merchant-center-graphql-explorer-commercetools-playground.vercel.app',
+      url: 'https://graphql-explorer-commercetools.surge.sh',
     },
   },
   oAuthScopes: {

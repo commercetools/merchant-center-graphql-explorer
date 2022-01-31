@@ -85,3 +85,10 @@ jobs:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
           CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
+
+      - name: Deploying to surge
+        if: github.ref == 'refs/heads/main'
+        run: yarn deploy
+        env:
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}

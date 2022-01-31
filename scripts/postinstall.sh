@@ -2,12 +2,7 @@
 
 set -e
 
-if [ -n "$VERCEL" ]; then
-  echo "Running on Vercel, skipping development setup."
+echo "Preparing development setup."
 
-else
-  echo "Preparing development setup."
-
-  yarn husky install
-  yarn manypkg check
-fi
+yarn husky install
+yarn manypkg check

@@ -17,7 +17,8 @@
     "test:watch": "jest --config jest.test.config.js --watch",
     "test:e2e": "cypress run",
     "versions:appkit": "yarn up -E '@commercetools-frontend/*'",
-    "versions:uikit": "yarn up -E '@commercetools-uikit/*'"
+    "versions:uikit": "yarn up -E '@commercetools-uikit/*'",
+    "deploy": "mv public/index.html public/200.html && surge public https://graphql-explorer-commercetools.surge.sh"
   },
   "dependencies": {
     "@apollo/client": "3.5.7",
@@ -64,7 +65,8 @@
     "react-redux": "7.2.6",
     "react-router-dom": "5.3.0",
     "redux": "4.1.2",
-    "start-server-and-test": "1.14.0"
+    "start-server-and-test": "1.14.0",
+    "surge": "0.23.1"
   },
   "packageManager": "yarn@3.1.1",
   "license": "MIT"
