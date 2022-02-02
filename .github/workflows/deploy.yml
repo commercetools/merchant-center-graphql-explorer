@@ -41,13 +41,23 @@ jobs:
 
       - name: Building application
         run: yarn build
-        env:
-          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
-          HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
-          CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
 
-      - name: Deploying to surge
+      - name: Deploying to surge (staging)
         run: yarn deploy
         env:
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID_STAGING }}
+          APPLICATION_URL: https://graphql-explorer-commercetools-staging.surge.sh
+          HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
+          CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
+          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
+          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
+
+      - name: Deploying to surge (production eu)
+        run: yarn deploy
+        env:
+          APPLICATION_ID: ${{ secrets.APPLICATION_ID_PRODUCTION_EU }}
+          APPLICATION_URL: https://graphql-explorer-commercetools-production-eu.surge.sh
+          HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
+          CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}

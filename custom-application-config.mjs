@@ -13,7 +13,7 @@ const config = {
     },
     production: {
       applicationId: '${env:APPLICATION_ID}',
-      url: 'https://graphql-explorer-commercetools.surge.sh',
+      url: '${env:APPLICATION_URL}',
     },
   },
   oAuthScopes: {
