@@ -1506,16 +1506,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime-corejs3@npm:7.16.5":
-  version: 7.16.5
-  resolution: "@babel/runtime-corejs3@npm:7.16.5"
-  dependencies:
-    core-js-pure: ^3.19.0
-    regenerator-runtime: ^0.13.4
-  checksum: 54e68140d33d3592388c6947a9e3faab0196dcb30e440a16b00c111c37af99dfd4177e1112a725234902e708f71a32016713ec914fdf588bcdebcb1e2c561dc2
-  languageName: node
-  linkType: hard
-
 "@babel/runtime-corejs3@npm:^7.10.2, @babel/runtime-corejs3@npm:^7.12.5, @babel/runtime-corejs3@npm:^7.16.8":
   version: 7.16.8
   resolution: "@babel/runtime-corejs3@npm:7.16.8"
@@ -1523,6 +1513,16 @@ __metadata:
     core-js-pure: ^3.20.2
     regenerator-runtime: ^0.13.4
   checksum: 3d8fe2f3030c01e8725b9e0985b403463fae2081ca46f16bf257f8e7f32e2ebc37065499941de8678b3ba46145b19db6a7d4c8ac3b675331c7284dd3cdd1dc62
+  languageName: node
+  linkType: hard
+
+"@babel/runtime-corejs3@npm:^7.17.2":
+  version: 7.17.2
+  resolution: "@babel/runtime-corejs3@npm:7.17.2"
+  dependencies:
+    core-js-pure: ^3.20.2
+    regenerator-runtime: ^0.13.4
+  checksum: fc7ba261913c66347434051c74b00f320fb5fda7c72f4a4378045b39e31a39420bba2b2cf3fd59367834b43689215b12cb0587a599c95e9619562e1ebec071a7
   languageName: node
   linkType: hard
 
@@ -1544,21 +1544,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.16.5":
-  version: 7.16.5
-  resolution: "@babel/runtime@npm:7.16.5"
-  dependencies:
-    regenerator-runtime: ^0.13.4
-  checksum: b96e67280efe581c6147b4fe984dfe08a8fbea048934a092f3cbf4dcf61725f6b221cb0c879b6e6e98671f83a104c9e8cfbd24c683e5ebcc886a731aa8984ad0
-  languageName: node
-  linkType: hard
-
 "@babel/runtime@npm:^7.1.2, @babel/runtime@npm:^7.10.2, @babel/runtime@npm:^7.12.0, @babel/runtime@npm:^7.12.1, @babel/runtime@npm:^7.12.13, @babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.13.10, @babel/runtime@npm:^7.14.6, @babel/runtime@npm:^7.14.8, @babel/runtime@npm:^7.15.4, @babel/runtime@npm:^7.16.3, @babel/runtime@npm:^7.16.7, @babel/runtime@npm:^7.5.5, @babel/runtime@npm:^7.7.2, @babel/runtime@npm:^7.8.4, @babel/runtime@npm:^7.8.7, @babel/runtime@npm:^7.9.2":
   version: 7.16.7
   resolution: "@babel/runtime@npm:7.16.7"
   dependencies:
     regenerator-runtime: ^0.13.4
   checksum: 47912f0aaacd1cab2e2552aaf3e6eaffbcaf2d5ac9b07a89a12ac0d42029cb92c070b0d16f825e4277c4a34677c54d8ffe85e1f7c6feb57de58f700eec67ce2f
+  languageName: node
+  linkType: hard
+
+"@babel/runtime@npm:^7.17.2":
+  version: 7.17.2
+  resolution: "@babel/runtime@npm:7.17.2"
+  dependencies:
+    regenerator-runtime: ^0.13.4
+  checksum: a48702d271ecc59c09c397856407afa29ff980ab537b3da58eeee1aeaa0f545402d340a1680c9af58aec94dfdcbccfb6abb211991b74686a86d03d3f6956cacd
   languageName: node
   linkType: hard
 
@@ -1734,29 +1734,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-components@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commercetools-frontend/application-components@npm:21.0.0"
+"@commercetools-frontend/application-components@npm:21.2.0":
+  version: 21.2.0
+  resolution: "@commercetools-frontend/application-components@npm:21.2.0"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
     "@commercetools-frontend/application-shell-connectors": 21.0.0
     "@commercetools-frontend/assets": 21.0.0
     "@commercetools-frontend/constants": 21.0.0
-    "@commercetools-frontend/i18n": 21.0.0
+    "@commercetools-frontend/i18n": 21.2.0
     "@commercetools-frontend/l10n": 21.0.0
-    "@commercetools-uikit/card": ^12.2.9
-    "@commercetools-uikit/constraints": ^12.2.9
-    "@commercetools-uikit/design-system": ^12.2.9
-    "@commercetools-uikit/flat-button": ^12.2.9
-    "@commercetools-uikit/icon-button": ^12.2.9
-    "@commercetools-uikit/icons": ^12.2.9
-    "@commercetools-uikit/messages": ^12.2.9
-    "@commercetools-uikit/primary-button": ^12.2.9
-    "@commercetools-uikit/secondary-button": ^12.2.9
-    "@commercetools-uikit/secondary-icon-button": ^12.2.9
-    "@commercetools-uikit/spacings": ^12.2.9
-    "@commercetools-uikit/text": ^12.2.9
+    "@commercetools-uikit/card": ^14.0.1
+    "@commercetools-uikit/constraints": ^14.0.1
+    "@commercetools-uikit/design-system": ^14.0.0
+    "@commercetools-uikit/flat-button": ^14.0.1
+    "@commercetools-uikit/icon-button": ^14.0.1
+    "@commercetools-uikit/icons": ^14.0.1
+    "@commercetools-uikit/messages": ^14.0.1
+    "@commercetools-uikit/primary-button": ^14.0.1
+    "@commercetools-uikit/secondary-button": ^14.0.1
+    "@commercetools-uikit/secondary-icon-button": ^14.0.1
+    "@commercetools-uikit/spacings": ^14.0.1
+    "@commercetools-uikit/text": ^14.0.1
     "@emotion/react": 11.7.1
     "@emotion/styled": 11.6.0
     "@types/lodash": ^4.14.178
@@ -1772,13 +1772,13 @@ __metadata:
     react: 17.x
     react-dom: 17.x
     react-intl: 5.x
-  checksum: f0d34c620d1f12c06c4f088c0f6df2a1305447fe11fe2e60c2cc48bc33f0bb48dbe94bb56bb479909ebcfe55f9e19b30782eedc3adfb77cbbaf60cf096e35b89
+  checksum: 277899fb49fbfde21d503103f65bc2e215844272e7063a5b8d51d84e0580bbb27649058a38750af76728119bc2408222ac500733b5f0622b5201e1b8cbb46c0c
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-config@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commercetools-frontend/application-config@npm:21.0.0"
+"@commercetools-frontend/application-config@npm:21.1.2":
+  version: 21.1.2
+  resolution: "@commercetools-frontend/application-config@npm:21.1.2"
   dependencies:
     "@babel/register": ^7.16.9
     "@babel/runtime": ^7.16.7
@@ -1789,7 +1789,7 @@ __metadata:
     cosmiconfig: 7.0.1
     lodash: 4.17.21
     omit-empty-es: 1.1.3
-  checksum: 64ab56716af2fd0d4ff4a49f4c23bbd85f7871e4848a8dd66426f61ea063bcbfc9e94744373d9ae4e2b4db7c1fa098bed851c1cc244b0b7c8adf6003abb923f1
+  checksum: 63e70929a7dede3e04948fae8b15fe207b718baccaf6336f202604742d0909cbd79644fb587415d1aa3acbeac5ce1b9d6135aad6deef16fcf5df1d9bfe4c55a8
   languageName: node
   linkType: hard
 
@@ -1816,36 +1816,36 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/application-shell@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commercetools-frontend/application-shell@npm:21.0.0"
+"@commercetools-frontend/application-shell@npm:21.2.0":
+  version: 21.2.0
+  resolution: "@commercetools-frontend/application-shell@npm:21.2.0"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
     "@commercetools-frontend/actions-global": 21.0.0
-    "@commercetools-frontend/application-components": 21.0.0
+    "@commercetools-frontend/application-components": 21.2.0
     "@commercetools-frontend/application-shell-connectors": 21.0.0
     "@commercetools-frontend/assets": 21.0.0
     "@commercetools-frontend/browser-history": 21.0.0
     "@commercetools-frontend/constants": 21.0.0
-    "@commercetools-frontend/i18n": 21.0.0
+    "@commercetools-frontend/i18n": 21.2.0
     "@commercetools-frontend/l10n": 21.0.0
     "@commercetools-frontend/notifications": 21.0.0
     "@commercetools-frontend/permissions": 21.0.0
-    "@commercetools-frontend/react-notifications": 21.0.0
-    "@commercetools-frontend/sdk": 21.0.0
+    "@commercetools-frontend/react-notifications": 21.2.0
+    "@commercetools-frontend/sdk": 21.1.0
     "@commercetools-frontend/sentry": 21.0.0
     "@commercetools-frontend/url-utils": 21.0.0
-    "@commercetools-uikit/avatar": ^12.2.9
-    "@commercetools-uikit/card": ^12.2.9
-    "@commercetools-uikit/design-system": ^12.2.9
-    "@commercetools-uikit/flat-button": ^12.2.9
-    "@commercetools-uikit/icons": ^12.2.9
-    "@commercetools-uikit/loading-spinner": ^12.2.9
-    "@commercetools-uikit/notifications": ^12.2.9
-    "@commercetools-uikit/select-input": ^12.2.9
-    "@commercetools-uikit/spacings": ^12.2.9
-    "@commercetools-uikit/text": ^12.2.9
+    "@commercetools-uikit/avatar": ^14.0.1
+    "@commercetools-uikit/card": ^14.0.1
+    "@commercetools-uikit/design-system": ^14.0.0
+    "@commercetools-uikit/flat-button": ^14.0.1
+    "@commercetools-uikit/icons": ^14.0.1
+    "@commercetools-uikit/loading-spinner": ^14.0.1
+    "@commercetools-uikit/notifications": ^14.0.1
+    "@commercetools-uikit/select-input": ^14.0.1
+    "@commercetools-uikit/spacings": ^14.0.1
+    "@commercetools-uikit/text": ^14.0.1
     "@commercetools/http-user-agent": 2.1.2
     "@emotion/react": 11.7.1
     "@emotion/styled": 11.6.0
@@ -1900,7 +1900,7 @@ __metadata:
     react-redux: 7.x
     react-router-dom: 5.x
     redux: 4.x
-  checksum: 2ca9130a3796bf5a408b012ebb3f85a486c14852fb91dc0c02e91d15f73d5a534bdfadd2813ce07ff5ed130d8ce3ac2516cb82f5ad18be14c8f6d1073b4dfca6
+  checksum: 6e556b8a630d9d32b20395277e76bc96b1c1dcc1e70354ab54358223c5d9ebedc2435f7fced192865520a82d97c8e9a1113533b9ca7dc431a261d99e84dbbf10
   languageName: node
   linkType: hard
 
@@ -1968,19 +1968,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/cypress@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commercetools-frontend/cypress@npm:21.0.0"
+"@commercetools-frontend/cypress@npm:21.2.0":
+  version: 21.2.0
+  resolution: "@commercetools-frontend/cypress@npm:21.2.0"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
-    "@commercetools-frontend/application-config": 21.0.0
-    "@commercetools-frontend/application-shell": 21.0.0
+    "@commercetools-frontend/application-config": 21.1.2
+    "@commercetools-frontend/application-shell": 21.2.0
     "@manypkg/get-packages": 1.1.3
     uuid: 8.3.2
   peerDependencies:
     cypress: 8.x || 9.x
-  checksum: 3407419a3e93596bfd8dd6fdeacb36735cfb4e14a6f2b776ee5343aef002481b7e44111679d07d0f9310d8089219e3ff0af925d71394dcca57d740dfd5261bbe
+  checksum: 649abd1472d8132763307a2d9707ddb00e7038beef288664f93c0e1195d12872372a0a96d179f0f7198f7300cb13070b00a90d6616e3b2c52867c76f4dd4fb2e
   languageName: node
   linkType: hard
 
@@ -2011,15 +2011,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/i18n@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commercetools-frontend/i18n@npm:21.0.0"
+"@commercetools-frontend/i18n@npm:21.2.0":
+  version: 21.2.0
+  resolution: "@commercetools-frontend/i18n@npm:21.2.0"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
     "@commercetools-community-kit/i18n": ^0.2.7
     "@commercetools-frontend/sentry": 21.0.0
-    "@commercetools-uikit/i18n": ^12.2.9
+    "@commercetools-uikit/i18n": ^14.0.0
     "@emotion/react": 11.7.1
     "@formatjs/icu-messageformat-parser": 2.0.16
     "@types/prop-types": ^15.7.4
@@ -2029,7 +2029,7 @@ __metadata:
   peerDependencies:
     react: 17.x
     react-intl: 5.x
-  checksum: 6afab116da47dda78281d17b07d90f63349dafb8424a0bf91ce8fac31c745c643c05590e6fe8b1ff26be69230b43186eb0e13b7da44f7c0efb49aef0d187083c
+  checksum: 082e0b1f4439f6e41a847bcfc403e14ef90fdcb7c2aeaf8611a539a2be7a32c6692454df2eb14cb37ab9e5769745abba87c313973aa0ec8785c4308a528c54b4
   languageName: node
   linkType: hard
 
@@ -2086,33 +2086,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/mc-html-template@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commercetools-frontend/mc-html-template@npm:21.0.0"
+"@commercetools-frontend/mc-html-template@npm:21.1.2":
+  version: 21.1.2
+  resolution: "@commercetools-frontend/mc-html-template@npm:21.1.2"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
-    "@commercetools-frontend/application-config": 21.0.0
+    "@commercetools-frontend/application-config": 21.1.2
     "@commercetools-frontend/constants": 21.0.0
     core-js: ^3.20.3
     serialize-javascript: 6.0.0
     uglify-js: 3.14.5
     uglifycss: 0.0.29
-  checksum: 18906c1686d15be77b1cfaa9e4d299759607cfcbb4f02f55683e92e49d565d952db4e0614ba67abaff4ae4d1a1380c775b8b15e8e1ef10863124a79840ee7b86
+  checksum: 1ca4240a9f474659cc4853e887f57eb1de48fddfb62a353a9a628c3e4b0129892daae984586510d23830292b0c03caab4f576a178bd41ec38df0b472ea6feb04
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/mc-scripts@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commercetools-frontend/mc-scripts@npm:21.0.0"
+"@commercetools-frontend/mc-scripts@npm:21.1.2":
+  version: 21.1.2
+  resolution: "@commercetools-frontend/mc-scripts@npm:21.1.2"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
-    "@commercetools-frontend/application-config": 21.0.0
+    "@commercetools-frontend/application-config": 21.1.2
     "@commercetools-frontend/assets": 21.0.0
     "@commercetools-frontend/babel-preset-mc-app": 21.0.0
     "@commercetools-frontend/mc-dev-authentication": 21.0.0
-    "@commercetools-frontend/mc-html-template": 21.0.0
+    "@commercetools-frontend/mc-html-template": 21.1.2
     "@pmmmwh/react-refresh-webpack-plugin": 0.5.4
     "@svgr/webpack": 6.2.0
     autoprefixer: ^10.4.2
@@ -2152,7 +2152,7 @@ __metadata:
     webpackbar: 5.0.2
   bin:
     mc-scripts: bin/cli.js
-  checksum: 698b12de0de23e79c748e774feee00f3ad1fcc237c29fcd53301f62f8e3295b4d52084cb88a0be1a4cbf973b7c281cd5aa38740e99050b71ceabc70f56b9bfe4
+  checksum: 7c8148423765d773449cd7aeeb313bfee4f85b41e504ed35fda54bef4543ee985aa53ff426b1d1eb858404beaef5e4eac16ccb09ed6b2ffe7e637ceee47072c6
   languageName: node
   linkType: hard
 
@@ -2190,9 +2190,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/react-notifications@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commercetools-frontend/react-notifications@npm:21.0.0"
+"@commercetools-frontend/react-notifications@npm:21.2.0":
+  version: 21.2.0
+  resolution: "@commercetools-frontend/react-notifications@npm:21.2.0"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
@@ -2200,10 +2200,10 @@ __metadata:
     "@commercetools-frontend/constants": 21.0.0
     "@commercetools-frontend/notifications": 21.0.0
     "@commercetools-frontend/sentry": 21.0.0
-    "@commercetools-uikit/design-system": ^12.2.9
-    "@commercetools-uikit/icon-button": ^12.2.9
-    "@commercetools-uikit/icons": ^12.2.9
-    "@commercetools-uikit/spacings": ^12.2.9
+    "@commercetools-uikit/design-system": ^14.0.0
+    "@commercetools-uikit/icon-button": ^14.0.1
+    "@commercetools-uikit/icons": ^14.0.1
+    "@commercetools-uikit/spacings": ^14.0.1
     "@emotion/react": 11.7.1
     "@emotion/styled": 11.6.0
     "@types/history": 4.7.11
@@ -2225,13 +2225,13 @@ __metadata:
     react-intl: 5.x
     react-redux: 7.x
     react-router-dom: 5.x
-  checksum: 01cfcda7c4431406da1750e82205f2fb710b5ecfa72418448169beb0a7faead6ee918a47cdc6df6249ae6c903711a9f46197a656b6f18e96bf52382bc090d11e
+  checksum: 57b9ea34e12249d1cc0283b3d26c16203f71fd0cb8261f5afe3fced5a7dcebfd0ebd076c4fb23728638dacfe15bbcb17cd5d2b706660165839ce3af7b70e2812
   languageName: node
   linkType: hard
 
-"@commercetools-frontend/sdk@npm:21.0.0":
-  version: 21.0.0
-  resolution: "@commercetools-frontend/sdk@npm:21.0.0"
+"@commercetools-frontend/sdk@npm:21.1.0":
+  version: 21.1.0
+  resolution: "@commercetools-frontend/sdk@npm:21.1.0"
   dependencies:
     "@babel/runtime": ^7.16.7
     "@babel/runtime-corejs3": ^7.16.8
@@ -2240,7 +2240,7 @@ __metadata:
     "@commercetools/http-user-agent": 2.1.2
     "@commercetools/sdk-client": 2.1.2
     "@commercetools/sdk-middleware-correlation-id": 2.1.4
-    "@commercetools/sdk-middleware-http": 6.1.0
+    "@commercetools/sdk-middleware-http": 6.1.1
     "@types/node-fetch": 2.5.12
     "@types/prop-types": ^15.7.4
     "@types/react": ^17.0.38
@@ -2254,7 +2254,7 @@ __metadata:
     react: 17.x
     react-redux: 7.x
     redux: 4.x
-  checksum: 6ea0511e0a5118aa8601c3d4d01691b08f55308d1ee79e2e0cb0963556d8d52d8ab713bfb68ae2da760804d92605440183d240cf388305dd8fe1b5b47022228b
+  checksum: 075f1b62650477e08bf126cdd25e47ccd1e80f53d23dabcc7acb4b4d479ff816cf1acc8e9be9fe0a959f845cdb420c2f1ea39477573a89e9265386a111ccd5a2
   languageName: node
   linkType: hard
 
@@ -2285,443 +2285,441 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/accessible-button@npm:12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/accessible-button@npm:12.2.9"
+"@commercetools-uikit/accessible-button@npm:14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/accessible-button@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
     "@types/react-is": ^17.0.0
-    common-tags: 1.8.2
     lodash: 4.17.21
-    prop-types: 15.7.2
+    prop-types: 15.8.1
     react-is: 17.0.2
   peerDependencies:
     react: 17.x
-  checksum: bab1cc32beb04fd8e5d942f5306fcad9893b89af882a5b2f9c51910a5d316d5369eb39dfee69b9b3ace73b02f7b85a0b44b0ac4e3554ef5bea11c7a080f9b11d
+  checksum: d08700f88cf9259e600baca848b50a582560b936b18fca471f564c11f13928e3c0ca18bed86d1a2e178969847ac9636d8cd7b43cd9514da9114d58925dc3d33e
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/avatar@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/avatar@npm:12.2.9"
+"@commercetools-uikit/avatar@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/avatar@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    prop-types: 15.7.2
+    prop-types: 15.8.1
   peerDependencies:
     react: 17.x
-  checksum: 5fb2b34bc6f0355772fd0bc405e0a215da7d482460243d575de504ce0fd02ef916961752244ad266acaba3ea058112d95eee7ecbc038aa5a66e1d6e2edcf5e29
+  checksum: 7e082c6be6bc94fff89c30361ef1c8e283995b408f6a35d5a0cf9e606c337011634fae5e487dd70b57104c5bd3c6ba2d89110f8002572346ba561f3fd5172057
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/card@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/card@npm:12.2.9"
+"@commercetools-uikit/card@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/card@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/spacings-inset": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/spacings-inset": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    prop-types: 15.7.2
+    prop-types: 15.8.1
   peerDependencies:
     react: 17.x
-  checksum: f2346bbcf7f0a8add93fb7102aabd8e5b1118ef38726c3bbdda636078753858d6004f3364543b3537af2332713c36fe80385d1b356c8b055509e8c4ae5ac58c0
+  checksum: 5d0a6d71cf738676213d89ee6c31749404251f8d1f04ea3aa93f502e2d30255c0f7b3f079e382bd342a98e829992a54c86a1ae6d3b04e410c4879f3e9327d0b1
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/constraints@npm:12.2.9, @commercetools-uikit/constraints@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/constraints@npm:12.2.9"
+"@commercetools-uikit/constraints@npm:14.0.1, @commercetools-uikit/constraints@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/constraints@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    prop-types: 15.7.2
+    prop-types: 15.8.1
   peerDependencies:
     react: 17.x
-  checksum: c39c30e76e31a5742826e5fe7e07621d3ebddf3c4ede45ceeae53462a4c5b3c8d0d68630279b48278f711600eb47743f8e530676dc6bfa0c0ede3b6deb8e657c
+  checksum: c216e0998c1f76c1dba77dc4f0915efbe91d76cbaf8059cef178037cef9f006bd54eb0518b8498b3e36b78428c38916ac226c329ce9388433913e85712634bd1
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/design-system@npm:12.2.9, @commercetools-uikit/design-system@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/design-system@npm:12.2.9"
+"@commercetools-uikit/design-system@npm:14.0.0, @commercetools-uikit/design-system@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "@commercetools-uikit/design-system@npm:14.0.0"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-  checksum: 6ee3c30873e1e8caf9864f5d0dca587d522b6c3847aad1cf548ece82437cc5be9954713bf55a17abbfabda245e2e8ec201f790dadce2bdc38082ee7fb56b44df
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+  checksum: a5291d32db956930cdffac3ec83962bdf18575a022304d72dd6987df223c0b6e282dba80ee5d0eace604454cc287665130612c6de94c680f4271067668713bcd
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/flat-button@npm:12.2.9, @commercetools-uikit/flat-button@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/flat-button@npm:12.2.9"
+"@commercetools-uikit/flat-button@npm:14.0.1, @commercetools-uikit/flat-button@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/flat-button@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/accessible-button": 12.2.9
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/spacings-inline": 12.2.9
-    "@commercetools-uikit/text": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/accessible-button": 14.0.1
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/spacings-inline": 14.0.1
+    "@commercetools-uikit/text": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    common-tags: 1.8.2
     lodash: 4.17.21
-    prop-types: 15.7.2
+    prop-types: 15.8.1
+    react-intl: ^5.24.6
   peerDependencies:
     react: 17.x
-  checksum: 78a6e9d73ddcb67fc6dce2ef6f1d4978dbea4bd29b002d0fd48412dd02aa66332b4299de3127b190646b0b8681e59dc621fdade24d5db0099aa757cf8bc1d99f
+  checksum: 34ba7c28f7a6af4dfb977c1d0cb2ca2481a9bdba01d6ebde56f7979fdbb1ee31cf1ba73587e37b632c85e769914b447a183880b35b68db22933f50f284028f80
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/i18n@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/i18n@npm:12.2.9"
+"@commercetools-uikit/i18n@npm:^14.0.0":
+  version: 14.0.0
+  resolution: "@commercetools-uikit/i18n@npm:14.0.0"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-  checksum: 747a636f219496043a37f6a25420894945e0bbc463090e8c03b82ea4dd4d063b1ab6c1822c55f497128ff7f3ebba21cb9fc49b188b2e7e1c8b2aa8b7cea5c32c
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+  checksum: 4e8472b5fe9110adcc170a53445410d9447060d1faca23437280a4996e4aa4911d43a588e3d0c6171a3a4633ad13fa840b7ee5400ed97cbef41c5f1505a22a56
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/icon-button@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/icon-button@npm:12.2.9"
+"@commercetools-uikit/icon-button@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/icon-button@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/accessible-button": 12.2.9
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/spacings": 12.2.9
-    "@commercetools-uikit/text": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/accessible-button": 14.0.1
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/spacings": 14.0.1
+    "@commercetools-uikit/text": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    common-tags: 1.8.2
     lodash: 4.17.21
-    prop-types: 15.7.2
+    prop-types: 15.8.1
+    react-intl: ^5.24.6
   peerDependencies:
     react: 17.x
-  checksum: e379898feab5de84a37783bdc13e7a9dc81575153515bb05590abff8f78ac71034233c83b8ae87dc06362ab7899270f0a9a7b9ac278fb066c352905d59021134
+  checksum: caf61059b3cd522ed96abdadf132d60b2cc07660c1f29a9c3aa249ce03f205d028ef5f27ba18f461223ece6738d400513dafa25612533a2c797425ef4a9fb877
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/icons@npm:12.2.9, @commercetools-uikit/icons@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/icons@npm:12.2.9"
+"@commercetools-uikit/icons@npm:14.0.1, @commercetools-uikit/icons@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/icons@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
     "@types/dompurify": ^2.3.1
-    dompurify: 2.3.4
-    prop-types: 15.7.2
+    dompurify: 2.3.6
+    prop-types: 15.8.1
     react-from-dom: 0.6.1
   peerDependencies:
     react: 17.x
-  checksum: 4af1aff12ced1af87dcd0a8a4007766300c82ebd8081caabb9695e138214fc1fc9824d893b70e81e5e48a31e367513553101936624b9bc2c4d9559e2f22cd9aa
+  checksum: d07e6879fd2dd04be46ac0ddff5262f7c953a153d40c7cbf27de3f82624091a23d4117f7beca95739a7358667a264e3c6cb040da319979379a44931eca941353
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/loading-spinner@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/loading-spinner@npm:12.2.9"
+"@commercetools-uikit/loading-spinner@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/loading-spinner@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/spacings-inline": 12.2.9
-    "@commercetools-uikit/text": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/spacings-inline": 14.0.1
+    "@commercetools-uikit/text": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
-    prop-types: 15.7.2
+    prop-types: 15.8.1
+    react-intl: ^5.24.6
   peerDependencies:
     react: 17.x
-  checksum: 0a466aff62facd71ecb1bec42162acaefb1af17fe35e253773e1491b22fdb691eba382b9b07c9374742453b25f737388355fdef500d006a96dc806ad11e7c135
+  checksum: e624b9a8491df953ef8af6c0fde8ca297a3651fd687ed1953b0cabe8e6db991ae4ae03e94ed8fe0d9b5477fb57b582e16b503d558eade9f9d7dd11c98ff944e5
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/messages@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/messages@npm:12.2.9"
+"@commercetools-uikit/messages@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/messages@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/text": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/text": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    prop-types: 15.7.2
+    prop-types: 15.8.1
+    react-intl: ^5.24.6
   peerDependencies:
     react: 17.x
-  checksum: 454057cdebe905fd75e34b145482b94672fe55b17103d4340d2a1019ec4c24ebc27b6d5ef8d00d95c53437722446f9ba828da750d3b8142b42b93a045aa7d5fc
+  checksum: 74689c13ab718c2e118152aa5762a4a6b89d98893660cbd715af812f3f05950020f92f861104d95bb16197a79ab1162d1794bc3deb637086693c34570335a774
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/notifications@npm:12.2.9, @commercetools-uikit/notifications@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/notifications@npm:12.2.9"
+"@commercetools-uikit/notifications@npm:14.0.1, @commercetools-uikit/notifications@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/notifications@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/icons": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/icons": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
-    common-tags: 1.8.2
-    prop-types: 15.7.2
+    prop-types: 15.8.1
   peerDependencies:
     react: 17.x
     react-intl: 5.x
-  checksum: f6079fd2576f7908486ab111753b0611341d041cf8024346992f76fdc1eba7caff147417e8803fa0dc0bc7a6fd4eebdba25fd86aeb33a8ad96c9271b1fa1fc11
+  checksum: a132b4c28ff191538de9f2bc92bdf00df2fc3f6d4b2c42ca7b31a317f91d84204b921997c46ccf96c6ae16359a38ec4c8c46e3c76b114fc5e6902edf17b9bdf2
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/primary-button@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/primary-button@npm:12.2.9"
+"@commercetools-uikit/primary-button@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/primary-button@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/accessible-button": 12.2.9
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/spacings-inline": 12.2.9
-    "@commercetools-uikit/text": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/accessible-button": 14.0.1
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/spacings-inline": 14.0.1
+    "@commercetools-uikit/text": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    common-tags: 1.8.2
     lodash: 4.17.21
-    prop-types: 15.7.2
+    prop-types: 15.8.1
+    react-intl: ^5.24.6
   peerDependencies:
     react: 17.x
-  checksum: 4adf7f4fbefb9bcc0b99879983371f3641d826c34f6792bbce928bcf053f127588391ffa9f00f86f4db0280d20eeac4d81294fae933e45d920b32e8c8e9c8a82
+  checksum: 1fcb46e4551e6ddd61014eb426c39fde94fbf85b1e77e4115f6a353e5268d4bf6d7e54ffb74c52c4c1b8a3a2d0870150646fd94c54e8b8d0ea8262759da03a75
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/secondary-button@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/secondary-button@npm:12.2.9"
+"@commercetools-uikit/secondary-button@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/secondary-button@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/accessible-button": 12.2.9
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/spacings-inline": 12.2.9
-    "@commercetools-uikit/text": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/accessible-button": 14.0.1
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/spacings-inline": 14.0.1
+    "@commercetools-uikit/text": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    common-tags: 1.8.2
     lodash: 4.17.21
-    prop-types: 15.7.2
+    prop-types: 15.8.1
   peerDependencies:
     react: 17.x
     react-intl: 5.x
     react-router-dom: 5.x
-  checksum: d7bc66046fbe949de234dce877bde8c75ca71106ad14392aa7978cefd7ba942268e51c5eaddbed3f8a4b3c39ae99291d115d2eabe36c648d8770e9d1790c628f
+  checksum: 8e650901a2e9de9b7b954c19b1c5b6400ec2663c12577be8dad44595736371eb5f07a71baf02aa7e5d46b93f99f09637ced2c09d9e59cfb033a089f59e098dcb
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/secondary-icon-button@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/secondary-icon-button@npm:12.2.9"
+"@commercetools-uikit/secondary-icon-button@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/secondary-icon-button@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/accessible-button": 12.2.9
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/spacings": 12.2.9
-    "@commercetools-uikit/text": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/accessible-button": 14.0.1
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/spacings": 14.0.1
+    "@commercetools-uikit/text": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
-    common-tags: 1.8.2
     lodash: 4.17.21
-    prop-types: 15.7.2
+    prop-types: 15.8.1
+    react-intl: ^5.24.6
   peerDependencies:
     react: 17.x
-  checksum: a66b794e6966edfc269fa3a09cb83173dbc3c9c607df58b1e71dfa3a867475c723da7d0ebd34eb27c0aba585edea3e74e7b2ee75d5b76ad1fa919aff90f6c2a0
+  checksum: d98294e19c12788339b65cc2ac0188a5b41ff3c1cc25042f5183a3fcdb9d652dd764f9a846aa7ddc05072034091238af41a0b0b13b2f024110c03f76c9e89364
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/select-input@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/select-input@npm:12.2.9"
+"@commercetools-uikit/select-input@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/select-input@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/constraints": 12.2.9
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/icons": 12.2.9
-    "@commercetools-uikit/select-utils": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
-    "@emotion/is-prop-valid": 1.1.1
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/constraints": 14.0.1
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/icons": 14.0.1
+    "@commercetools-uikit/select-utils": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
+    "@emotion/is-prop-valid": 1.1.2
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
     lodash: 4.17.21
-    prop-types: 15.7.2
-    react-select: 5.2.1
+    prop-types: 15.8.1
+    react-select: 5.2.2
   peerDependencies:
     react: 17.x
     react-intl: 5.x
-  checksum: 830b2a277c95e59b443c6108993c8a60bf1c6e1cd28e9a306987f0c361a1d17423dc39d2c6191836437b36010ac78251d58f4fbe1f8e90961613b60bbb1c73bd
+  checksum: f0d0c74503c2109b4cd53dd6c61e11dd55ca430f0f6376a3d13f6e5b4b85bee408d40e8332a42326581f00338301038e336cc1ffb58646661e04da92271bd443
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/select-utils@npm:12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/select-utils@npm:12.2.9"
+"@commercetools-uikit/select-utils@npm:14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/select-utils@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/accessible-button": 12.2.9
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/icons": 12.2.9
-    "@commercetools-uikit/spacings": 12.2.9
-    "@commercetools-uikit/text": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/accessible-button": 14.0.1
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/icons": 14.0.1
+    "@commercetools-uikit/spacings": 14.0.1
+    "@commercetools-uikit/text": 14.0.1
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     "@emotion/styled": ^11.3.0
     lodash: 4.17.21
-    prop-types: 15.7.2
-    react-select: 5.2.1
+    prop-types: 15.8.1
+    react-select: 5.2.2
   peerDependencies:
     react: 17.x
     react-intl: 5.x
-  checksum: dde26534903954ccf195d378ccdc73cb604d317ebc32f32a95f1782d999df243fc66e5b0840e18544060d83664246760fce03451ec5bb3db5e4e50164d58c3a1
+  checksum: 35a72572918c1dbca9b707c2173055afcbf9de92297d231f1e15efd50c731584384782eeea785c2c038920abdd95fdb7f372c2524c017bb76f3f99753fc654a9
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/spacings-inline@npm:12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/spacings-inline@npm:12.2.9"
+"@commercetools-uikit/spacings-inline@npm:14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/spacings-inline@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
-    prop-types: 15.7.2
+    prop-types: 15.8.1
   peerDependencies:
     react: 17.x
-  checksum: 29e47cd8e6a973f801872b8de734f28e631b331bf1f8346613d9b691e6ec119359cf9abda6055e975ee9f58837e2b2869d1112064fc5fc1bf0e0446be6089205
+  checksum: 37f3786dc320d1e7ffebb3bed87908f5ac2828f4db590b55df615b3302aa3ca18962173a52e28cae27d0d4d1f434a17dab9939156cc43764f62c4b6e1385a6a8
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/spacings-inset-squish@npm:12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/spacings-inset-squish@npm:12.2.9"
+"@commercetools-uikit/spacings-inset-squish@npm:14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/spacings-inset-squish@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
-    prop-types: 15.7.2
+    prop-types: 15.8.1
   peerDependencies:
     react: 17.x
-  checksum: f829082acf8eb1b578bb65f6c9ae9c70381b5f4bcc02360df533e9b2c52446f6b3f948d2f7eb8fab113c6a886d7596a3455ff35a9b7d4a71e709eb23f11c33c9
+  checksum: 37764039e1a6a1ae399a5d79e086fa79f9afd85e9a26b373717a2943422c5e3c7600c416dd95eaa7686d493ce6e657daaeb0e050c696b59554da550fd8f13907
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/spacings-inset@npm:12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/spacings-inset@npm:12.2.9"
+"@commercetools-uikit/spacings-inset@npm:14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/spacings-inset@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
-    prop-types: 15.7.2
+    prop-types: 15.8.1
   peerDependencies:
     react: 17.x
-  checksum: 05030bb86a420111b7f2c77049eeb516eccd2db7845b7f581ed7bc31dcf7a560b26f1aad7616834e17fe6e706875520175286564cb13ad94685d7c3dc8cd7e29
+  checksum: dcfc2a4492202ba9bb73ffc5524ec62f44dcf3a1d3ec993d26994c84f705f4b90773ef9767d695353ce79a56da215a771fd636276038dae1d0f6f0925edc369f
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/spacings-stack@npm:12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/spacings-stack@npm:12.2.9"
+"@commercetools-uikit/spacings-stack@npm:14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/spacings-stack@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
-    prop-types: 15.7.2
+    prop-types: 15.8.1
   peerDependencies:
     react: 17.x
-  checksum: afbb6719fcbd2733cad2ed44f38e84d08c2ea11c17f342e1e9bf7184c6111b1e357d1eba99060d8c057f2df51a2850b96c11729375679de056fc195209d66940
+  checksum: b2871609fc35effa7dbdee47518685eaa7fe777c1e8e0bfc1de7b1f3731bb1d29c22c66c1e2056648e050f512b1488a01105fe2ed3c81ba9381029398d9720fd
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/spacings@npm:12.2.9, @commercetools-uikit/spacings@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/spacings@npm:12.2.9"
+"@commercetools-uikit/spacings@npm:14.0.1, @commercetools-uikit/spacings@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/spacings@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/spacings-inline": 12.2.9
-    "@commercetools-uikit/spacings-inset": 12.2.9
-    "@commercetools-uikit/spacings-inset-squish": 12.2.9
-    "@commercetools-uikit/spacings-stack": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/spacings-inline": 14.0.1
+    "@commercetools-uikit/spacings-inset": 14.0.1
+    "@commercetools-uikit/spacings-inset-squish": 14.0.1
+    "@commercetools-uikit/spacings-stack": 14.0.1
   peerDependencies:
     react: 17.x
-  checksum: 1bf4bf8f9eb3980b8f54a104da5874499459c7f274420726f1e13da1ae0ff24f16ffa8ded6574d179df33403734937f5cb2106d5ae6f6641e7815f05dd558b1c
+  checksum: 73ba167b8e3c13e599e592c8e73af37ef30845a4eab2c8db9b0efbe83842941597a3dcc3361f251e53780d133191df577a15c029bf59bc42aa94cc83db75c94f
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/text@npm:12.2.9, @commercetools-uikit/text@npm:^12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/text@npm:12.2.9"
+"@commercetools-uikit/text@npm:14.0.1, @commercetools-uikit/text@npm:^14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/text@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@commercetools-uikit/design-system": 12.2.9
-    "@commercetools-uikit/utils": 12.2.9
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@commercetools-uikit/design-system": 14.0.0
+    "@commercetools-uikit/utils": 14.0.1
     "@emotion/react": ^11.4.0
     lodash: 4.17.21
-    prop-types: 15.7.2
-    react-required-if: 1.0.3
+    prop-types: 15.8.1
     warning: 4.0.3
   peerDependencies:
     react: 17.x
     react-intl: 5.x
-  checksum: ceed4ef4661832634e76c53bda6bdd6cbcbdd543d8242b83acfe833fc45068b7697a08e97cd38d0c3bfee7aaf2abfb50b19c94536b2f34347e788541f5a3000a
+  checksum: acb83dfcd5f0e461b872ff06f92f1fef10dd6dfa50ad52225c93a6b689cf8b20c85496cb2c3b5674e85553e97731c87d41b31a32682a1f0e76d556029b5a7326
   languageName: node
   linkType: hard
 
-"@commercetools-uikit/utils@npm:12.2.9":
-  version: 12.2.9
-  resolution: "@commercetools-uikit/utils@npm:12.2.9"
+"@commercetools-uikit/utils@npm:14.0.1":
+  version: 14.0.1
+  resolution: "@commercetools-uikit/utils@npm:14.0.1"
   dependencies:
-    "@babel/runtime": 7.16.5
-    "@babel/runtime-corejs3": 7.16.5
-    "@emotion/is-prop-valid": 1.1.1
+    "@babel/runtime": ^7.17.2
+    "@babel/runtime-corejs3": ^7.17.2
+    "@emotion/is-prop-valid": 1.1.2
     "@types/warning": ^3.0.0
     warning: 4.0.3
-  checksum: e47b08b9120c3d217406bc2984c242bbb737b698f3185bc5661021fc92d18d74c5315c6950c03ba0966ff35280a1230d8bfb7d8addd52b29a7d8671971d16fdd
+  checksum: 100812792a205d68ea2aeb543de658997240d52d0152da9efc837c303a9bde8962073de624f23cbafc0ece98744749f0861cbc5d933f5c9aed278948b98f472b
   languageName: node
   linkType: hard
 
@@ -2753,197 +2751,198 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@commercetools/sdk-middleware-http@npm:6.1.0":
-  version: 6.1.0
-  resolution: "@commercetools/sdk-middleware-http@npm:6.1.0"
-  checksum: 4167e27e4ac41b2b94aa8529cd959f4c7ef093690de88e3072cee9981fb6e5a3ccfb39eb860330f30d9e2c730d12afc88d32dbf2897bb8b67e515066e67528b3
+"@commercetools/sdk-middleware-http@npm:6.1.1":
+  version: 6.1.1
+  resolution: "@commercetools/sdk-middleware-http@npm:6.1.1"
+  checksum: e9b7262c4988a93e41e39a740cfc2bc67214c6a45ed08f0ca8f503f73d08bb811f8c9a534b6e919b2890885bb429ff566193fdd2db7874662fa827fd83dff72a
   languageName: node
   linkType: hard
 
-"@commitlint/cli@npm:16.1.0":
-  version: 16.1.0
-  resolution: "@commitlint/cli@npm:16.1.0"
+"@commitlint/cli@npm:16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/cli@npm:16.2.1"
   dependencies:
-    "@commitlint/format": ^16.0.0
-    "@commitlint/lint": ^16.0.0
-    "@commitlint/load": ^16.1.0
-    "@commitlint/read": ^16.0.0
-    "@commitlint/types": ^16.0.0
+    "@commitlint/format": ^16.2.1
+    "@commitlint/lint": ^16.2.1
+    "@commitlint/load": ^16.2.1
+    "@commitlint/read": ^16.2.1
+    "@commitlint/types": ^16.2.1
     lodash: ^4.17.19
     resolve-from: 5.0.0
     resolve-global: 1.0.0
     yargs: ^17.0.0
   bin:
     commitlint: cli.js
-  checksum: 58dced3f3eb6960d1f91949cefb631bc00f588d2510230ab5050c51b98083aa5626e11a22f6aef85f09c001f86a4d8baed0bf54182ab05231ebd203b03229d03
+  checksum: da673e8e037f74b1a4257884d8f55fd6bfaf575283aa15b48a787090d3b81bdb49c8daa92aaa93208e1c026296c451e9d697d53380ea93a1a5c110a10e5794d0
   languageName: node
   linkType: hard
 
-"@commitlint/config-conventional@npm:16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/config-conventional@npm:16.0.0"
+"@commitlint/config-conventional@npm:16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/config-conventional@npm:16.2.1"
   dependencies:
     conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: a0c923c506eed8b460503247efcecb64f7376c0fcfd9a05330651334d2b0b38a41db2698b1886198ec1e71bcf67dad4e190253e684a3cb668c7cfc76e9e959d5
+  checksum: 23dac76a8fbe5624433e1c948bc53eaf0a60b77f418fe7f94eea8e17abf9605d7ae9418188d8c1a38c2e6d5cb865c8e2d0894826c3eb41fb052af95e79bc02d3
   languageName: node
   linkType: hard
 
-"@commitlint/config-validator@npm:^16.1.0":
-  version: 16.1.0
-  resolution: "@commitlint/config-validator@npm:16.1.0"
+"@commitlint/config-validator@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/config-validator@npm:16.2.1"
   dependencies:
-    "@commitlint/types": ^16.0.0
+    "@commitlint/types": ^16.2.1
     ajv: ^6.12.6
-  checksum: 410f80e4cf6257a811b5352069a1bfc22cd0d9827da93d6cc67889f28d6827c6c03495b524f57ac455365dabc57baa0555e2795778cb8bda37955c4bb5e254c6
+  checksum: 1b86832dc03fc7f9442f9358c6c73d42974e9006944b8524bc4b4cd2ce946e50f3eca972737844dc7765a874c465ff5f18dad210f979491f9ee07c831b0eb8d3
   languageName: node
   linkType: hard
 
-"@commitlint/ensure@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/ensure@npm:16.0.0"
+"@commitlint/ensure@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/ensure@npm:16.2.1"
   dependencies:
-    "@commitlint/types": ^16.0.0
+    "@commitlint/types": ^16.2.1
     lodash: ^4.17.19
-  checksum: 1e1fdf3ad62cf459118cff9474b161ad101dac02e2c32c22ef2177de8170015729d1b930287648213b3851fa3239c4a88496ae95a82daf726097bfb31c7a3d64
+  checksum: 388a124e515c02f14d026973821a6ce1d586ac966da8a51e69fabb925ee858e864696cd2b398bb5bec8d7ceee97f9f04c77630061b7784a10b06e0a436447d44
   languageName: node
   linkType: hard
 
-"@commitlint/execute-rule@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/execute-rule@npm:16.0.0"
-  checksum: d7f93d597adb580ac0c5edc604e7330014c50e7ac7054a14ca86cafbe76ab28dfd25be65777f72bbfa4ffc35639949a46523434796c5dc093a49e8a103670f91
+"@commitlint/execute-rule@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/execute-rule@npm:16.2.1"
+  checksum: 83be0e858fa415ba7d844fc68c7c8bcc3b14074fe862f2129e03ce5fd07a58876d88d080e0d2fbf25e10f6d3189a04bca024def48206fa0f0f1c5890d689539c
   languageName: node
   linkType: hard
 
-"@commitlint/format@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/format@npm:16.0.0"
+"@commitlint/format@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/format@npm:16.2.1"
   dependencies:
-    "@commitlint/types": ^16.0.0
+    "@commitlint/types": ^16.2.1
     chalk: ^4.0.0
-  checksum: 3ed6b379c1d5fd168badbcdcca1558f5591131f920e141adcb9f3a207638bc7ca3b3b41e216ee76d2ecf5b0ed2893a6700069a955a94c86002c461a648f8e0e6
+  checksum: d8f26a789f0ffc2dd763ed6467262e2cfa94900d7f517f39d32b0f0e9e5222767da12b5302bdccfb1e8a4805c667e5dc36ef98d41754c3ed0e339c35664c0ba6
   languageName: node
   linkType: hard
 
-"@commitlint/is-ignored@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/is-ignored@npm:16.0.0"
+"@commitlint/is-ignored@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/is-ignored@npm:16.2.1"
   dependencies:
-    "@commitlint/types": ^16.0.0
+    "@commitlint/types": ^16.2.1
     semver: 7.3.5
-  checksum: d8d29b1ae6e3721ec65cf2b25656f11d7438eeca6b32572d6b12b6effb19ee697c9fa810958b5b806c243ebbb3714a53e1323b62ab1aeab5730f40ae77af3470
+  checksum: 130011f5723a58e2f1e4a7aa5720766fb709ad27203efc1f468efac841d99f672c4273daa247a2ba03a7779afd83f5a8f5576e3632fb3abdc01cf19c101ce4db
   languageName: node
   linkType: hard
 
-"@commitlint/lint@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/lint@npm:16.0.0"
+"@commitlint/lint@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/lint@npm:16.2.1"
   dependencies:
-    "@commitlint/is-ignored": ^16.0.0
-    "@commitlint/parse": ^16.0.0
-    "@commitlint/rules": ^16.0.0
-    "@commitlint/types": ^16.0.0
-  checksum: 1c9dbcdc230386e39f32492436f558d7c8235f5d96ab3f990f70c6ba36044cc16214e0bea989d1d8b9a9fba22d3c8c8ade86ea69a1f7a75683a967a1f211b866
+    "@commitlint/is-ignored": ^16.2.1
+    "@commitlint/parse": ^16.2.1
+    "@commitlint/rules": ^16.2.1
+    "@commitlint/types": ^16.2.1
+  checksum: f93b1402e9e34aa91d2eccf0049c3c77fc224dc887c1f82ee9fe4b5d4fd96632cf0b9481d631462c741baafbc822827af52e6de1e8bfeb41a414b6d71422680b
   languageName: node
   linkType: hard
 
-"@commitlint/load@npm:^16.1.0":
-  version: 16.1.0
-  resolution: "@commitlint/load@npm:16.1.0"
+"@commitlint/load@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/load@npm:16.2.1"
   dependencies:
-    "@commitlint/config-validator": ^16.1.0
-    "@commitlint/execute-rule": ^16.0.0
-    "@commitlint/resolve-extends": ^16.1.0
-    "@commitlint/types": ^16.0.0
+    "@commitlint/config-validator": ^16.2.1
+    "@commitlint/execute-rule": ^16.2.1
+    "@commitlint/resolve-extends": ^16.2.1
+    "@commitlint/types": ^16.2.1
+    "@types/node": ">=12"
     chalk: ^4.0.0
     cosmiconfig: ^7.0.0
     cosmiconfig-typescript-loader: ^1.0.0
     lodash: ^4.17.19
     resolve-from: ^5.0.0
     typescript: ^4.4.3
-  checksum: 154d7cc7281ef528732b0be81857c27cada0f3d026a588d3ebd00281721db1ba89ce595d01ded986429fe71c01007e33c5c365bbe12178476092786da6409619
+  checksum: 2b2fceff10c02ba61a5fa9c24a8f22156af0be6865a6b3b1543d93861d75b1552d7c86ce9cadd8598248387829feee26d0e0e646f3f0822e7a9bc74023e18fde
   languageName: node
   linkType: hard
 
-"@commitlint/message@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/message@npm:16.0.0"
-  checksum: 6dfbef02900b0eb554f3c5fe97697c3f46a185cda42c7ea04a431de82a17a0eeee9dcaf332ffa79748ffa3660f16d92429015cd039e0324a5e1ee341a919402b
+"@commitlint/message@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/message@npm:16.2.1"
+  checksum: 172e18bd5bd47bf7d61356ba1da4a552a5f96860fadb277b9431e1ecfe6b49dd8f303e6d7ad120961325093346ec6764231975f8c73434f5487b05493406d551
   languageName: node
   linkType: hard
 
-"@commitlint/parse@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/parse@npm:16.0.0"
+"@commitlint/parse@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/parse@npm:16.2.1"
   dependencies:
-    "@commitlint/types": ^16.0.0
+    "@commitlint/types": ^16.2.1
     conventional-changelog-angular: ^5.0.11
     conventional-commits-parser: ^3.2.2
-  checksum: 1d31e044b99fc9b1de9ee698bade0a6dc04ba514d5c677a7181ac379e7899b0975f4523b8831c7080109c2acb4bf8457b12bc094d06c6d18a8053c571056b90e
+  checksum: 8f966c45b2838900dfe8af14fa5085707a2c2ece7d6f00d8e61dad1fdd617b202177cfcc428ef6f7a41b7e6872560c9a040cf92eb122ad31a8f7777e3f9bab7b
   languageName: node
   linkType: hard
 
-"@commitlint/read@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/read@npm:16.0.0"
+"@commitlint/read@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/read@npm:16.2.1"
   dependencies:
-    "@commitlint/top-level": ^16.0.0
-    "@commitlint/types": ^16.0.0
+    "@commitlint/top-level": ^16.2.1
+    "@commitlint/types": ^16.2.1
     fs-extra: ^10.0.0
     git-raw-commits: ^2.0.0
-  checksum: 12763e124936af9d0bc9fee71749b5caf02e9e087985b762239b4c25994676c6c1921fe7ec70e07d384b9b77e521913a64f885c9d1034b6715bf8ad92aabdf60
+  checksum: c2eb6c299a6af0ffda8ba27a5534210638b227855dd5d01d757fbf7a26a05a5c3d4d1f30e91bdd5ce12de023e482a329fad049df1f5b0f232049e7212e3cf947
   languageName: node
   linkType: hard
 
-"@commitlint/resolve-extends@npm:^16.1.0":
-  version: 16.1.0
-  resolution: "@commitlint/resolve-extends@npm:16.1.0"
+"@commitlint/resolve-extends@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/resolve-extends@npm:16.2.1"
   dependencies:
-    "@commitlint/config-validator": ^16.1.0
-    "@commitlint/types": ^16.0.0
+    "@commitlint/config-validator": ^16.2.1
+    "@commitlint/types": ^16.2.1
     import-fresh: ^3.0.0
     lodash: ^4.17.19
     resolve-from: ^5.0.0
     resolve-global: ^1.0.0
-  checksum: bffeefb73095fe22f09115c25ab4617d28e6aa49877adcfc0f5a5d44553ff07a135e7cc811715afee2ba40e5e34a294ac6ba5aec3e68246b5264e60887ea15c8
+  checksum: e710fcb24573e1027bf0b7336983cd0539c32734b01831eb0da8a7f500d0734669d38ea75ff93e90c162417fd4db5cc460c2f122d772dfa0f4577f49caaee687
   languageName: node
   linkType: hard
 
-"@commitlint/rules@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/rules@npm:16.0.0"
+"@commitlint/rules@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/rules@npm:16.2.1"
   dependencies:
-    "@commitlint/ensure": ^16.0.0
-    "@commitlint/message": ^16.0.0
-    "@commitlint/to-lines": ^16.0.0
-    "@commitlint/types": ^16.0.0
+    "@commitlint/ensure": ^16.2.1
+    "@commitlint/message": ^16.2.1
+    "@commitlint/to-lines": ^16.2.1
+    "@commitlint/types": ^16.2.1
     execa: ^5.0.0
-  checksum: e76dc2dea9aca44c06ed84ed8881650f1bd4883d525ad0b51688bc4eb94ea399aa59614fb6b217a09082b67993758a0610e4f461bc9e60e4a21e100a340a007f
+  checksum: 86d2c7d6564d231705e215135275e2f8c3aacd047402edfc78021398e83743d3b4f759ccc93294c94cb5773fed22eeca2036ea2a07e177c2e82c581430b89e2b
   languageName: node
   linkType: hard
 
-"@commitlint/to-lines@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/to-lines@npm:16.0.0"
-  checksum: ebac0b64fb670461c8b7d653e9bd98bc8f0ad3de58d5b95f3d5715a6d36fb9d9b620c450f06538efae813c185f5459aa88ccb7e6a0faadde9b748647723deb5f
+"@commitlint/to-lines@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/to-lines@npm:16.2.1"
+  checksum: 94b1523298f335583307cff4f634137788bdce67f572dcdd6f08ca09cbe1176193ba2e308158696951ce3dd93cb2c6d1d8946e8ee376f506ac5212a65d87ed58
   languageName: node
   linkType: hard
 
-"@commitlint/top-level@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/top-level@npm:16.0.0"
+"@commitlint/top-level@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/top-level@npm:16.2.1"
   dependencies:
     find-up: ^5.0.0
-  checksum: 76a99a9b4d311b490d9f03a3f309c7300b32e6020ce688185e604a9ba7ed9701a01308083a28b3a046c8e3d091d88dd2d33e39c71c5b450ee7eb35fc73d7b606
+  checksum: db6ae0483a4b7fbe3e2ca02541049180f87d88417039ea58e7539f22fb042fe50e465f5654394555bf9759b1c1e6130b435e4e80fbcec1d0e58cf24f9ccaf728
   languageName: node
   linkType: hard
 
-"@commitlint/types@npm:^16.0.0":
-  version: 16.0.0
-  resolution: "@commitlint/types@npm:16.0.0"
+"@commitlint/types@npm:^16.2.1":
+  version: 16.2.1
+  resolution: "@commitlint/types@npm:16.2.1"
   dependencies:
     chalk: ^4.0.0
-  checksum: 2b25087c41f2bbe6dceea8903ad30be1edaa79ebe5825c69e83a1b058c1d659be5db3764327fec598fffbb16a9aa4bd16fff54e373ca3fd076a31abceb61cd50
+  checksum: 93af3c26c36f3b11d99f0cbbb09c8952581eed2a6b7763eb728c0e7e7ecff5072de064a208b80225fb51533823af84ee3117d9c2efbcb63d1f5cfbf6fbfb8ed8
   languageName: node
   linkType: hard
 
@@ -3066,7 +3065,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@emotion/is-prop-valid@npm:1.1.1, @emotion/is-prop-valid@npm:^1.1.1":
+"@emotion/is-prop-valid@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@emotion/is-prop-valid@npm:1.1.2"
+  dependencies:
+    "@emotion/memoize": ^0.7.4
+  checksum: 58b1f2d429a589f8f5bc2c33a8732cbb7bbcb17131a103511ef9a94ac754d7eeb53d627f947da480cd977f9d419fd92e244991680292f3287204159652745707
+  languageName: node
+  linkType: hard
+
+"@emotion/is-prop-valid@npm:^1.1.1":
   version: 1.1.1
   resolution: "@emotion/is-prop-valid@npm:1.1.1"
   dependencies:
@@ -3182,20 +3190,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/eslintrc@npm:^1.0.5":
-  version: 1.0.5
-  resolution: "@eslint/eslintrc@npm:1.0.5"
+"@eslint/eslintrc@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "@eslint/eslintrc@npm:1.2.0"
   dependencies:
     ajv: ^6.12.4
     debug: ^4.3.2
-    espree: ^9.2.0
+    espree: ^9.3.1
     globals: ^13.9.0
     ignore: ^4.0.6
     import-fresh: ^3.2.1
     js-yaml: ^4.1.0
     minimatch: ^3.0.4
     strip-json-comments: ^3.1.1
-  checksum: b35b50d7b65bd8acd92a05b6fb15ac62c0cefa40dfef0324ca5bf8632bf3679bab6e173c53b3ad1e1d837701cecdbd9c144b35f46588cdf4e046a9caa272488d
+  checksum: a5e51dcf02627363567094456d7880b46b6a14a285d7a057f083ca903bdd862483bb6314cbc9fb6fa2d2c4537d50e0d28bd5e39650840241ae4796faaec65d2e
   languageName: node
   linkType: hard
 
@@ -3318,12 +3326,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/cli@npm:4.8.1":
-  version: 4.8.1
-  resolution: "@formatjs/cli@npm:4.8.1"
+"@formatjs/cli@npm:4.8.2":
+  version: 4.8.2
+  resolution: "@formatjs/cli@npm:4.8.2"
   dependencies:
-    "@formatjs/icu-messageformat-parser": 2.0.17
-    "@formatjs/ts-transformer": 3.9.1
+    "@formatjs/icu-messageformat-parser": 2.0.18
+    "@formatjs/ts-transformer": 3.9.2
     "@types/estree": ^0.0.50
     "@types/fs-extra": ^9.0.1
     "@types/json-stable-stringify": ^1.0.32
@@ -3340,7 +3348,7 @@ __metadata:
     vue: ^3.2.23
   bin:
     formatjs: bin/formatjs
-  checksum: f9b56474e952ef1ed2e8153e93142315c8e7972c79a3cd1f000d03f1d6c6af90fb9ddf18557a878fc0649076ad9d6a4123bc431e98e8ecebd22c266189b0f076
+  checksum: 8cb50144ce1c8d0d0bfd28b5a6b43b3eb91547e63b7730f555729257b914c25ce40cbef0d891ae7f3f3d00994798bac63368350c91bc5f85a1ea2b5e27c8e32e
   languageName: node
   linkType: hard
 
@@ -3354,13 +3362,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/ecma402-abstract@npm:1.11.2":
-  version: 1.11.2
-  resolution: "@formatjs/ecma402-abstract@npm:1.11.2"
+"@formatjs/ecma402-abstract@npm:1.11.3":
+  version: 1.11.3
+  resolution: "@formatjs/ecma402-abstract@npm:1.11.3"
   dependencies:
-    "@formatjs/intl-localematcher": 0.2.23
+    "@formatjs/intl-localematcher": 0.2.24
     tslib: ^2.1.0
-  checksum: 9688d278bc43c3792cbaa3707ebef92bc20f35e17c5f81b7c7b401a6688df4282a352e8a542f84ea941b16b61edb2524898b19f78bb79d3b0fe23c53517eb62d
+  checksum: 29768cec0b438649d84afe4c92b66f1a9048a8358219d8d1c7df62db808f972e63f6960117d756eb7d1f62f5fae6a2ae3b6008609cb76073c88f08474b624c4b
   languageName: node
   linkType: hard
 
@@ -3384,14 +3392,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/icu-messageformat-parser@npm:2.0.17":
-  version: 2.0.17
-  resolution: "@formatjs/icu-messageformat-parser@npm:2.0.17"
+"@formatjs/icu-messageformat-parser@npm:2.0.18":
+  version: 2.0.18
+  resolution: "@formatjs/icu-messageformat-parser@npm:2.0.18"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.2
-    "@formatjs/icu-skeleton-parser": 1.3.4
+    "@formatjs/ecma402-abstract": 1.11.3
+    "@formatjs/icu-skeleton-parser": 1.3.5
     tslib: ^2.1.0
-  checksum: 312d23deeacd4812d225f609f23761ac52e7801aeba8f7ce5032c3b3d889b6394371197e10dfddac3d728d12ef3661a05ad0594671c98c82c5e6090c0a6401c0
+  checksum: a7108c24dcd7c764389c1b328778c92adbcb2b70f93fa98fb6d70535d7a43ea40d35d9b39f3e848366534f9f4bfad1f3d22c2c8902c4e2518e0a44c9668c1cc5
   languageName: node
   linkType: hard
 
@@ -3405,35 +3413,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/icu-skeleton-parser@npm:1.3.4":
-  version: 1.3.4
-  resolution: "@formatjs/icu-skeleton-parser@npm:1.3.4"
+"@formatjs/icu-skeleton-parser@npm:1.3.5":
+  version: 1.3.5
+  resolution: "@formatjs/icu-skeleton-parser@npm:1.3.5"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.2
+    "@formatjs/ecma402-abstract": 1.11.3
     tslib: ^2.1.0
-  checksum: a889062de7eb72f9a318780ccc126b45c0072c2e584b4524710958b2c38202043159c7cc93daa56696765385755b8a9fbcb827368d40c424cb97a9606e2a86d0
+  checksum: 627d9af21de44f05382a228980a1972d9595c22d478cf926f327c78df5153f937802ef9c0aec0221a2e5cbddb164fbc6a70f3d0b7b762437846bdbe0ca2dd95b
   languageName: node
   linkType: hard
 
-"@formatjs/intl-displaynames@npm:5.4.1":
-  version: 5.4.1
-  resolution: "@formatjs/intl-displaynames@npm:5.4.1"
+"@formatjs/intl-displaynames@npm:5.4.2":
+  version: 5.4.2
+  resolution: "@formatjs/intl-displaynames@npm:5.4.2"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.2
-    "@formatjs/intl-localematcher": 0.2.23
+    "@formatjs/ecma402-abstract": 1.11.3
+    "@formatjs/intl-localematcher": 0.2.24
     tslib: ^2.1.0
-  checksum: 45ac1c91326f69762813b896e1f6d0bd0858cb6c5cf1a7fca05ff874356f34d3697023be8eb88d2f1b1c090b397857895fb869755a2974e2ca69e046f2703dcd
+  checksum: c376b6a9966a770167f6241d998acc331d64d68be0f72bcefe3347f6f3be136470a458d957b87993a5b78c46b596c731d02220f38652a068834b8d1c4b3df1be
   languageName: node
   linkType: hard
 
-"@formatjs/intl-listformat@npm:6.5.1":
-  version: 6.5.1
-  resolution: "@formatjs/intl-listformat@npm:6.5.1"
+"@formatjs/intl-listformat@npm:6.5.2":
+  version: 6.5.2
+  resolution: "@formatjs/intl-listformat@npm:6.5.2"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.2
-    "@formatjs/intl-localematcher": 0.2.23
+    "@formatjs/ecma402-abstract": 1.11.3
+    "@formatjs/intl-localematcher": 0.2.24
     tslib: ^2.1.0
-  checksum: 593744d4bd4166100304c055941e9f9aff0a8672cdf97d0d0409030ebae943beebe4a99dc608cd933f5c896db9203c7a43a9e9852335ffc9bb39a98498a56000
+  checksum: 6a4141e34dbb7ec360be79f145d3ac3b7f99cdbbe59532e6a7dd36de05b775ccf2ae653479cdbdd2d2655aa26c20c1944b4601ef73f1d7771cbc85acb1d5786e
   languageName: node
   linkType: hard
 
@@ -3446,40 +3454,40 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@formatjs/intl-localematcher@npm:0.2.23":
-  version: 0.2.23
-  resolution: "@formatjs/intl-localematcher@npm:0.2.23"
+"@formatjs/intl-localematcher@npm:0.2.24":
+  version: 0.2.24
+  resolution: "@formatjs/intl-localematcher@npm:0.2.24"
   dependencies:
     tslib: ^2.1.0
-  checksum: 65bf8a126f3ef263548c6b3a55f2e9b441ec2745e49e4f8b19ba887ba0d908cfb821a1e644f15d381de6221b4276c50d6469e25da54bba0cdb2ef882f1ca4dfe
+  checksum: 1459a62c0ce2c11c95ee90319a926c86e563ada43b5975f08a9913242a4861b9b20f32dd81c7dd59ba3eb41abce533d9ae18962117bed7f4282f5a5d1c45b1f6
   languageName: node
   linkType: hard
 
-"@formatjs/intl@npm:1.18.4":
-  version: 1.18.4
-  resolution: "@formatjs/intl@npm:1.18.4"
+"@formatjs/intl@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@formatjs/intl@npm:2.0.0"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.2
+    "@formatjs/ecma402-abstract": 1.11.3
     "@formatjs/fast-memoize": 1.2.1
-    "@formatjs/icu-messageformat-parser": 2.0.17
-    "@formatjs/intl-displaynames": 5.4.1
-    "@formatjs/intl-listformat": 6.5.1
-    intl-messageformat: 9.11.3
+    "@formatjs/icu-messageformat-parser": 2.0.18
+    "@formatjs/intl-displaynames": 5.4.2
+    "@formatjs/intl-listformat": 6.5.2
+    intl-messageformat: 9.11.4
     tslib: ^2.1.0
   peerDependencies:
     typescript: ^4.5
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 2732ee3494c5b98e94ee5daca31a01e4d56c4ee4f5ffeca409a163c2611cb9e91413ea37a2a034703f4b5a4eeac689af2b6113d72f71a39caf14f8b03b6c83c5
+  checksum: 980344c4a3dd773cceb0e6366e93db6c1ec5cef344e7d33ade04a3c03247b2b91c4cb16cf4eff1b65b5e64879731b1aea2daa65fe4451d9cc9b256b678077675
   languageName: node
   linkType: hard
 
-"@formatjs/ts-transformer@npm:3.9.1":
-  version: 3.9.1
-  resolution: "@formatjs/ts-transformer@npm:3.9.1"
+"@formatjs/ts-transformer@npm:3.9.2":
+  version: 3.9.2
+  resolution: "@formatjs/ts-transformer@npm:3.9.2"
   dependencies:
-    "@formatjs/icu-messageformat-parser": 2.0.17
+    "@formatjs/icu-messageformat-parser": 2.0.18
     "@types/node": 14 || 16 || 17
     chalk: ^4.0.0
     tslib: ^2.1.0
@@ -3489,7 +3497,7 @@ __metadata:
   peerDependenciesMeta:
     ts-jest:
       optional: true
-  checksum: 44066343f3a113c26c86e042e632b2376a0a6e543ba3f5e7f6a5df6ff0d872183d58bb2a55f489d6db0f339f88d179f6d722b96d8dfc25eda26317e4d3327591
+  checksum: ecdd53efeec743957371e5634bd01a0796044934401badffec6774dbf71e03677ff24451af1363f70963a81cb53a1108ea60343a0a84a23958e232fd705a796c
   languageName: node
   linkType: hard
 
@@ -3764,34 +3772,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/core@npm:^27.4.7":
-  version: 27.4.7
-  resolution: "@jest/core@npm:27.4.7"
+"@jest/console@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/console@npm:27.5.1"
   dependencies:
-    "@jest/console": ^27.4.6
-    "@jest/reporters": ^27.4.6
-    "@jest/test-result": ^27.4.6
-    "@jest/transform": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/types": ^27.5.1
+    "@types/node": "*"
+    chalk: ^4.0.0
+    jest-message-util: ^27.5.1
+    jest-util: ^27.5.1
+    slash: ^3.0.0
+  checksum: 7cb20f06a34b09734c0342685ec53aa4c401fe3757c13a9c58fce76b971a322eb884f6de1068ef96f746e5398e067371b89515a07c268d4440a867c87748a706
+  languageName: node
+  linkType: hard
+
+"@jest/core@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/core@npm:27.5.1"
+  dependencies:
+    "@jest/console": ^27.5.1
+    "@jest/reporters": ^27.5.1
+    "@jest/test-result": ^27.5.1
+    "@jest/transform": ^27.5.1
+    "@jest/types": ^27.5.1
     "@types/node": "*"
     ansi-escapes: ^4.2.1
     chalk: ^4.0.0
     emittery: ^0.8.1
     exit: ^0.1.2
-    graceful-fs: ^4.2.4
-    jest-changed-files: ^27.4.2
-    jest-config: ^27.4.7
-    jest-haste-map: ^27.4.6
-    jest-message-util: ^27.4.6
-    jest-regex-util: ^27.4.0
-    jest-resolve: ^27.4.6
-    jest-resolve-dependencies: ^27.4.6
-    jest-runner: ^27.4.6
-    jest-runtime: ^27.4.6
-    jest-snapshot: ^27.4.6
-    jest-util: ^27.4.2
-    jest-validate: ^27.4.6
-    jest-watcher: ^27.4.6
+    graceful-fs: ^4.2.9
+    jest-changed-files: ^27.5.1
+    jest-config: ^27.5.1
+    jest-haste-map: ^27.5.1
+    jest-message-util: ^27.5.1
+    jest-regex-util: ^27.5.1
+    jest-resolve: ^27.5.1
+    jest-resolve-dependencies: ^27.5.1
+    jest-runner: ^27.5.1
+    jest-runtime: ^27.5.1
+    jest-snapshot: ^27.5.1
+    jest-util: ^27.5.1
+    jest-validate: ^27.5.1
+    jest-watcher: ^27.5.1
     micromatch: ^4.0.4
     rimraf: ^3.0.0
     slash: ^3.0.0
@@ -3801,71 +3823,71 @@ __metadata:
   peerDependenciesMeta:
     node-notifier:
       optional: true
-  checksum: 24ed123ef1819fa8c6069706760efac9904ee8824b22c346259be2017d820b5e578a4d444339448a576a0158e6fec91d18fdedb201bc97d7390b105d665f3642
+  checksum: 904a94ad8f1b43cd6b48de3b0226659bff3696150ff8cf7680fc2faffdc8a115203bb9ab6e817c1f79f9d6a81f67953053cbc64d8a4604f2e0c42a04c28cf126
   languageName: node
   linkType: hard
 
-"@jest/environment@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "@jest/environment@npm:27.4.6"
+"@jest/environment@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/environment@npm:27.5.1"
   dependencies:
-    "@jest/fake-timers": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/fake-timers": ^27.5.1
+    "@jest/types": ^27.5.1
     "@types/node": "*"
-    jest-mock: ^27.4.6
-  checksum: c3aadcf6d42e55e35d8020f7cf5054c445775608e466fcfc37348359e54f2f79e0e39d029281836ae9082dc50eac81d1cf6b4fc3899adfb58afc68a7c72f8e3d
+    jest-mock: ^27.5.1
+  checksum: 2a9e18c35a015508dbec5b90b21c150230fa6c1c8cb8fabe029d46ee2ca4c40eb832fb636157da14c66590d0a4c8a2c053226b041f54a44507d6f6a89abefd66
   languageName: node
   linkType: hard
 
-"@jest/fake-timers@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "@jest/fake-timers@npm:27.4.6"
+"@jest/fake-timers@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/fake-timers@npm:27.5.1"
   dependencies:
-    "@jest/types": ^27.4.2
+    "@jest/types": ^27.5.1
     "@sinonjs/fake-timers": ^8.0.1
     "@types/node": "*"
-    jest-message-util: ^27.4.6
-    jest-mock: ^27.4.6
-    jest-util: ^27.4.2
-  checksum: 389f655d39f13fdd0448b554260cd41810cf824b99e9de057600869a708d34cfa74e7fdaba5fcd6e3295e7bfed08f1b3fc0735ca86f7c0b2281b25e534032876
+    jest-message-util: ^27.5.1
+    jest-mock: ^27.5.1
+    jest-util: ^27.5.1
+  checksum: 02a0561ed2f4586093facd4ae500b74694f187ac24d4a00e949a39a1c5325bca8932b4fcb0388a2c5ed0656506fc1cf51fd3e32cdd48cea7497ad9c6e028aba8
   languageName: node
   linkType: hard
 
-"@jest/globals@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "@jest/globals@npm:27.4.6"
+"@jest/globals@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/globals@npm:27.5.1"
   dependencies:
-    "@jest/environment": ^27.4.6
-    "@jest/types": ^27.4.2
-    expect: ^27.4.6
-  checksum: a438645771f45557b3af6e371e65c88e109d7433d3d4ee5db908177f29be6d6d12b4cfe9279ae6475bc033b5ff2a97235659a75f2718855041dd3ed805ed2edd
+    "@jest/environment": ^27.5.1
+    "@jest/types": ^27.5.1
+    expect: ^27.5.1
+  checksum: 087f97047e9dcf555f76fe2ce54aee681e005eaa837a0c0c2d251df6b6412c892c9df54cb871b180342114389a5ff895a4e52e6e6d3d0015bf83c02a54f64c3c
   languageName: node
   linkType: hard
 
-"@jest/reporters@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "@jest/reporters@npm:27.4.6"
+"@jest/reporters@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/reporters@npm:27.5.1"
   dependencies:
     "@bcoe/v8-coverage": ^0.2.3
-    "@jest/console": ^27.4.6
-    "@jest/test-result": ^27.4.6
-    "@jest/transform": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/console": ^27.5.1
+    "@jest/test-result": ^27.5.1
+    "@jest/transform": ^27.5.1
+    "@jest/types": ^27.5.1
     "@types/node": "*"
     chalk: ^4.0.0
     collect-v8-coverage: ^1.0.0
     exit: ^0.1.2
     glob: ^7.1.2
-    graceful-fs: ^4.2.4
+    graceful-fs: ^4.2.9
     istanbul-lib-coverage: ^3.0.0
     istanbul-lib-instrument: ^5.1.0
     istanbul-lib-report: ^3.0.0
     istanbul-lib-source-maps: ^4.0.0
     istanbul-reports: ^3.1.3
-    jest-haste-map: ^27.4.6
-    jest-resolve: ^27.4.6
-    jest-util: ^27.4.2
-    jest-worker: ^27.4.6
+    jest-haste-map: ^27.5.1
+    jest-resolve: ^27.5.1
+    jest-util: ^27.5.1
+    jest-worker: ^27.5.1
     slash: ^3.0.0
     source-map: ^0.6.0
     string-length: ^4.0.1
@@ -3876,18 +3898,18 @@ __metadata:
   peerDependenciesMeta:
     node-notifier:
       optional: true
-  checksum: 4c14b2cf6c9b624977f9ad519e9ce2f5ead4a3c9a3fa0b9c68097b7bc78b598ceb5402566417d81e16489dbd6bb6e97e58f04c22099013897dd6010c0549b169
+  checksum: faba5eafb86e62b62e152cafc8812d56308f9d1e8b77f3a7dcae4a8803a20a60a0909cc43ed73363ef649bf558e4fb181c7a336d144c89f7998279d1882bb69e
   languageName: node
   linkType: hard
 
-"@jest/source-map@npm:^27.4.0":
-  version: 27.4.0
-  resolution: "@jest/source-map@npm:27.4.0"
+"@jest/source-map@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/source-map@npm:27.5.1"
   dependencies:
     callsites: ^3.0.0
-    graceful-fs: ^4.2.4
+    graceful-fs: ^4.2.9
     source-map: ^0.6.0
-  checksum: cf87ac3dd1c2d210b0637060710d64417bcd88d670cbb26af7367ded99fd7d64d431c1718054351f0236c14659bc17a8deff6ee3d9f52902299911231bbaf0c8
+  checksum: 4fb1e743b602841babf7e22bd84eca34676cb05d4eb3b604cae57fc59e406099f5ac759ac1a0d04d901237d143f0f4f234417306e823bde732a1d19982230862
   languageName: node
   linkType: hard
 
@@ -3903,15 +3925,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@jest/test-sequencer@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "@jest/test-sequencer@npm:27.4.6"
+"@jest/test-result@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/test-result@npm:27.5.1"
   dependencies:
-    "@jest/test-result": ^27.4.6
-    graceful-fs: ^4.2.4
-    jest-haste-map: ^27.4.6
-    jest-runtime: ^27.4.6
-  checksum: 8d761fd81f5cf4845a09844a8a16717fc148137f364916165ce5e1ebfc5dfd89160d4b98e7e947c97f8707500050863606d0becb8c388997efcc31cafa6f5e31
+    "@jest/console": ^27.5.1
+    "@jest/types": ^27.5.1
+    "@types/istanbul-lib-coverage": ^2.0.0
+    collect-v8-coverage: ^1.0.0
+  checksum: 338f7c509d6a3bc6d7dd7388c8f6f548b87638e171dc1fddfedcacb4e8950583288832223ba688058cbcf874b937d22bdc0fa88f79f5fc666f77957e465c06a5
+  languageName: node
+  linkType: hard
+
+"@jest/test-sequencer@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/test-sequencer@npm:27.5.1"
+  dependencies:
+    "@jest/test-result": ^27.5.1
+    graceful-fs: ^4.2.9
+    jest-haste-map: ^27.5.1
+    jest-runtime: ^27.5.1
+  checksum: f21f9c8bb746847f7f89accfd29d6046eec1446f0b54e4694444feaa4df379791f76ef0f5a4360aafcbc73b50bc979f68b8a7620de404019d3de166be6720cb0
   languageName: node
   linkType: hard
 
@@ -3938,6 +3972,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jest/transform@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/transform@npm:27.5.1"
+  dependencies:
+    "@babel/core": ^7.1.0
+    "@jest/types": ^27.5.1
+    babel-plugin-istanbul: ^6.1.1
+    chalk: ^4.0.0
+    convert-source-map: ^1.4.0
+    fast-json-stable-stringify: ^2.0.0
+    graceful-fs: ^4.2.9
+    jest-haste-map: ^27.5.1
+    jest-regex-util: ^27.5.1
+    jest-util: ^27.5.1
+    micromatch: ^4.0.4
+    pirates: ^4.0.4
+    slash: ^3.0.0
+    source-map: ^0.6.1
+    write-file-atomic: ^3.0.0
+  checksum: a22079121aedea0f20a03a9c026be971f7b92adbfb4d5fd1fb67be315741deac4f056936d7c72a53b24aa5a1071bc942c003925fd453bf3f6a0ae5da6384e137
+  languageName: node
+  linkType: hard
+
 "@jest/types@npm:^26.6.2":
   version: 26.6.2
   resolution: "@jest/types@npm:26.6.2"
@@ -3961,6 +4018,19 @@ __metadata:
     "@types/yargs": ^16.0.0
     chalk: ^4.0.0
   checksum: 1191022023e32763063cc1c8b1143fa316fb05db2f9698280a7bdbafcabd989e5fd64f8eb875b8a2e54c53f25dba45ed2eea8ced394d9e484da0fda674cd17a5
+  languageName: node
+  linkType: hard
+
+"@jest/types@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "@jest/types@npm:27.5.1"
+  dependencies:
+    "@types/istanbul-lib-coverage": ^2.0.0
+    "@types/istanbul-reports": ^3.0.0
+    "@types/node": "*"
+    "@types/yargs": ^16.0.0
+    chalk: ^4.0.0
+  checksum: d1f43cc946d87543ddd79d49547aab2399481d34025d5c5f2025d3d99c573e1d9832fa83cef25e9d9b07a8583500229d15bbb07b8e233d127d911d133e2f14b1
   languageName: node
   linkType: hard
 
@@ -4491,16 +4561,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@testing-library/react@npm:12.1.2":
-  version: 12.1.2
-  resolution: "@testing-library/react@npm:12.1.2"
+"@testing-library/react@npm:12.1.3":
+  version: 12.1.3
+  resolution: "@testing-library/react@npm:12.1.3"
   dependencies:
     "@babel/runtime": ^7.12.5
     "@testing-library/dom": ^8.0.0
+    "@types/react-dom": "*"
   peerDependencies:
     react: "*"
     react-dom: "*"
-  checksum: 70b0f7f27c83fe1a33e7df01b1e64850fbab4050c403848d611d852cadaa25ccde58518773002ae569a1350b2282c2ccbcbe5eb6af8b29ab377ab2a8ab573b3b
+  checksum: 2f059e93dc3f161c4d15910d1fa80cd4f5cfb6eff8a733939a72ac720c2499b74761e8980c02983a6e49153b776e82bd770a1c3e66e05c4429db0e01612f7d0a
   languageName: node
   linkType: hard
 
@@ -4886,6 +4957,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:>=12":
+  version: 17.0.21
+  resolution: "@types/node@npm:17.0.21"
+  checksum: 89dcd2fe82f21d3634266f8384e9c865cf8af49685639fbdbd799bdd1040480fb1e8eeda2d3b9fce41edbe704d2a4be9f427118c4ae872e8d9bb7cbeb3c41a94
+  languageName: node
+  linkType: hard
+
 "@types/node@npm:^12.7.1":
   version: 12.20.42
   resolution: "@types/node@npm:12.20.42"
@@ -4932,6 +5010,15 @@ __metadata:
   version: 1.2.4
   resolution: "@types/range-parser@npm:1.2.4"
   checksum: b7c0dfd5080a989d6c8bb0b6750fc0933d9acabeb476da6fe71d8bdf1ab65e37c136169d84148034802f48378ab94e3c37bb4ef7656b2bec2cb9c0f8d4146a95
+  languageName: node
+  linkType: hard
+
+"@types/react-dom@npm:*":
+  version: 17.0.13
+  resolution: "@types/react-dom@npm:17.0.13"
+  dependencies:
+    "@types/react": "*"
+  checksum: 62c42a54ac8961c23a0e74b9cdd8b0a78563757e462b1ab665b2aa365bfd8b86a73d3f6eafc09a4a80fb08659321db168f012aa597c41c0df36f645a94e9266b
   languageName: node
   linkType: hard
 
@@ -6258,7 +6345,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"babel-jest@npm:27.4.6, babel-jest@npm:^27.4.6":
+"babel-jest@npm:27.4.6":
   version: 27.4.6
   resolution: "babel-jest@npm:27.4.6"
   dependencies:
@@ -6273,6 +6360,24 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.8.0
   checksum: fc839d5e8788170e68c8cbde9466fdf1c4fc740a947ba0728e1933ade7ad6fe744c9276d86207f093b64e9cf72a1fdd756fbc44c21034282f01832338e7a8a80
+  languageName: node
+  linkType: hard
+
+"babel-jest@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "babel-jest@npm:27.5.1"
+  dependencies:
+    "@jest/transform": ^27.5.1
+    "@jest/types": ^27.5.1
+    "@types/babel__core": ^7.1.14
+    babel-plugin-istanbul: ^6.1.1
+    babel-preset-jest: ^27.5.1
+    chalk: ^4.0.0
+    graceful-fs: ^4.2.9
+    slash: ^3.0.0
+  peerDependencies:
+    "@babel/core": ^7.8.0
+  checksum: 4e93e6e9fb996cc5f1505e924eb8e8cc7b25c294ba9629762a2715390f48af6a4c14dbb84cd9730013ac0e03267a5a9aa2fb6318c544489cda7f50f4e506def4
   languageName: node
   linkType: hard
 
@@ -6331,6 +6436,18 @@ __metadata:
     "@types/babel__core": ^7.0.0
     "@types/babel__traverse": ^7.0.6
   checksum: 48f216f286f2fb3b1d571b4ba4ccffdb0c11a2fb1117e4c355b26c8cef09603abd96a5c1f8442866830a7da5accdd9ae4805f3e977b606a596b4a259f2ff5a67
+  languageName: node
+  linkType: hard
+
+"babel-plugin-jest-hoist@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "babel-plugin-jest-hoist@npm:27.5.1"
+  dependencies:
+    "@babel/template": ^7.3.3
+    "@babel/types": ^7.3.3
+    "@types/babel__core": ^7.0.0
+    "@types/babel__traverse": ^7.0.6
+  checksum: 709c17727aa8fd3be755d256fb514bf945a5c2ea6017f037d80280fc44ae5fe7dfeebf63d8412df53796455c2c216119d628d8cc90b099434fd819005943d058
   languageName: node
   linkType: hard
 
@@ -6454,6 +6571,18 @@ __metadata:
   peerDependencies:
     "@babel/core": ^7.0.0
   checksum: 744449cc63283116e8268c088a714d9c26d93af8d6051523b900517b665e0122239fc6a326de206657d423f4cccfaf2437ef099fcdfbfd91c4cdde6b1c55c11f
+  languageName: node
+  linkType: hard
+
+"babel-preset-jest@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "babel-preset-jest@npm:27.5.1"
+  dependencies:
+    babel-plugin-jest-hoist: ^27.5.1
+    babel-preset-current-node-syntax: ^1.0.0
+  peerDependencies:
+    "@babel/core": ^7.0.0
+  checksum: 251bcea11c18fd9672fec104eadb45b43f117ceeb326fa7345ced778d4c1feab29343cd7a87a1dcfae4997d6c851a8b386d7f7213792da6e23b74f4443a8976d
   languageName: node
   linkType: hard
 
@@ -7155,16 +7284,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemirror-graphql@npm:^1.2.11":
-  version: 1.2.11
-  resolution: "codemirror-graphql@npm:1.2.11"
+"codemirror-graphql@npm:^1.2.12":
+  version: 1.2.12
+  resolution: "codemirror-graphql@npm:1.2.12"
   dependencies:
     "@codemirror/stream-parser": ^0.19.2
-    graphql-language-service: ^4.1.4
+    graphql-language-service: ^4.1.5
   peerDependencies:
     codemirror: ^5.58.2
     graphql: ^15.5.0 || ^16.0.0
-  checksum: 7c70b643544c0662daefb7b7731b5578d1c28ce5c103b326601c281813f4f75a89a21c1e7e298b4c788f458d3b23b41b5eaf49a7830c725f04fe461752596b90
+  checksum: e04b9ce03735ee642664ce7f801b5571dee2f8538ee7268cb760b3a398a8d3570f78773c60565c5a7206b5bfe88b9cd755e754e7d33c2e3d0a447661f6c9c3ad
   languageName: node
   linkType: hard
 
@@ -7514,7 +7643,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-pure@npm:^3.15.0, core-js-pure@npm:^3.19.0, core-js-pure@npm:^3.20.2, core-js-pure@npm:^3.8.1":
+"core-js-pure@npm:^3.15.0, core-js-pure@npm:^3.20.2, core-js-pure@npm:^3.8.1":
   version: 3.20.3
   resolution: "core-js-pure@npm:3.20.3"
   checksum: a8ec44390849bcf0502f20e6349fa087944bb88ac83d796d7fd5ace837d242308aae54b247a6a56bec463e5ab9be08dfad48d389673c34e8e31cc0a661a17a95
@@ -7874,9 +8003,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cypress@npm:9.3.1":
-  version: 9.3.1
-  resolution: "cypress@npm:9.3.1"
+"cypress@npm:9.5.1":
+  version: 9.5.1
+  resolution: "cypress@npm:9.5.1"
   dependencies:
     "@cypress/request": ^2.88.10
     "@cypress/xvfb": ^1.2.4
@@ -7915,14 +8044,14 @@ __metadata:
     pretty-bytes: ^5.6.0
     proxy-from-env: 1.0.0
     request-progress: ^3.0.0
+    semver: ^7.3.2
     supports-color: ^8.1.1
     tmp: ~0.2.1
     untildify: ^4.0.0
-    url: ^0.11.0
     yauzl: ^2.10.0
   bin:
     cypress: bin/cypress
-  checksum: 6992e0f293618d1dec2cbd278fae08c9c3375ce462a1f767f735b06faa9a52ad375d174f2371103e443f3dc1d5cbb2c93d2ca73204d99bbd845db033d9891270
+  checksum: 96efebb8bfca52f214f793856a7eb40a6eb4a7bc06e5d7c17c7378cec8e3e3975d5777147066d04d95d88b99d4052bbf8749d96b4a25d3f79cc65e88e93f703d
   languageName: node
   linkType: hard
 
@@ -8266,6 +8395,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"diff-sequences@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "diff-sequences@npm:27.5.1"
+  checksum: a00db5554c9da7da225db2d2638d85f8e41124eccbd56cbaefb3b276dcbb1c1c2ad851c32defe2055a54a4806f030656cbf6638105fd6ce97bb87b90b32a33ca
+  languageName: node
+  linkType: hard
+
 "diff@npm:^4.0.1":
   version: 4.0.2
   resolution: "diff@npm:4.0.2"
@@ -8404,10 +8540,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dompurify@npm:2.3.4":
-  version: 2.3.4
-  resolution: "dompurify@npm:2.3.4"
-  checksum: 65d50e62b7c5da611b3562d71a1fbcf0a951ea47844daf17c097acb209ea4d039a602ee0be37c314b998102e4ab09223b0fe3f4575eeda7240b01aeabf212415
+"dompurify@npm:2.3.6":
+  version: 2.3.6
+  resolution: "dompurify@npm:2.3.6"
+  checksum: 4b2bbf6bc68ebd776aec4a533cef74a5ae30391eed528f3df748af71da318afdc298b6f40449bef093b7454ffd2ae82656636560474de5a3b34316b762c85b12
   languageName: node
   linkType: hard
 
@@ -8455,10 +8591,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"dotenv@npm:14.3.2":
-  version: 14.3.2
-  resolution: "dotenv@npm:14.3.2"
-  checksum: 86c06758915d6facc35275f4a7fafc16705b6f3b44befaa8abca91367991efc8ff8db5437d3cc14778231d19fb97610fe82d60f8a53ba723cdb69fe4171439aa
+"dotenv@npm:16.0.0":
+  version: 16.0.0
+  resolution: "dotenv@npm:16.0.0"
+  checksum: 664cebb51f0a9a1d1b930f51f0271e72e26d62feaecc9dc03df39453dd494b4e724809ca480fb3ec3213382b1ed3f791aaeb83569a137f9329ce58efd4853dbf
   languageName: node
   linkType: hard
 
@@ -9017,13 +9153,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-scope@npm:^7.1.0":
-  version: 7.1.0
-  resolution: "eslint-scope@npm:7.1.0"
+"eslint-scope@npm:^7.1.1":
+  version: 7.1.1
+  resolution: "eslint-scope@npm:7.1.1"
   dependencies:
     esrecurse: ^4.3.0
     estraverse: ^5.2.0
-  checksum: 2070470a0725438ed47075b2574a4c03cf59aa32648da8cff9e3548c84f6b0079cfdb9ee1dd7ab0bfe97011f64b2af5bfd4b69cf14a1292130dec661eec7914a
+  checksum: 9f6e974ab2db641ca8ab13508c405b7b859e72afe9f254e8131ff154d2f40c99ad4545ce326fd9fde3212ff29707102562a4834f1c48617b35d98c71a97fbf3e
   languageName: node
   linkType: hard
 
@@ -9045,18 +9181,25 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-visitor-keys@npm:^3.0.0, eslint-visitor-keys@npm:^3.1.0, eslint-visitor-keys@npm:^3.2.0":
+"eslint-visitor-keys@npm:^3.0.0":
   version: 3.2.0
   resolution: "eslint-visitor-keys@npm:3.2.0"
   checksum: fdadbb26f9e6417d3db7ad4f00bb0d573b6031c32fa72e8cdae32d038223faaeddff2ee443c90cb489bf774e75bff765c00912b8f9106d65e4f202ccd78c1b18
   languageName: node
   linkType: hard
 
-"eslint@npm:8.8.0":
-  version: 8.8.0
-  resolution: "eslint@npm:8.8.0"
+"eslint-visitor-keys@npm:^3.3.0":
+  version: 3.3.0
+  resolution: "eslint-visitor-keys@npm:3.3.0"
+  checksum: d59e68a7c5a6d0146526b0eec16ce87fbf97fe46b8281e0d41384224375c4e52f5ffb9e16d48f4ea50785cde93f766b0c898e31ab89978d88b0e1720fbfb7808
+  languageName: node
+  linkType: hard
+
+"eslint@npm:8.10.0":
+  version: 8.10.0
+  resolution: "eslint@npm:8.10.0"
   dependencies:
-    "@eslint/eslintrc": ^1.0.5
+    "@eslint/eslintrc": ^1.2.0
     "@humanwhocodes/config-array": ^0.9.2
     ajv: ^6.10.0
     chalk: ^4.0.0
@@ -9064,10 +9207,10 @@ __metadata:
     debug: ^4.3.2
     doctrine: ^3.0.0
     escape-string-regexp: ^4.0.0
-    eslint-scope: ^7.1.0
+    eslint-scope: ^7.1.1
     eslint-utils: ^3.0.0
-    eslint-visitor-keys: ^3.2.0
-    espree: ^9.3.0
+    eslint-visitor-keys: ^3.3.0
+    espree: ^9.3.1
     esquery: ^1.4.0
     esutils: ^2.0.2
     fast-deep-equal: ^3.1.3
@@ -9093,18 +9236,18 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 41a7e85bf84cf9f2d758ef3e8d08020a39a2836703728b59535684681349bd021c2c6e24174462b844a914870d707d2151e0371198899d957b444de91adaa435
+  checksum: 8b31ab3de5b48b6828bf13c09c9e62ee0045fa0afa017efaa73eedcf4dc33bc204ee4c467d4677e37967d1645f73816ddef4271422e691fded352040f8f83093
   languageName: node
   linkType: hard
 
-"espree@npm:^9.2.0, espree@npm:^9.3.0":
-  version: 9.3.0
-  resolution: "espree@npm:9.3.0"
+"espree@npm:^9.3.1":
+  version: 9.3.1
+  resolution: "espree@npm:9.3.1"
   dependencies:
     acorn: ^8.7.0
     acorn-jsx: ^5.3.1
-    eslint-visitor-keys: ^3.1.0
-  checksum: c0f1885c4eab652f9be08eb9228cea0df046b559b29d4aed8d6590ea9bd60177d4cb245d204a6f737a79a096861bb4ab8e480aeb8c1dbafef5beec1157353ce4
+    eslint-visitor-keys: ^3.3.0
+  checksum: d7161db30b65427e0799383699ac4c441533a38faee005153694b68b933ba7a24666680edfc490fa77e3a84a22dbd955768034a6f811af5049774eead83063a5
   languageName: node
   linkType: hard
 
@@ -9293,15 +9436,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"expect@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "expect@npm:27.4.6"
+"expect@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "expect@npm:27.5.1"
   dependencies:
-    "@jest/types": ^27.4.2
-    jest-get-type: ^27.4.0
-    jest-matcher-utils: ^27.4.6
-    jest-message-util: ^27.4.6
-  checksum: 593eaa8ff34320f9a70f961bc25eeae932df4f48ebcc5ecc1033f1cddffd286fc42a2f312929222541cec1077de2604ff4fc6e97012afcbd36b333bfaba82f7f
+    "@jest/types": ^27.5.1
+    jest-get-type: ^27.5.1
+    jest-matcher-utils: ^27.5.1
+    jest-message-util: ^27.5.1
+  checksum: b2c66beb52de53ef1872165aace40224e722bca3c2274c54cfa74b6d617d55cf0ccdbf36783ccd64dbea501b280098ed33fd0b207d4f15bc03cd3c7a24364a6a
   languageName: node
   linkType: hard
 
@@ -10276,35 +10419,35 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphiql-explorer@npm:0.6.3":
-  version: 0.6.3
-  resolution: "graphiql-explorer@npm:0.6.3"
+"graphiql-explorer@npm:0.9.0":
+  version: 0.9.0
+  resolution: "graphiql-explorer@npm:0.9.0"
   peerDependencies:
     graphql: ^0.6.0 || ^0.7.0 || ^0.8.0-b || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0
     react: ^15.6.0 || ^16.0.0
     react-dom: ^15.6.0 || ^16.0.0
-  checksum: 31768a1e36d779c9b19e902958346a913893c06214966fdcab97167e97231242d55086d1db3109c1f55e8b62eec1d3c82eec285e1d1a7512b37a7c64e6436e92
+  checksum: e36832645fb781993c3154db50dd50189c83964e219507d24628057b97bf3b75c03d119ba6af976e3a78b6a539cbaae29640a9b400f9aade9b380942e0c58669
   languageName: node
   linkType: hard
 
-"graphiql@npm:1.5.16":
-  version: 1.5.16
-  resolution: "graphiql@npm:1.5.16"
+"graphiql@npm:1.7.0":
+  version: 1.7.0
+  resolution: "graphiql@npm:1.7.0"
   dependencies:
     "@graphiql/toolkit": ^0.4.2
     codemirror: ^5.58.2
-    codemirror-graphql: ^1.2.11
+    codemirror-graphql: ^1.2.12
     copy-to-clipboard: ^3.2.0
     dset: ^3.1.0
     entities: ^2.0.0
     escape-html: ^1.0.3
-    graphql-language-service: ^4.1.4
+    graphql-language-service: ^4.1.5
     markdown-it: ^12.2.0
   peerDependencies:
     graphql: ^15.5.0 || ^16.0.0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 69438644f77322fdd837a28455a13fb22a54d82351a63f3c0aedc9dcfcb1695d23185a7282676a7c1c63b0174ee1c9a345f0246f389a0b4718e7951af430d0be
+  checksum: a44a28b560b43c1c336c6da7bc80b142145fe6d1e7d771eab55e9e11d4f18d2fbf2eed1bd4027a714971d455197398fd8b1c4ab813181d0e1bc0164607062422
   languageName: node
   linkType: hard
 
@@ -10380,9 +10523,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-language-service@npm:^4.1.4":
-  version: 4.1.4
-  resolution: "graphql-language-service@npm:4.1.4"
+"graphql-language-service@npm:^4.1.5":
+  version: 4.1.5
+  resolution: "graphql-language-service@npm:4.1.5"
   dependencies:
     graphql-language-service-interface: ^2.10.2
     graphql-language-service-parser: ^1.10.4
@@ -10392,7 +10535,7 @@ __metadata:
     graphql: ^15.5.0 || ^16.0.0
   bin:
     graphql: dist/temp-bin.js
-  checksum: 7a96f6d768381f182184cdef58b6d69c4bb02ea6a743f12b22290b66b9948d7d4faf81eff478599ea3e8f11424e4559a547d452e80fc71d6d18ea2847ab61fc3
+  checksum: 69f84bdf8789459251dc6de5831e65ad135aa177f74b4ede1493fdfe5f039d9575582f99fa99154c7c9e90fc0355ba51e34c1179a816bc7cdd785f106824684c
   languageName: node
   linkType: hard
 
@@ -11038,15 +11181,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"intl-messageformat@npm:9.11.3":
-  version: 9.11.3
-  resolution: "intl-messageformat@npm:9.11.3"
+"intl-messageformat@npm:9.11.4":
+  version: 9.11.4
+  resolution: "intl-messageformat@npm:9.11.4"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.2
+    "@formatjs/ecma402-abstract": 1.11.3
     "@formatjs/fast-memoize": 1.2.1
-    "@formatjs/icu-messageformat-parser": 2.0.17
+    "@formatjs/icu-messageformat-parser": 2.0.18
     tslib: ^2.1.0
-  checksum: 267b4f282831fb0e5de8753f549a8e13bf8f4c328080d3b0c7fe4ec03993cf52dd49c9273cbec1ceb0359f9ee52cac2dc8cf78506ed7606ecb6ae6799f484b54
+  checksum: 8f7ad8d1e74580106cd6391c94e46c324ff3fd393428146dc5061d266c5b677cb3fe07ccb03d1d76e02a29da00e60c1fcf64eed45fa4b18f1a5415541c2013f1
   languageName: node
   linkType: hard
 
@@ -11660,58 +11803,58 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-changed-files@npm:^27.4.2":
-  version: 27.4.2
-  resolution: "jest-changed-files@npm:27.4.2"
+"jest-changed-files@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-changed-files@npm:27.5.1"
   dependencies:
-    "@jest/types": ^27.4.2
+    "@jest/types": ^27.5.1
     execa: ^5.0.0
     throat: ^6.0.1
-  checksum: 4df8dff39882995d4852756686357e0629cf8029ea5c35dcf25f63fba4febe15b564b9222f7d18a7546fcd48d3414345bf3c363a1d13af61d8d66e662a035420
+  checksum: 95e9dc74c3ca688ef85cfeab270f43f8902721a6c8ade6ac2459459a77890c85977f537d6fb809056deaa6d9c3f075fa7d2699ff5f3bf7d3fda17c3760b79b15
   languageName: node
   linkType: hard
 
-"jest-circus@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-circus@npm:27.4.6"
+"jest-circus@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-circus@npm:27.5.1"
   dependencies:
-    "@jest/environment": ^27.4.6
-    "@jest/test-result": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/environment": ^27.5.1
+    "@jest/test-result": ^27.5.1
+    "@jest/types": ^27.5.1
     "@types/node": "*"
     chalk: ^4.0.0
     co: ^4.6.0
     dedent: ^0.7.0
-    expect: ^27.4.6
+    expect: ^27.5.1
     is-generator-fn: ^2.0.0
-    jest-each: ^27.4.6
-    jest-matcher-utils: ^27.4.6
-    jest-message-util: ^27.4.6
-    jest-runtime: ^27.4.6
-    jest-snapshot: ^27.4.6
-    jest-util: ^27.4.2
-    pretty-format: ^27.4.6
+    jest-each: ^27.5.1
+    jest-matcher-utils: ^27.5.1
+    jest-message-util: ^27.5.1
+    jest-runtime: ^27.5.1
+    jest-snapshot: ^27.5.1
+    jest-util: ^27.5.1
+    pretty-format: ^27.5.1
     slash: ^3.0.0
     stack-utils: ^2.0.3
     throat: ^6.0.1
-  checksum: 00aae02bc4de4afa2144b073c4158a322cb37924d5583ef5caa5cb4badcc8f32474da3a01dd5672e85eda088b92d2b769986b46e36c2c88df0dd6ec0c72bd8c1
+  checksum: 6192dccbccb3a6acfa361cbb97bdbabe94864ccf3d885932cfd41f19534329d40698078cf9be1489415e8234255d6ea9f9aff5396b79ad842a6fca6e6fc08fd0
   languageName: node
   linkType: hard
 
-"jest-cli@npm:^27.4.7":
-  version: 27.4.7
-  resolution: "jest-cli@npm:27.4.7"
+"jest-cli@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-cli@npm:27.5.1"
   dependencies:
-    "@jest/core": ^27.4.7
-    "@jest/test-result": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/core": ^27.5.1
+    "@jest/test-result": ^27.5.1
+    "@jest/types": ^27.5.1
     chalk: ^4.0.0
     exit: ^0.1.2
-    graceful-fs: ^4.2.4
+    graceful-fs: ^4.2.9
     import-local: ^3.0.2
-    jest-config: ^27.4.7
-    jest-util: ^27.4.2
-    jest-validate: ^27.4.6
+    jest-config: ^27.5.1
+    jest-util: ^27.5.1
+    jest-validate: ^27.5.1
     prompts: ^2.0.1
     yargs: ^16.2.0
   peerDependencies:
@@ -11721,46 +11864,48 @@ __metadata:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: bf301039f1c14ef3fa2b7699b7b94328faa5549e34cb1573610c894bedd036ad36e31e6af436e11b3aa85e22e409a05d1fef1624bebc2da7ed416ce969b87307
+  checksum: 6c0a69fb48e500241409e09ff743ed72bc6578d7769e2c994724e7ef1e5587f6c1f85dc429e93b98ae38a365222993ee70f0acc2199358992120900984f349e5
   languageName: node
   linkType: hard
 
-"jest-config@npm:^27.4.7":
-  version: 27.4.7
-  resolution: "jest-config@npm:27.4.7"
+"jest-config@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-config@npm:27.5.1"
   dependencies:
     "@babel/core": ^7.8.0
-    "@jest/test-sequencer": ^27.4.6
-    "@jest/types": ^27.4.2
-    babel-jest: ^27.4.6
+    "@jest/test-sequencer": ^27.5.1
+    "@jest/types": ^27.5.1
+    babel-jest: ^27.5.1
     chalk: ^4.0.0
     ci-info: ^3.2.0
     deepmerge: ^4.2.2
     glob: ^7.1.1
-    graceful-fs: ^4.2.4
-    jest-circus: ^27.4.6
-    jest-environment-jsdom: ^27.4.6
-    jest-environment-node: ^27.4.6
-    jest-get-type: ^27.4.0
-    jest-jasmine2: ^27.4.6
-    jest-regex-util: ^27.4.0
-    jest-resolve: ^27.4.6
-    jest-runner: ^27.4.6
-    jest-util: ^27.4.2
-    jest-validate: ^27.4.6
+    graceful-fs: ^4.2.9
+    jest-circus: ^27.5.1
+    jest-environment-jsdom: ^27.5.1
+    jest-environment-node: ^27.5.1
+    jest-get-type: ^27.5.1
+    jest-jasmine2: ^27.5.1
+    jest-regex-util: ^27.5.1
+    jest-resolve: ^27.5.1
+    jest-runner: ^27.5.1
+    jest-util: ^27.5.1
+    jest-validate: ^27.5.1
     micromatch: ^4.0.4
-    pretty-format: ^27.4.6
+    parse-json: ^5.2.0
+    pretty-format: ^27.5.1
     slash: ^3.0.0
+    strip-json-comments: ^3.1.1
   peerDependencies:
     ts-node: ">=9.0.0"
   peerDependenciesMeta:
     ts-node:
       optional: true
-  checksum: 23d5bacc483b2674d6efcd6bfc66bcde7c2b428511b50d17a22a2750d85bfc23753f9e41f504411e411e848e34ec61244bdae9da8782df4ada6e284106f71a4d
+  checksum: 1188fd46c0ed78cbe3175eb9ad6712ccf74a74be33d9f0d748e147c107f0889f8b701fbff1567f31836ae18597dacdc43d6a8fc30dd34ade6c9229cc6c7cb82d
   languageName: node
   linkType: hard
 
-"jest-diff@npm:^27.0.0, jest-diff@npm:^27.4.6":
+"jest-diff@npm:^27.0.0":
   version: 27.4.6
   resolution: "jest-diff@npm:27.4.6"
   dependencies:
@@ -11772,54 +11917,66 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-docblock@npm:^27.4.0":
-  version: 27.4.0
-  resolution: "jest-docblock@npm:27.4.0"
+"jest-diff@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-diff@npm:27.5.1"
+  dependencies:
+    chalk: ^4.0.0
+    diff-sequences: ^27.5.1
+    jest-get-type: ^27.5.1
+    pretty-format: ^27.5.1
+  checksum: 8be27c1e1ee57b2bb2bef9c0b233c19621b4c43d53a3c26e2c00a4e805eb4ea11fe1694a06a9fb0e80ffdcfdc0d2b1cb0b85920b3f5c892327ecd1e7bd96b865
+  languageName: node
+  linkType: hard
+
+"jest-docblock@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-docblock@npm:27.5.1"
   dependencies:
     detect-newline: ^3.0.0
-  checksum: 4b7639ceb7808280562166c87c49746d9e9cc13f8315ea05a0a400d2f7b11f4491b4ad50935e5976db6509f26004fa2b187dc19eea5e09c445eed2648eb1e927
+  checksum: c0fed6d55b229d8bffdd8d03f121dd1a3be77c88f50552d374f9e1ea3bde57bf6bea017a0add04628d98abcb1bfb48b456438eeca8a74ef0053f4dae3b95d29c
   languageName: node
   linkType: hard
 
-"jest-each@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-each@npm:27.4.6"
+"jest-each@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-each@npm:27.5.1"
   dependencies:
-    "@jest/types": ^27.4.2
+    "@jest/types": ^27.5.1
     chalk: ^4.0.0
-    jest-get-type: ^27.4.0
-    jest-util: ^27.4.2
-    pretty-format: ^27.4.6
-  checksum: cce85a14a4c3a37733e75da2352e767c6eef923181e0c884eb9f86253ed417de0454da5117ebfbc1fcabdf109a305b1dbbf9b71a5712da8b6d79fde1f73a9b75
+    jest-get-type: ^27.5.1
+    jest-util: ^27.5.1
+    pretty-format: ^27.5.1
+  checksum: b5a6d8730fd938982569c9e0b42bdf3c242f97b957ed8155a6473b5f7b540970f8685524e7f53963dc1805319f4b6602abfc56605590ca19d55bd7a87e467e63
   languageName: node
   linkType: hard
 
-"jest-environment-jsdom@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-environment-jsdom@npm:27.4.6"
+"jest-environment-jsdom@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-environment-jsdom@npm:27.5.1"
   dependencies:
-    "@jest/environment": ^27.4.6
-    "@jest/fake-timers": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/environment": ^27.5.1
+    "@jest/fake-timers": ^27.5.1
+    "@jest/types": ^27.5.1
     "@types/node": "*"
-    jest-mock: ^27.4.6
-    jest-util: ^27.4.2
+    jest-mock: ^27.5.1
+    jest-util: ^27.5.1
     jsdom: ^16.6.0
-  checksum: bdf5f349a3e96b029fd0c442c8ba86dd7beb8d14922b6a53f0c52f9ab7b34521ef8deedfaba13ce81ca01e9074032eb8dc506d9035941348e129d0b76671d6bc
+  checksum: bc104aef7d7530d0740402aa84ac812138b6d1e51fe58adecce679f82b99340ddab73e5ec68fa079f33f50c9ddec9728fc9f0ddcca2ad6f0b351eed2762cc555
   languageName: node
   linkType: hard
 
-"jest-environment-node@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-environment-node@npm:27.4.6"
+"jest-environment-node@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-environment-node@npm:27.5.1"
   dependencies:
-    "@jest/environment": ^27.4.6
-    "@jest/fake-timers": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/environment": ^27.5.1
+    "@jest/fake-timers": ^27.5.1
+    "@jest/types": ^27.5.1
     "@types/node": "*"
-    jest-mock: ^27.4.6
-    jest-util: ^27.4.2
-  checksum: 3f146e7819f65b1dc0252573cddadc8c565a566ddf7c06c93eded51cccfc55f4765373fb2aaafeb4d8b76ec62b062e1bd4f1da6b9f57429af6789ef8bbada3cb
+    jest-mock: ^27.5.1
+    jest-util: ^27.5.1
+  checksum: 0f988330c4f3eec092e3fb37ea753b0c6f702e83cd8f4d770af9c2bf964a70bc45fbd34ec6fdb6d71ce98a778d9f54afd673e63f222e4667fff289e8069dba39
   languageName: node
   linkType: hard
 
@@ -11827,6 +11984,13 @@ __metadata:
   version: 27.4.0
   resolution: "jest-get-type@npm:27.4.0"
   checksum: bb9b70e420009fdaed3026d5bccd01569f92c7500f9f544d862796d4f4efa93ced5484864b2f272c7748bfb5bfd3268d48868b169c51ab45fe5b45b9519b6e46
+  languageName: node
+  linkType: hard
+
+"jest-get-type@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-get-type@npm:27.5.1"
+  checksum: 63064ab70195c21007d897c1157bf88ff94a790824a10f8c890392e7d17eda9c3900513cb291ca1c8d5722cad79169764e9a1279f7c8a9c4cd6e9109ff04bbc0
   languageName: node
   linkType: hard
 
@@ -11854,38 +12018,62 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-jasmine2@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-jasmine2@npm:27.4.6"
+"jest-haste-map@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-haste-map@npm:27.5.1"
   dependencies:
-    "@jest/environment": ^27.4.6
-    "@jest/source-map": ^27.4.0
-    "@jest/test-result": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/types": ^27.5.1
+    "@types/graceful-fs": ^4.1.2
     "@types/node": "*"
-    chalk: ^4.0.0
-    co: ^4.6.0
-    expect: ^27.4.6
-    is-generator-fn: ^2.0.0
-    jest-each: ^27.4.6
-    jest-matcher-utils: ^27.4.6
-    jest-message-util: ^27.4.6
-    jest-runtime: ^27.4.6
-    jest-snapshot: ^27.4.6
-    jest-util: ^27.4.2
-    pretty-format: ^27.4.6
-    throat: ^6.0.1
-  checksum: d9b05405708161b90c2e9add00ee3c62b154b0f839bc50f034ae8369921956bb16cec428e46ae3b8074a3aeded6cb02f770161d7453f1a183b1abac17dae43f7
+    anymatch: ^3.0.3
+    fb-watchman: ^2.0.0
+    fsevents: ^2.3.2
+    graceful-fs: ^4.2.9
+    jest-regex-util: ^27.5.1
+    jest-serializer: ^27.5.1
+    jest-util: ^27.5.1
+    jest-worker: ^27.5.1
+    micromatch: ^4.0.4
+    walker: ^1.0.7
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  checksum: e092a1412829a9254b4725531ee72926de530f77fda7b0d9ea18008fb7623c16f72e772d8e93be71cac9e591b2c6843a669610887dd2c89bd9eb528856e3ab47
   languageName: node
   linkType: hard
 
-"jest-leak-detector@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-leak-detector@npm:27.4.6"
+"jest-jasmine2@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-jasmine2@npm:27.5.1"
   dependencies:
-    jest-get-type: ^27.4.0
-    pretty-format: ^27.4.6
-  checksum: 4259400403d51b1297b9ab05c1342345c4a93a77c99447b061192ed81b56efcbdd28a03914c9f97670d2f3498bdc368712575d6218b02e3af1656b7db507d3bf
+    "@jest/environment": ^27.5.1
+    "@jest/source-map": ^27.5.1
+    "@jest/test-result": ^27.5.1
+    "@jest/types": ^27.5.1
+    "@types/node": "*"
+    chalk: ^4.0.0
+    co: ^4.6.0
+    expect: ^27.5.1
+    is-generator-fn: ^2.0.0
+    jest-each: ^27.5.1
+    jest-matcher-utils: ^27.5.1
+    jest-message-util: ^27.5.1
+    jest-runtime: ^27.5.1
+    jest-snapshot: ^27.5.1
+    jest-util: ^27.5.1
+    pretty-format: ^27.5.1
+    throat: ^6.0.1
+  checksum: b716adf253ceb73db661936153394ab90d7f3a8ba56d6189b7cd4df8e4e2a4153b4e63ebb5d36e29ceb0f4c211d5a6f36ab7048c6abbd881c8646567e2ab8e6d
+  languageName: node
+  linkType: hard
+
+"jest-leak-detector@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-leak-detector@npm:27.5.1"
+  dependencies:
+    jest-get-type: ^27.5.1
+    pretty-format: ^27.5.1
+  checksum: 5c9689060960567ddaf16c570d87afa760a461885765d2c71ef4f4857bbc3af1482c34e3cce88e50beefde1bf35e33530b020480752057a7e3dbb1ca0bae359f
   languageName: node
   linkType: hard
 
@@ -11896,15 +12084,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-matcher-utils@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-matcher-utils@npm:27.4.6"
+"jest-matcher-utils@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-matcher-utils@npm:27.5.1"
   dependencies:
     chalk: ^4.0.0
-    jest-diff: ^27.4.6
-    jest-get-type: ^27.4.0
-    pretty-format: ^27.4.6
-  checksum: 445a8cc9eaa7cb08653a10cfc4f109eca76a97d1b1d3a01067bd77efa9cb3a554b74c7402a4c9d5083b21e11218e1515ef538faa47fa47c282072b4825f6b307
+    jest-diff: ^27.5.1
+    jest-get-type: ^27.5.1
+    pretty-format: ^27.5.1
+  checksum: bb2135fc48889ff3fe73888f6cc7168ddab9de28b51b3148f820c89fdfd2effdcad005f18be67d0b9be80eda208ad47290f62f03d0a33f848db2dd0273c8217a
   languageName: node
   linkType: hard
 
@@ -11925,6 +12113,23 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-message-util@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-message-util@npm:27.5.1"
+  dependencies:
+    "@babel/code-frame": ^7.12.13
+    "@jest/types": ^27.5.1
+    "@types/stack-utils": ^2.0.0
+    chalk: ^4.0.0
+    graceful-fs: ^4.2.9
+    micromatch: ^4.0.4
+    pretty-format: ^27.5.1
+    slash: ^3.0.0
+    stack-utils: ^2.0.3
+  checksum: eb6d637d1411c71646de578c49826b6da8e33dd293e501967011de9d1916d53d845afbfb52a5b661ff1c495be7c13f751c48c7f30781fd94fbd64842e8195796
+  languageName: node
+  linkType: hard
+
 "jest-mock@npm:^27.4.6":
   version: 27.4.6
   resolution: "jest-mock@npm:27.4.6"
@@ -11932,6 +12137,16 @@ __metadata:
     "@jest/types": ^27.4.2
     "@types/node": "*"
   checksum: 34df5ec502fa0db5ef36e2b2e96a522de730e7be907c6df5d4ec8ab1292d9be71f1e269e8bcdafd020239edaf3ca6f9c464eb0b4aca6986420a1f392976fc0ab
+  languageName: node
+  linkType: hard
+
+"jest-mock@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-mock@npm:27.5.1"
+  dependencies:
+    "@jest/types": ^27.5.1
+    "@types/node": "*"
+  checksum: f5b5904bb1741b4a1687a5f492535b7b1758dc26534c72a5423305f8711292e96a601dec966df81bb313269fb52d47227e29f9c2e08324d79529172f67311be0
   languageName: node
   linkType: hard
 
@@ -11954,107 +12169,113 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-resolve-dependencies@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-resolve-dependencies@npm:27.4.6"
-  dependencies:
-    "@jest/types": ^27.4.2
-    jest-regex-util: ^27.4.0
-    jest-snapshot: ^27.4.6
-  checksum: c644adb74a602c8c08f90256c9a5c519434cd213a02a6f427425003f9ab026c12860527eb67cf624aa6717c410fa92aee66662d212c0ffbb73f80e2711ffb7a4
+"jest-regex-util@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-regex-util@npm:27.5.1"
+  checksum: d45ca7a9543616a34f7f3079337439cf07566e677a096472baa2810e274b9808b76767c97b0a4029b8a5b82b9d256dee28ef9ad4138b2b9e5933f6fac106c418
   languageName: node
   linkType: hard
 
-"jest-resolve@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-resolve@npm:27.4.6"
+"jest-resolve-dependencies@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-resolve-dependencies@npm:27.5.1"
   dependencies:
-    "@jest/types": ^27.4.2
+    "@jest/types": ^27.5.1
+    jest-regex-util: ^27.5.1
+    jest-snapshot: ^27.5.1
+  checksum: c67af97afad1da88f5530317c732bbd1262d1225f6cd7f4e4740a5db48f90ab0bd8564738ac70d1a43934894f9aef62205c1b8f8ee89e5c7a737e6a121ee4c25
+  languageName: node
+  linkType: hard
+
+"jest-resolve@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-resolve@npm:27.5.1"
+  dependencies:
+    "@jest/types": ^27.5.1
     chalk: ^4.0.0
-    graceful-fs: ^4.2.4
-    jest-haste-map: ^27.4.6
+    graceful-fs: ^4.2.9
+    jest-haste-map: ^27.5.1
     jest-pnp-resolver: ^1.2.2
-    jest-util: ^27.4.2
-    jest-validate: ^27.4.6
+    jest-util: ^27.5.1
+    jest-validate: ^27.5.1
     resolve: ^1.20.0
     resolve.exports: ^1.1.0
     slash: ^3.0.0
-  checksum: 69b765660ee2dd71542953fbe5f6fc9ee3590a4829376e00d955f7566d47049ec5e300832bee1530ac85d2946e341558993ab381d3023363058ae6f9d4c10025
+  checksum: 735830e7265b20a348029738680bb2f6e37f80ecea86cda869a4c318ba3a45d39c7a3a873a22f7f746d86258c50ead6e7f501de043e201c095d7ba628a1c440f
   languageName: node
   linkType: hard
 
-"jest-runner-eslint@npm:0.11.1":
-  version: 0.11.1
-  resolution: "jest-runner-eslint@npm:0.11.1"
+"jest-runner-eslint@npm:1.0.0":
+  version: 1.0.0
+  resolution: "jest-runner-eslint@npm:1.0.0"
   dependencies:
     chalk: ^3.0.0
     cosmiconfig: ^6.0.0
     create-jest-runner: ^0.6.0
     dot-prop: ^5.3.0
   peerDependencies:
-    eslint: ^6 || ^7
+    eslint: ^6 || ^7 || ^8
     jest: ^25.1 || ^26 || ^27
-  checksum: 49d38ba63eaba12e4dcfa02e918940befa002f5b841df662be177be561dfe1f814d9830a6cd3d9e81b6e3d027a738690fc91325dd2fbf4feb4d13cac3266baf3
+  checksum: 2969532d67e8a3049b22a143a23b40226dc552e602b8cae060bf6427728dc2c13c0f95c3cf54981b0a551403c876e30d2881c96e6a42d29df1f4891e870427c9
   languageName: node
   linkType: hard
 
-"jest-runner@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-runner@npm:27.4.6"
+"jest-runner@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-runner@npm:27.5.1"
   dependencies:
-    "@jest/console": ^27.4.6
-    "@jest/environment": ^27.4.6
-    "@jest/test-result": ^27.4.6
-    "@jest/transform": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/console": ^27.5.1
+    "@jest/environment": ^27.5.1
+    "@jest/test-result": ^27.5.1
+    "@jest/transform": ^27.5.1
+    "@jest/types": ^27.5.1
     "@types/node": "*"
     chalk: ^4.0.0
     emittery: ^0.8.1
-    exit: ^0.1.2
-    graceful-fs: ^4.2.4
-    jest-docblock: ^27.4.0
-    jest-environment-jsdom: ^27.4.6
-    jest-environment-node: ^27.4.6
-    jest-haste-map: ^27.4.6
-    jest-leak-detector: ^27.4.6
-    jest-message-util: ^27.4.6
-    jest-resolve: ^27.4.6
-    jest-runtime: ^27.4.6
-    jest-util: ^27.4.2
-    jest-worker: ^27.4.6
+    graceful-fs: ^4.2.9
+    jest-docblock: ^27.5.1
+    jest-environment-jsdom: ^27.5.1
+    jest-environment-node: ^27.5.1
+    jest-haste-map: ^27.5.1
+    jest-leak-detector: ^27.5.1
+    jest-message-util: ^27.5.1
+    jest-resolve: ^27.5.1
+    jest-runtime: ^27.5.1
+    jest-util: ^27.5.1
+    jest-worker: ^27.5.1
     source-map-support: ^0.5.6
     throat: ^6.0.1
-  checksum: 4e76117e5373b6eb51c7113f848dbc92bc1e1d2f1302f9530ef9cb6c967eb364836f4a5790f65a437f47debc917bfb696bbc647831292fa8b1b4321f292e721f
+  checksum: 5bbe6cf847dd322b3332ec9d6977b54f91bd5f72ff620bc1a0192f0f129deda8aa7ca74c98922187a7aa87d8e0ce4f6c50e99a7ccb2a310bf4d94be2e0c3ce8e
   languageName: node
   linkType: hard
 
-"jest-runtime@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-runtime@npm:27.4.6"
+"jest-runtime@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-runtime@npm:27.5.1"
   dependencies:
-    "@jest/environment": ^27.4.6
-    "@jest/fake-timers": ^27.4.6
-    "@jest/globals": ^27.4.6
-    "@jest/source-map": ^27.4.0
-    "@jest/test-result": ^27.4.6
-    "@jest/transform": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/environment": ^27.5.1
+    "@jest/fake-timers": ^27.5.1
+    "@jest/globals": ^27.5.1
+    "@jest/source-map": ^27.5.1
+    "@jest/test-result": ^27.5.1
+    "@jest/transform": ^27.5.1
+    "@jest/types": ^27.5.1
     chalk: ^4.0.0
     cjs-module-lexer: ^1.0.0
     collect-v8-coverage: ^1.0.0
     execa: ^5.0.0
     glob: ^7.1.3
-    graceful-fs: ^4.2.4
-    jest-haste-map: ^27.4.6
-    jest-message-util: ^27.4.6
-    jest-mock: ^27.4.6
-    jest-regex-util: ^27.4.0
-    jest-resolve: ^27.4.6
-    jest-snapshot: ^27.4.6
-    jest-util: ^27.4.2
+    graceful-fs: ^4.2.9
+    jest-haste-map: ^27.5.1
+    jest-message-util: ^27.5.1
+    jest-mock: ^27.5.1
+    jest-regex-util: ^27.5.1
+    jest-resolve: ^27.5.1
+    jest-snapshot: ^27.5.1
+    jest-util: ^27.5.1
     slash: ^3.0.0
     strip-bom: ^4.0.0
-  checksum: 64d833c7d7b1d67b53932dc9fd9332aaf43ea1777fc61c3f143515968f066438b3247e4f1a71a7f127b1bedbc7c3124bfc53cb4f026fff5b26e2feda8d35535c
+  checksum: 929e3df0c53dab43f831f2af4e2996b22aa8cb2d6d483919d6b0426cbc100098fd5b777b998c6568b77f8c4d860b2e83127514292ff61416064f5ef926492386
   languageName: node
   linkType: hard
 
@@ -12068,6 +12289,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"jest-serializer@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-serializer@npm:27.5.1"
+  dependencies:
+    "@types/node": "*"
+    graceful-fs: ^4.2.9
+  checksum: 803e03a552278610edc6753c0dd9fa5bb5cd3ca47414a7b2918106efb62b79fd5e9ae785d0a21f12a299fa599fea8acc1fa6dd41283328cee43962cf7df9bb44
+  languageName: node
+  linkType: hard
+
 "jest-silent-reporter@npm:0.5.0":
   version: 0.5.0
   resolution: "jest-silent-reporter@npm:0.5.0"
@@ -12078,33 +12309,33 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-snapshot@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-snapshot@npm:27.4.6"
+"jest-snapshot@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-snapshot@npm:27.5.1"
   dependencies:
     "@babel/core": ^7.7.2
     "@babel/generator": ^7.7.2
     "@babel/plugin-syntax-typescript": ^7.7.2
     "@babel/traverse": ^7.7.2
     "@babel/types": ^7.0.0
-    "@jest/transform": ^27.4.6
-    "@jest/types": ^27.4.2
+    "@jest/transform": ^27.5.1
+    "@jest/types": ^27.5.1
     "@types/babel__traverse": ^7.0.4
     "@types/prettier": ^2.1.5
     babel-preset-current-node-syntax: ^1.0.0
     chalk: ^4.0.0
-    expect: ^27.4.6
-    graceful-fs: ^4.2.4
-    jest-diff: ^27.4.6
-    jest-get-type: ^27.4.0
-    jest-haste-map: ^27.4.6
-    jest-matcher-utils: ^27.4.6
-    jest-message-util: ^27.4.6
-    jest-util: ^27.4.2
+    expect: ^27.5.1
+    graceful-fs: ^4.2.9
+    jest-diff: ^27.5.1
+    jest-get-type: ^27.5.1
+    jest-haste-map: ^27.5.1
+    jest-matcher-utils: ^27.5.1
+    jest-message-util: ^27.5.1
+    jest-util: ^27.5.1
     natural-compare: ^1.4.0
-    pretty-format: ^27.4.6
+    pretty-format: ^27.5.1
     semver: ^7.3.2
-  checksum: c7a1ae993ae7334277c61e6d645efedefce53ca212498ae766ea28efa46287559a56d2bd2edaaead8476191a45adbb1354df5367dfd223763b5a66751bfbda14
+  checksum: a5cfadf0d21cd76063925d1434bc076443ed6d87847d0e248f0b245f11db3d98ff13e45cc03b15404027dabecd712d925f47b6eae4f64986f688640a7d362514
   languageName: node
   linkType: hard
 
@@ -12145,17 +12376,31 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-validate@npm:^27.4.6":
-  version: 27.4.6
-  resolution: "jest-validate@npm:27.4.6"
+"jest-util@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-util@npm:27.5.1"
   dependencies:
-    "@jest/types": ^27.4.2
+    "@jest/types": ^27.5.1
+    "@types/node": "*"
+    chalk: ^4.0.0
+    ci-info: ^3.2.0
+    graceful-fs: ^4.2.9
+    picomatch: ^2.2.3
+  checksum: ac8d122f6daf7a035dcea156641fd3701aeba245417c40836a77e35b3341b9c02ddc5d904cfcd4ddbaa00ab854da76d3b911870cafdcdbaff90ea471de26c7d7
+  languageName: node
+  linkType: hard
+
+"jest-validate@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-validate@npm:27.5.1"
+  dependencies:
+    "@jest/types": ^27.5.1
     camelcase: ^6.2.0
     chalk: ^4.0.0
-    jest-get-type: ^27.4.0
+    jest-get-type: ^27.5.1
     leven: ^3.1.0
-    pretty-format: ^27.4.6
-  checksum: d3578030eadd872b99e65dac24d9ca755f2a2483f8344d9e575ea6034c6cb5ed5bcf7a4aa4f1050ab0080d5a8d0b0efd31c911514f27820b871a636a97dc196c
+    pretty-format: ^27.5.1
+  checksum: 82e870f8ee7e4fb949652711b1567f05ae31c54be346b0899e8353e5c20fad7692b511905b37966945e90af8dc0383eb41a74f3ffefb16140ea4f9164d841412
   languageName: node
   linkType: hard
 
@@ -12176,7 +12421,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest-watcher@npm:^27.0.0, jest-watcher@npm:^27.4.6":
+"jest-watcher@npm:^27.0.0":
   version: 27.4.6
   resolution: "jest-watcher@npm:27.4.6"
   dependencies:
@@ -12188,6 +12433,21 @@ __metadata:
     jest-util: ^27.4.2
     string-length: ^4.0.1
   checksum: bb9c0a34dcc690cef6430c275e81213620bc4ba6337e42302efa51666ac06781e9f6f50c930332396e4e8cd8cc47de8fb2e8de57da0f7e35a246b0206dde1cd3
+  languageName: node
+  linkType: hard
+
+"jest-watcher@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-watcher@npm:27.5.1"
+  dependencies:
+    "@jest/test-result": ^27.5.1
+    "@jest/types": ^27.5.1
+    "@types/node": "*"
+    ansi-escapes: ^4.2.1
+    chalk: ^4.0.0
+    jest-util: ^27.5.1
+    string-length: ^4.0.1
+  checksum: 191c4e9c278c0902ade1a8a80883ac244963ba3e6e78607a3d5f729ccca9c6e71fb3b316f87883658132641c5d818aa84202585c76752e03c539e6cbecb820bd
   languageName: node
   linkType: hard
 
@@ -12212,13 +12472,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jest@npm:27.4.7":
-  version: 27.4.7
-  resolution: "jest@npm:27.4.7"
+"jest-worker@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "jest-worker@npm:27.5.1"
   dependencies:
-    "@jest/core": ^27.4.7
+    "@types/node": "*"
+    merge-stream: ^2.0.0
+    supports-color: ^8.0.0
+  checksum: 98cd68b696781caed61c983a3ee30bf880b5bd021c01d98f47b143d4362b85d0737f8523761e2713d45e18b4f9a2b98af1eaee77afade4111bb65c77d6f7c980
+  languageName: node
+  linkType: hard
+
+"jest@npm:27.5.1":
+  version: 27.5.1
+  resolution: "jest@npm:27.5.1"
+  dependencies:
+    "@jest/core": ^27.5.1
     import-local: ^3.0.2
-    jest-cli: ^27.4.7
+    jest-cli: ^27.5.1
   peerDependencies:
     node-notifier: ^8.0.1 || ^9.0.0 || ^10.0.0
   peerDependenciesMeta:
@@ -12226,7 +12497,7 @@ __metadata:
       optional: true
   bin:
     jest: bin/jest.js
-  checksum: 28ce948b30c074907393f37553acac4422d0f60190776e62b3403e4c742d33dd6012e3a20748254a43e38b5b4ce52d813b13a3a5be1d43d6d12429bd08ce1a23
+  checksum: 96f1d69042b3c6dfc695f2a4e4b0db38af6fb78582ad1a02beaa57cfcd77cbd31567d7d865c1c85709b7c3e176eefa3b2035ffecd646005f15d8ef528eccf205
   languageName: node
   linkType: hard
 
@@ -12678,9 +12949,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lint-staged@npm:12.3.2":
-  version: 12.3.2
-  resolution: "lint-staged@npm:12.3.2"
+"lint-staged@npm:12.3.5":
+  version: 12.3.5
+  resolution: "lint-staged@npm:12.3.5"
   dependencies:
     cli-truncate: ^3.1.0
     colorette: ^2.0.16
@@ -12697,7 +12968,7 @@ __metadata:
     yaml: ^1.10.2
   bin:
     lint-staged: bin/lint-staged.js
-  checksum: 35cab689dfc967ff95afeeaa7be7d1e19a131f36eeac9ac1d80240e0b20108286ce04f2d6bdf0b77fdf58db3ca5313bcbf2667dc6017335e604ff455caf69e33
+  checksum: 6653c7078b36741e521e5f309b56bb75db198a05cbdd188124ff82a290e352ade3eb1e6080265729e19711ac08d190e300874af00e4e540b57b3c8f0690e2573
   languageName: node
   linkType: hard
 
@@ -13156,45 +13427,45 @@ __metadata:
   dependencies:
     "@apollo/client": 3.5.7
     "@commercetools-frontend/actions-global": 21.0.0
-    "@commercetools-frontend/application-components": 21.0.0
-    "@commercetools-frontend/application-shell": 21.0.0
+    "@commercetools-frontend/application-components": 21.2.0
+    "@commercetools-frontend/application-shell": 21.2.0
     "@commercetools-frontend/assets": 21.0.0
-    "@commercetools-frontend/cypress": 21.0.0
+    "@commercetools-frontend/cypress": 21.2.0
     "@commercetools-frontend/eslint-config-mc-app": 21.0.0
-    "@commercetools-frontend/i18n": 21.0.0
+    "@commercetools-frontend/i18n": 21.2.0
     "@commercetools-frontend/jest-preset-mc-app": 21.0.0
-    "@commercetools-frontend/mc-scripts": 21.0.0
+    "@commercetools-frontend/mc-scripts": 21.1.2
     "@commercetools-frontend/permissions": 21.0.0
-    "@commercetools-frontend/sdk": 21.0.0
-    "@commercetools-uikit/flat-button": 12.2.9
-    "@commercetools-uikit/icons": 12.2.9
-    "@commercetools-uikit/notifications": 12.2.9
-    "@commercetools-uikit/spacings": 12.2.9
-    "@commercetools-uikit/text": 12.2.9
-    "@commitlint/cli": 16.1.0
-    "@commitlint/config-conventional": 16.0.0
-    "@formatjs/cli": 4.8.1
+    "@commercetools-frontend/sdk": 21.1.0
+    "@commercetools-uikit/flat-button": 14.0.1
+    "@commercetools-uikit/icons": 14.0.1
+    "@commercetools-uikit/notifications": 14.0.1
+    "@commercetools-uikit/spacings": 14.0.1
+    "@commercetools-uikit/text": 14.0.1
+    "@commitlint/cli": 16.2.1
+    "@commitlint/config-conventional": 16.2.1
+    "@formatjs/cli": 4.8.2
     "@manypkg/cli": 0.19.1
     "@testing-library/cypress": 8.0.2
-    "@testing-library/react": 12.1.2
-    cypress: 9.3.1
-    dotenv: 14.3.2
-    eslint: 8.8.0
+    "@testing-library/react": 12.1.3
+    cypress: 9.5.1
+    dotenv: 16.0.0
+    eslint: 8.10.0
     eslint-formatter-pretty: 4.1.0
-    graphiql: 1.5.16
-    graphiql-explorer: 0.6.3
+    graphiql: 1.7.0
+    graphiql-explorer: 0.9.0
     graphql: 15.8.0
     husky: 7.0.4
-    jest: 27.4.7
-    jest-runner-eslint: 0.11.1
+    jest: 27.5.1
+    jest-runner-eslint: 1.0.0
     jest-silent-reporter: 0.5.0
     jest-watch-typeahead: 1.0.0
-    lint-staged: 12.3.2
+    lint-staged: 12.3.5
     prettier: 2.5.1
     prop-types: 15.8.1
     react: 17.0.2
     react-dom: 17.0.2
-    react-intl: 5.24.4
+    react-intl: 5.24.6
     react-redux: 7.2.6
     react-router-dom: 5.3.0
     redux: 4.1.2
@@ -14273,7 +14544,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"parse-json@npm:^5.0.0":
+"parse-json@npm:^5.0.0, parse-json@npm:^5.2.0":
   version: 5.2.0
   resolution: "parse-json@npm:5.2.0"
   dependencies:
@@ -15043,6 +15314,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pretty-format@npm:^27.5.1":
+  version: 27.5.1
+  resolution: "pretty-format@npm:27.5.1"
+  dependencies:
+    ansi-regex: ^5.0.1
+    ansi-styles: ^5.0.0
+    react-is: ^17.0.1
+  checksum: cf610cffcb793885d16f184a62162f2dd0df31642d9a18edf4ca298e909a8fe80bdbf556d5c9573992c102ce8bf948691da91bf9739bee0ffb6e79c8a8a6e088
+  languageName: node
+  linkType: hard
+
 "pretty-time@npm:^1.1.0":
   version: 1.1.0
   resolution: "pretty-time@npm:1.1.0"
@@ -15097,17 +15379,6 @@ __metadata:
     kleur: ^3.0.3
     sisteransi: ^1.0.5
   checksum: d8fd1fe63820be2412c13bfc5d0a01909acc1f0367e32396962e737cb2fc52d004f3302475d5ce7d18a1e8a79985f93ff04ee03007d091029c3f9104bffc007d
-  languageName: node
-  linkType: hard
-
-"prop-types@npm:15.7.2":
-  version: 15.7.2
-  resolution: "prop-types@npm:15.7.2"
-  dependencies:
-    loose-envify: ^1.4.0
-    object-assign: ^4.1.1
-    react-is: ^16.8.1
-  checksum: 5eef82fdda64252c7e75aa5c8cc28a24bbdece0f540adb60ce67c205cf978a5bd56b83e4f269f91c6e4dcfd80b36f2a2dec24d362e278913db2086ca9c6f9430
   languageName: node
   linkType: hard
 
@@ -15497,19 +15768,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-intl@npm:5.24.4":
-  version: 5.24.4
-  resolution: "react-intl@npm:5.24.4"
+"react-intl@npm:5.24.6, react-intl@npm:^5.24.6":
+  version: 5.24.6
+  resolution: "react-intl@npm:5.24.6"
   dependencies:
-    "@formatjs/ecma402-abstract": 1.11.2
-    "@formatjs/icu-messageformat-parser": 2.0.17
-    "@formatjs/intl": 1.18.4
-    "@formatjs/intl-displaynames": 5.4.1
-    "@formatjs/intl-listformat": 6.5.1
+    "@formatjs/ecma402-abstract": 1.11.3
+    "@formatjs/icu-messageformat-parser": 2.0.18
+    "@formatjs/intl": 2.0.0
+    "@formatjs/intl-displaynames": 5.4.2
+    "@formatjs/intl-listformat": 6.5.2
     "@types/hoist-non-react-statics": ^3.3.1
     "@types/react": 16 || 17
     hoist-non-react-statics: ^3.3.2
-    intl-messageformat: 9.11.3
+    intl-messageformat: 9.11.4
     tslib: ^2.1.0
   peerDependencies:
     react: ^16.3.0 || 17
@@ -15517,7 +15788,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 34e53b96d9b4216b08f5294fd1bc40b3e00ff005c05bc02e5fdbd8d51758f0de0c14750b9fae37026f727003cec9802fb6108a5a402ea74028a1f03d65bb82cd
+  checksum: 2f14ca6b52837ba616e6dbede64ca9e21047817f5a13ac4b46a1d34e5bf81e835b54574963ce1437c7595d3c3b4487d341669d818407050a724d208ec48a4a9e
   languageName: node
   linkType: hard
 
@@ -15528,7 +15799,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-is@npm:^16.13.1, react-is@npm:^16.6.0, react-is@npm:^16.7.0, react-is@npm:^16.8.1":
+"react-is@npm:^16.13.1, react-is@npm:^16.6.0, react-is@npm:^16.7.0":
   version: 16.13.1
   resolution: "react-is@npm:16.13.1"
   checksum: f7a19ac3496de32ca9ae12aa030f00f14a3d45374f1ceca0af707c831b2a6098ef0d6bdae51bd437b0a306d7f01d4677fcc8de7c0d331eb47ad0f46130e53c5f
@@ -15626,24 +15897,6 @@ __metadata:
   peerDependencies:
     react: ">=15"
   checksum: 7daae084bf64531eb619cc5f4cc40ce5ae0a541b64f71d74ec71a38cbf6130ebdbb7cf38f157303fad5846deec259401f96c4d6c7386466dcc989719e01f9aaa
-  languageName: node
-  linkType: hard
-
-"react-select@npm:5.2.1":
-  version: 5.2.1
-  resolution: "react-select@npm:5.2.1"
-  dependencies:
-    "@babel/runtime": ^7.12.0
-    "@emotion/cache": ^11.4.0
-    "@emotion/react": ^11.1.1
-    "@types/react-transition-group": ^4.4.0
-    memoize-one: ^5.0.0
-    prop-types: ^15.6.0
-    react-transition-group: ^4.3.0
-  peerDependencies:
-    react: ^16.8.0 || ^17.0.0
-    react-dom: ^16.8.0 || ^17.0.0
-  checksum: 014cde5d23ca466795bd7f02455769efda74522c41f11109ec2d6f0e3c77f401ea91ae23cdccce997efb653aa6ea88688a16f40e59bfdef2a2414d0cfd10f374
   languageName: node
   linkType: hard
 
