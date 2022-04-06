@@ -1,14 +1,39 @@
 import 'graphiql/graphiql.css';
 import './graphiql-overrides.css';
 import { useCallback, useRef, useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
 import GraphiQL from 'graphiql';
 import GraphiQLExplorer from 'graphiql-explorer';
-import { buildClientSchema, getIntrospectionQuery, parse } from 'graphql';
-import { actions, useAsyncDispatch } from '@commercetools-frontend/sdk';
+import {
+  type GraphQLSchema,
+  buildClientSchema,
+  getIntrospectionQuery,
+  parse,
+} from 'graphql';
+import type { TGraphQLTargets } from '@commercetools-frontend/constants';
+import {
+  actions,
+  useAsyncDispatch,
+  type TSdkActionPostForUri,
+} from '@commercetools-frontend/sdk';
 
-const useFetcher = ({ target }) => {
-  const dispatch = useAsyncDispatch();
+type TEditorProps = {
+  target: TGraphQLTargets;
+  // Note: Used in getter function.
+  // eslint-disable-next-line react/no-unused-prop-types
+  initialQuery: string;
+};
+type TUseFetcherOptions = {
+  target: TEditorProps['target'];
+};
+type TGraphQlIntrospectionResult = {
+  data: Record<string, unknown>;
+};
+
+const useFetcher = ({ target }: TUseFetcherOptions) => {
+  const dispatch = useAsyncDispatch<
+    TSdkActionPostForUri,
+    TGraphQlIntrospectionResult
+  >();
   return useCallback(
     (params) =>
       dispatch(
@@ -26,7 +51,7 @@ const useFetcher = ({ target }) => {
   );
 };
 
-const getHydratedQuery = (props) => {
+const getHydratedQuery = (props: TEditorProps) => {
   const value = window.localStorage.getItem(`graphiql:query:${props.target}`);
   if (!value) {
     window.localStorage.removeItem(`graphiql:query:${props.target}`);
@@ -35,10 +60,10 @@ const getHydratedQuery = (props) => {
   return value;
 };
 
-const Editor = (props) => {
-  const graphiqlRef = useRef();
-  const [schema, setSchema] = useState(null);
-  const [query, setQuery] = useState(null);
+const Editor = (props: TEditorProps) => {
+  const graphiqlRef = useRef<GraphiQL>(null);
+  const [schema, setSchema] = useState<GraphQLSchema>();
+  const [query, setQuery] = useState<string>();
   const [explorerIsOpen, setExplorerIsOpen] = useState(true);
   const fetcher = useFetcher({ target: props.target });
   // Set things up on first render
@@ -120,8 +145,8 @@ const Editor = (props) => {
   );
   // Extra configuration for editor
   useEffect(() => {
-    const editor = graphiqlRef.current.getQueryEditor();
-    editor.setOption('extraKeys', {
+    const editor = graphiqlRef.current?.getQueryEditor();
+    editor?.setOption('extraKeys', {
       ...(editor.options.extraKeys || {}),
       'Shift-Alt-LeftClick': handleInspectOperation,
     });
@@ -136,10 +161,10 @@ const Editor = (props) => {
       <div className="graphiql-container">
         <GraphiQLExplorer
           schema={schema}
-          query={query}
+          query={query ?? ''}
           onEdit={setQuery}
           onRunOperation={(operationName) =>
-            graphiqlRef.current.handleRunQuery(operationName)
+            graphiqlRef.current?.handleRunQuery(operationName)
           }
           explorerIsOpen={explorerIsOpen}
           onToggleExplorer={handleToggleExplorer}
@@ -157,16 +182,21 @@ const Editor = (props) => {
               window.localStorage.setItem(`${key}:${props.target}`, value),
             removeItem: (key) =>
               window.localStorage.removeItem(`${key}:${props.target}`),
+            length: 1, // no idea what this is useful for.
           }}
         >
           <GraphiQL.Toolbar>
             <GraphiQL.Button
-              onClick={() => graphiqlRef.current.handlePrettifyQuery()}
+              onClick={() => {
+                graphiqlRef.current?.handlePrettifyQuery();
+              }}
               label="Prettify"
               title="Prettify Query (Shift-Ctrl-P)"
             />
             <GraphiQL.Button
-              onClick={() => graphiqlRef.current.handleToggleHistory()}
+              onClick={() => {
+                graphiqlRef.current?.handleToggleHistory();
+              }}
               label="History"
               title="Show History"
             />
@@ -182,11 +212,5 @@ const Editor = (props) => {
   );
 };
 Editor.displayName = 'Editor';
-Editor.propTypes = {
-  target: PropTypes.string.isRequired,
-  // Note: Used in getter function.
-  // eslint-disable-next-line react/no-unused-prop-types
-  initialQuery: PropTypes.string.isRequired,
-};
 
 export default Editor;

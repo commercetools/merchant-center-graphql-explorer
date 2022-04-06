@@ -1,9 +1,7 @@
 import { entryPointUriPath, PERMISSIONS } from './src/constants';
+import type { ConfigOptions } from '@commercetools-frontend/application-config';
 
-/**
- * @type {import('@commercetools-frontend/application-config').ConfigOptions}
- */
-const config = {
+const config: ConfigOptions = {
   name: 'GraphQL Explorer',
   entryPointUriPath,
   cloudIdentifier: 'gcp-eu',
@@ -68,4 +66,5 @@ const config = {
     },
   ],
 };
-module.exports = config;
+
+export default config;
