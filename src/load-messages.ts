@@ -1,4 +1,4 @@
-const loadMessages = (lang) => {
+const loadMessages = (lang: string): Promise<Record<string, string>> => {
   let loadAppI18nPromise;
   switch (lang) {
     case 'de':

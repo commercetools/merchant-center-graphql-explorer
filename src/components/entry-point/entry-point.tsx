@@ -3,14 +3,17 @@ import {
   ApplicationShell,
   setupGlobalErrorListener,
 } from '@commercetools-frontend/application-shell';
+import type { ApplicationWindow } from '@commercetools-frontend/constants';
 import { FEATURE_FLAGS } from '../../constants';
 import loadMessages from '../../load-messages';
+
+declare let window: ApplicationWindow;
 
 // Here we split up the main (app) bundle with the actual application business logic.
 // Splitting by route is usually recommended and you can potentially have a splitting
 // point for each route. More info at https://reactjs.org/docs/code-splitting.html
-const AsyncApplicationRoutes = lazy(() =>
-  import('../../routes' /* webpackChunkName: "app-routes" */)
+const AsyncApplicationRoutes = lazy(
+  () => import('../../routes' /* webpackChunkName: "app-routes" */)
 );
 
 // Ensure to setup the global error listener before any React component renders

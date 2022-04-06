@@ -50,7 +50,7 @@ const ApplicationRoutes = () => {
       <Redirect exact={true} from={`${match.path}/*`} to={match.url} />
       <Route>
         <Spacings.Inset>
-          <Constraints.Horizontal constraint="l">
+          <Constraints.Horizontal max={10}>
             <Spacings.Stack scale="m">
               <Text.Headline as="h1">GraphQL Explorer</Text.Headline>
               <Text.Body>
