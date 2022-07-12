@@ -1,6 +1,49 @@
 declare module 'graphiql-explorer' {
+  import type {
+    GraphQLSchema,
+    GraphQLObjectType,
+    FragmentDefinitionNode,
+    GraphQLField,
+    GraphQLArgument,
+    GraphQLInputField,
+    GraphQLEnumType,
+    GraphQLScalarType,
+    ValueNode,
+  } from 'graphql';
+  import type { ReactNode } from 'react';
+  type Field = GraphQLField<unknown, unknown>;
+  type GetDefaultScalarArgValue = (
+    parentField: Field,
+    arg: GraphQLArgument | GraphQLInputField,
+    underlyingArgType: GraphQLEnumType | GraphQLScalarType
+  ) => ValueNode;
+  type MakeDefaultArg = (
+    parentField: Field,
+    arg: GraphQLArgument | GraphQLInputField
+  ) => boolean;
+  type Colors = {
+    keyword: string;
+    def: string;
+    property: string;
+    qualifier: string;
+    attribute: string;
+    number: string;
+    string: string;
+    builtin: string;
+    string2: string;
+    variable: string;
+    atom: string;
+  };
+  type StyleMap = {
+    [key: string]: unknown;
+  };
+  type Styles = {
+    explorerActionsStyle: StyleMap;
+    buttonStyle: StyleMap;
+    actionButtonStyle: StyleMap;
+  };
   // https://github.com/OneGraph/graphiql-explorer/blob/master/src/Explorer.js
-  declare type GraphiQLExplorerProps = {
+  type GraphiQLExplorerProps = {
     query: string;
     width?: number;
     title?: string;
@@ -13,10 +56,10 @@ declare module 'graphiql-explorer' {
     explorerIsOpen: boolean;
     onRunOperation?: (name?: string) => void;
     colors?: Colors;
-    arrowOpen?: React.Node;
-    arrowClosed?: React.Node;
-    checkboxChecked?: React.Node;
-    checkboxUnchecked?: React.Node;
+    arrowOpen?: ReactNode;
+    arrowClosed?: ReactNode;
+    checkboxChecked?: ReactNode;
+    checkboxUnchecked?: ReactNode;
     styles?: {
       explorerActionsStyle?: StyleMap;
       buttonStyle?: StyleMap;
@@ -27,7 +70,7 @@ declare module 'graphiql-explorer' {
     externalFragments?: FragmentDefinitionNode[];
   };
 
-  declare const GraphiQLExplorer: {
+  const GraphiQLExplorer: {
     (
       props: GraphiQLExplorerProps
     ): import('@emotion/react/jsx-runtime').JSX.Element;

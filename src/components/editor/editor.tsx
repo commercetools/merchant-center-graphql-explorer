@@ -2,6 +2,7 @@ import 'graphiql/graphiql.css';
 import './graphiql-overrides.css';
 import { useCallback, useRef, useState, useEffect } from 'react';
 import GraphiQL from 'graphiql';
+import { useExecutionContext } from '@graphiql/react';
 import GraphiQLExplorer from 'graphiql-explorer';
 import {
   type GraphQLSchema,
@@ -156,6 +157,8 @@ const Editor = (props: TEditorProps) => {
     setExplorerIsOpen((prevState) => !prevState);
   }, []);
 
+  const executionContext = useExecutionContext();
+
   return (
     <div>
       <div className="graphiql-container">
@@ -164,7 +167,7 @@ const Editor = (props: TEditorProps) => {
           query={query ?? ''}
           onEdit={setQuery}
           onRunOperation={(operationName) =>
-            graphiqlRef.current?.handleRunQuery(operationName)
+            executionContext?.run(operationName)
           }
           explorerIsOpen={explorerIsOpen}
           onToggleExplorer={handleToggleExplorer}
@@ -176,26 +179,26 @@ const Editor = (props: TEditorProps) => {
           query={query}
           onEditQuery={setQuery}
           storage={{
+            ...window.localStorage,
             getItem: (key) =>
               window.localStorage.getItem(`${key}:${props.target}`),
             setItem: (key, value) =>
               window.localStorage.setItem(`${key}:${props.target}`, value),
             removeItem: (key) =>
               window.localStorage.removeItem(`${key}:${props.target}`),
-            length: 1, // no idea what this is useful for.
           }}
         >
           <GraphiQL.Toolbar>
             <GraphiQL.Button
               onClick={() => {
-                graphiqlRef.current?.handlePrettifyQuery();
+                graphiqlRef.current?.ref?.props.prettify();
               }}
               label="Prettify"
               title="Prettify Query (Shift-Ctrl-P)"
             />
             <GraphiQL.Button
               onClick={() => {
-                graphiqlRef.current?.handleToggleHistory();
+                graphiqlRef.current?.ref?.props.historyContext?.toggle();
               }}
               label="History"
               title="Show History"
