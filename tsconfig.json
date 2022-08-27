@@ -1,6 +1,12 @@
 {
-  "extends": "@tsconfig/create-react-app/tsconfig.json",
+  "extends": "@commercetools-frontend/application-config/tsconfig-mc-app.json",
   "compilerOptions": {
-    "typeRoots": ["@types", "node_modules/@types"]
-  }
+    "typeRoots": [
+      "@types",
+      "node_modules/@types"
+    ]
+  },
+  "include": [
+    "src"
+  ]
 }
