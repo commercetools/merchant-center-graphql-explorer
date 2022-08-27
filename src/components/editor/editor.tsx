@@ -7,7 +7,7 @@ import {
   type GraphQLSchema,
   buildClientSchema,
   getIntrospectionQuery,
-  parse,
+  // parse,
 } from 'graphql';
 import type { TGraphQLTargets } from '@commercetools-frontend/constants';
 import {
@@ -77,80 +77,81 @@ const Editor = (props: TEditorProps) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [props.target, fetcher]);
   // From https://github.com/OneGraph/graphiql-explorer-example/blob/3f51a36ca1a891cd32561ab25581c5630be3446e/src/App.js#L104-L160
-  const handleInspectOperation = useCallback(
-    (cm, mousePos) => {
-      const parsedQuery = parse(query || '');
+  // const handleInspectOperation = useCallback(
+  //   (cm, mousePos) => {
+  //     const parsedQuery = parse(query || '');
 
-      if (!parsedQuery) {
-        console.error("Couldn't parse query document");
-        return;
-      }
+  //     if (!parsedQuery) {
+  //       console.error("Couldn't parse query document");
+  //       return;
+  //     }
 
-      const token = cm.getTokenAt(mousePos);
-      const start = { line: mousePos.line, ch: token.start };
-      const end = { line: mousePos.line, ch: token.end };
-      const relevantMousePos = {
-        start: cm.indexFromPos(start),
-        end: cm.indexFromPos(end),
-      };
+  //     const token = cm.getTokenAt(mousePos);
+  //     const start = { line: mousePos.line, ch: token.start };
+  //     const end = { line: mousePos.line, ch: token.end };
+  //     const relevantMousePos = {
+  //       start: cm.indexFromPos(start),
+  //       end: cm.indexFromPos(end),
+  //     };
 
-      const position = relevantMousePos;
+  //     const position = relevantMousePos;
 
-      const def = parsedQuery.definitions.find((definition) => {
-        if (!definition.loc) {
-          console.warn('Missing location information for definition');
-          return false;
-        }
-        return (
-          definition.loc.start <= position.start &&
-          definition.loc.end >= position.end
-        );
-      });
+  //     const def = parsedQuery.definitions.find((definition) => {
+  //       if (!definition.loc) {
+  //         console.warn('Missing location information for definition');
+  //         return false;
+  //       }
+  //       return (
+  //         definition.loc.start <= position.start &&
+  //         definition.loc.end >= position.end
+  //       );
+  //     });
 
-      if (!def) {
-        console.error(
-          'Unable to find definition corresponding to mouse position'
-        );
-        return;
-      }
+  //     if (!def) {
+  //       console.error(
+  //         'Unable to find definition corresponding to mouse position'
+  //       );
+  //       return;
+  //     }
 
-      let operationKind;
-      let operationName;
-      switch (def.kind) {
-        case 'OperationDefinition':
-          operationKind = def.operation;
-          if (def.name) {
-            operationName = def.name.value;
-          }
-          break;
-        case 'FragmentDefinition':
-          operationKind = 'fragment';
-          if (def.name) {
-            operationName = def.name.value;
-          }
-          break;
+  //     let operationKind;
+  //     let operationName;
+  //     switch (def.kind) {
+  //       case 'OperationDefinition':
+  //         operationKind = def.operation;
+  //         if (def.name) {
+  //           operationName = def.name.value;
+  //         }
+  //         break;
+  //       case 'FragmentDefinition':
+  //         operationKind = 'fragment';
+  //         if (def.name) {
+  //           operationName = def.name.value;
+  //         }
+  //         break;
 
-        default:
-          operationKind = 'unknown';
-          operationName = 'unknown';
-          break;
-      }
+  //       default:
+  //         operationKind = 'unknown';
+  //         operationName = 'unknown';
+  //         break;
+  //     }
 
-      const selector = `.graphiql-explorer-root #${operationKind}-${operationName}`;
+  //     const selector = `.graphiql-explorer-root #${operationKind}-${operationName}`;
 
-      const el = document.querySelector(selector);
-      el && el.scrollIntoView();
-    },
-    [query]
-  );
+  //     const el = document.querySelector(selector);
+  //     el && el.scrollIntoView();
+  //   },
+  //   [query]
+  // );
   // Extra configuration for editor
-  useEffect(() => {
-    const editor = graphiqlRef.current?.getQueryEditor();
-    editor?.setOption('extraKeys', {
-      ...(editor.options.extraKeys || {}),
-      'Shift-Alt-LeftClick': handleInspectOperation,
-    });
-  }, [graphiqlRef, handleInspectOperation]);
+  // useEffect(() => {
+  //   const editor = graphiqlRef.current?.getQueryEditor();
+  //   // const existingOptions = editor?.getOption('extraKeys');
+  //   // editor?.setOption('extraKeys', {
+  //   //   // ...(typeof existingOptions !== 'string' ? existingOptions : {}),
+  //   //   'Shift-Alt-LeftClick': handleInspectOperation,
+  //   // });
+  // }, [graphiqlRef, handleInspectOperation]);
 
   const handleToggleExplorer = useCallback(() => {
     setExplorerIsOpen((prevState) => !prevState);
