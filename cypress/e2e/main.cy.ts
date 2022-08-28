@@ -25,7 +25,7 @@ testCases.forEach((testCase) => {
       cy.findByText(testCase.linkName).click();
       cy.url().should('include', `${applicationBaseRoute}/${testCase.urlPath}`);
       cy.findByText(testCase.queryName).should('exist');
-      cy.findByTitle(/^Execute Query/).click();
+      cy.findByLabelText(/^Execute query/).click();
       cy.findByText('"data"').should('exist');
     });
   });
