@@ -85,7 +85,6 @@
     "@types/react": "17.0.48",
     "@types/react-dom": "17.0.17",
     "@types/react-router": "5.1.18",
-    "graphiql@2.0.2": "patch:graphiql@npm:2.0.2#.yarn/patches/graphiql-npm-2.0.2-4c9476e651.patch",
     "react-intl": "5.25.1"
   },
   "packageManager": "yarn@3.2.0",
