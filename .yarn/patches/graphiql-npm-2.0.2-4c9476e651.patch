@@ -1,0 +1,13 @@
+diff --git a/package.json b/package.json
+index 99ab5603e65c93ba46308fabbd9faca0b5c5686f..dc2cc5874450093750f2a4f7fc5a9415908352d0 100644
+--- a/package.json
++++ b/package.json
+@@ -50,7 +50,7 @@
+     "webpack": "webpack --config resources/webpack.config.js"
+   },
+   "dependencies": {
+-    "@graphiql/react": "^0.11.1",
++    "@graphiql/react": "patch:@graphiql/react@npm:0.11.1#../../yarn/patches/@graphiql-react-npm-0.11.1-200fe9026c.patch",
+     "@graphiql/toolkit": "^0.7.0",
+     "entities": "^2.0.0",
+     "graphql-language-service": "^5.1.0",

@@ -95,6 +95,7 @@ declare module 'graphiql-explorer' {
       GraphiQLExplorerProps,
       'getDefaultFieldNames' | 'getDefaultScalarArgValue'
     >;
+    defaultValue: (arg: GraphQLEnumType | GraphQLScalarType) => ValueNode;
   };
 
   export default GraphiQLExplorer;

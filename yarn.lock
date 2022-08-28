@@ -1808,7 +1808,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:7.18.9, @babel/runtime@npm:^7.17.9, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.18.9":
+"@babel/runtime@npm:7.18.9, @babel/runtime@npm:^7.0.0, @babel/runtime@npm:^7.17.9, @babel/runtime@npm:^7.18.3, @babel/runtime@npm:^7.18.6, @babel/runtime@npm:^7.18.9":
   version: 7.18.9
   resolution: "@babel/runtime@npm:7.18.9"
   dependencies:
@@ -3028,6 +3028,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@commercetools/http-user-agent@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@commercetools/http-user-agent@npm:3.0.0"
+  checksum: d200f9ef580cc0c2a11dcfcc83eb58829b9ca707cd86ed41a61a8929ce37f63badc1592fd62e00673c7d467587aa9d582ce040d9a2812b563efa89218b2a096c
+  languageName: node
+  linkType: hard
+
 "@commercetools/sdk-client@npm:2.1.2":
   version: 2.1.2
   resolution: "@commercetools/sdk-client@npm:2.1.2"
@@ -3978,16 +3985,66 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@graphiql/toolkit@npm:^0.4.2":
-  version: 0.4.5
-  resolution: "@graphiql/toolkit@npm:0.4.5"
+"@graphiql/react@npm:0.11.1, @graphiql/react@npm:^0.11.1":
+  version: 0.11.1
+  resolution: "@graphiql/react@npm:0.11.1"
+  dependencies:
+    "@graphiql/toolkit": ^0.7.0
+    "@reach/combobox": ^0.17.0
+    "@reach/dialog": ^0.17.0
+    "@reach/listbox": ^0.17.0
+    "@reach/menu-button": ^0.17.0
+    "@reach/tooltip": ^0.17.0
+    "@reach/visually-hidden": ^0.17.0
+    codemirror: ^5.65.3
+    codemirror-graphql: ^2.0.0
+    copy-to-clipboard: ^3.2.0
+    graphql-language-service: ^5.1.0
+    markdown-it: ^12.2.0
+    set-value: ^4.1.0
+  peerDependencies:
+    graphql: ^15.5.0 || ^16.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 01093186207d35f0782ae47e595401eecd269189a43c4e8e6c1f1051153ae6088f99f1b533e5fab864c02565633ec0a7a687864b17d6c056197a987f6b3457e4
+  languageName: node
+  linkType: hard
+
+"@graphiql/react@patch:@graphiql/react@npm:0.11.1#.yarn/patches/@graphiql-react-npm-0.11.1-200fe9026c.patch::locator=merchant-center-graphql-explorer%40workspace%3A.":
+  version: 0.11.1
+  resolution: "@graphiql/react@patch:@graphiql/react@npm%3A0.11.1#.yarn/patches/@graphiql-react-npm-0.11.1-200fe9026c.patch::version=0.11.1&hash=f95ccf&locator=merchant-center-graphql-explorer%40workspace%3A."
+  dependencies:
+    "@graphiql/toolkit": ^0.7.0
+    "@reach/combobox": ^0.17.0
+    "@reach/dialog": ^0.17.0
+    "@reach/listbox": ^0.17.0
+    "@reach/menu-button": ^0.17.0
+    "@reach/tooltip": ^0.17.0
+    "@reach/visually-hidden": ^0.17.0
+    codemirror: ^5.65.3
+    codemirror-graphql: ^2.0.0
+    copy-to-clipboard: ^3.2.0
+    graphql-language-service: ^5.1.0
+    markdown-it: ^12.2.0
+    set-value: ^4.1.0
+  peerDependencies:
+    graphql: ^15.5.0 || ^16.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 7cd3b0e326ba110f419770abda572dd645e59cb8b14c2eeeb5d4ab22d479d2dd26a0b432a30c876bf1fb3632aaf59dc8be8e785ac37ae60b479f48cb98169253
+  languageName: node
+  linkType: hard
+
+"@graphiql/toolkit@npm:0.7.0, @graphiql/toolkit@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "@graphiql/toolkit@npm:0.7.0"
   dependencies:
     "@n1ru4l/push-pull-async-iterable-iterator": ^3.1.0
     meros: ^1.1.4
   peerDependencies:
     graphql: ^15.5.0 || ^16.0.0
     graphql-ws: ">= 4.5.0"
-  checksum: 5e62131117f0b43aaaf8e09e7be06b343f93bb0da75f73ff9c383320eebeec7911b2457ec448334d72b35e0c33620fceb98bc2b293ad7975aa97aa2884183014
+  checksum: 8381657e77fc523c57685d7f2b5533080b16121aa1a353a7baf6ed0ecc5fbf9ff95dfd3435ab4b24810a4f8509537af72f36e9f1db479716e3984a7a6bef73fe
   languageName: node
   linkType: hard
 
@@ -4798,6 +4855,231 @@ __metadata:
   version: 1.0.0-next.21
   resolution: "@polka/url@npm:1.0.0-next.21"
   checksum: c7654046d38984257dd639eab3dc770d1b0340916097b2fac03ce5d23506ada684e05574a69b255c32ea6a144a957c8cd84264159b545fca031c772289d88788
+  languageName: node
+  linkType: hard
+
+"@reach/auto-id@npm:0.17.0":
+  version: 0.17.0
+  resolution: "@reach/auto-id@npm:0.17.0"
+  dependencies:
+    "@reach/utils": 0.17.0
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 30bb0e591fbf0a2a6124ea6b07e6cec254ec0483c326492e824a19df8d2e2fcb3a5708cc47e1221fb64b9e63e4497966deb37732916d330a0693c541d9d1b35d
+  languageName: node
+  linkType: hard
+
+"@reach/combobox@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@reach/combobox@npm:0.17.0"
+  dependencies:
+    "@reach/auto-id": 0.17.0
+    "@reach/descendants": 0.17.0
+    "@reach/popover": 0.17.0
+    "@reach/portal": 0.17.0
+    "@reach/utils": 0.17.0
+    prop-types: ^15.7.2
+    tiny-warning: ^1.0.3
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 409447c590397df5673b2918a64edbf12295e6a4fec9182f1d5b7bd54da63a5cab7d54f13f700ddb2cff694ce5a4a1af7aa00066bba333eade78a28cb6436ad0
+  languageName: node
+  linkType: hard
+
+"@reach/descendants@npm:0.17.0":
+  version: 0.17.0
+  resolution: "@reach/descendants@npm:0.17.0"
+  dependencies:
+    "@reach/utils": 0.17.0
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 99d11558050729467943ef323c7156b89e84b702f790f6b320dd9817dac9347e035946ed4d09e85dd18f15da42e2f3ae425d6c309ee574f345dc62ce34a155df
+  languageName: node
+  linkType: hard
+
+"@reach/dialog@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@reach/dialog@npm:0.17.0"
+  dependencies:
+    "@reach/portal": 0.17.0
+    "@reach/utils": 0.17.0
+    prop-types: ^15.7.2
+    react-focus-lock: ^2.5.2
+    react-remove-scroll: ^2.4.3
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 720abec5376d8e8034b3ebbfbb98273cf00e46e72cb387e56bf966d1d230ad13ad2d37363d406c52a5af745cea51069987ab60142a5828b85297d128a9ec01c1
+  languageName: node
+  linkType: hard
+
+"@reach/dropdown@npm:0.17.0":
+  version: 0.17.0
+  resolution: "@reach/dropdown@npm:0.17.0"
+  dependencies:
+    "@reach/auto-id": 0.17.0
+    "@reach/descendants": 0.17.0
+    "@reach/popover": 0.17.0
+    "@reach/utils": 0.17.0
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 296bc888688368473b38249326a4c7a9e09242b903d1a2577b1ad05ddaeefe2eb593945e87bc840e2e749de3cd209c090de61f81ac8c1ef398001adaf5408d85
+  languageName: node
+  linkType: hard
+
+"@reach/listbox@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@reach/listbox@npm:0.17.0"
+  dependencies:
+    "@reach/auto-id": 0.17.0
+    "@reach/descendants": 0.17.0
+    "@reach/machine": 0.17.0
+    "@reach/popover": 0.17.0
+    "@reach/utils": 0.17.0
+    prop-types: ^15.7.2
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 654e2d07c506b73885dbfb015b3c26b1cac1b2d40f51226fe924ffa26f7a053f28c17e020775dbf935c005155385b131b8f6348ccbbacbf82e70771dabd990b7
+  languageName: node
+  linkType: hard
+
+"@reach/machine@npm:0.17.0":
+  version: 0.17.0
+  resolution: "@reach/machine@npm:0.17.0"
+  dependencies:
+    "@reach/utils": 0.17.0
+    "@xstate/fsm": 1.4.0
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 6d7c1031927c0fbc2ff36b817fbe54bdd7af652ef16013f8ab7826219745e80f9493d1f3a6d9132806b2c69f8627f13dedf07754659bd6e6c29dfbab4753fad7
+  languageName: node
+  linkType: hard
+
+"@reach/menu-button@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@reach/menu-button@npm:0.17.0"
+  dependencies:
+    "@reach/dropdown": 0.17.0
+    "@reach/popover": 0.17.0
+    "@reach/utils": 0.17.0
+    prop-types: ^15.7.2
+    tiny-warning: ^1.0.3
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+    react-is: ^16.8.0 || 17.x
+  checksum: 6b539c858dac4e0486edab51fc83d344efe3c1b38ee26bdbccc7345406bb4c3e77ad21359546c435016cae53fdc2a80fd2f20243779c777b2bc5a52f92c06cbd
+  languageName: node
+  linkType: hard
+
+"@reach/observe-rect@npm:1.2.0":
+  version: 1.2.0
+  resolution: "@reach/observe-rect@npm:1.2.0"
+  checksum: 7dd903eeaad0e22c6d973bd26265d91eadba56ab5134701ceb3e85214db75339fae94aa7e8b88a65e8daa64bc7cf1b915d4ffcdfd324466b561dc6adc3c6e070
+  languageName: node
+  linkType: hard
+
+"@reach/popover@npm:0.17.0":
+  version: 0.17.0
+  resolution: "@reach/popover@npm:0.17.0"
+  dependencies:
+    "@reach/portal": 0.17.0
+    "@reach/rect": 0.17.0
+    "@reach/utils": 0.17.0
+    tabbable: ^4.0.0
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 2b32d53d4b9e6c0640ed1179139eefceabb80a731e90436fcde3afaa5048eec22287f0d8ec9feaf452707e012a73f3725a3cac0ffe9d1df721b03e5d496760b6
+  languageName: node
+  linkType: hard
+
+"@reach/portal@npm:0.17.0":
+  version: 0.17.0
+  resolution: "@reach/portal@npm:0.17.0"
+  dependencies:
+    "@reach/utils": 0.17.0
+    tiny-warning: ^1.0.3
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 2e5874cdfd021304d28b527a00d95da84ca98453a5211f816e26b974c2bd1b9837855989f8ab10eeeecfa384b34e21afab43f81dea784aca079aab94bf3f4755
+  languageName: node
+  linkType: hard
+
+"@reach/rect@npm:0.17.0":
+  version: 0.17.0
+  resolution: "@reach/rect@npm:0.17.0"
+  dependencies:
+    "@reach/observe-rect": 1.2.0
+    "@reach/utils": 0.17.0
+    prop-types: ^15.7.2
+    tiny-warning: ^1.0.3
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: d2de07846cf323340e82fbfed908daeb4180964d2a11f059647b7495ad158c8210d645bfaee71a4e00f3e4a75c8ad1719eb2408c0d1ac5d5cc7fef1fb4ba8aba
+  languageName: node
+  linkType: hard
+
+"@reach/tooltip@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@reach/tooltip@npm:0.17.0"
+  dependencies:
+    "@reach/auto-id": 0.17.0
+    "@reach/portal": 0.17.0
+    "@reach/rect": 0.17.0
+    "@reach/utils": 0.17.0
+    "@reach/visually-hidden": 0.17.0
+    prop-types: ^15.7.2
+    tiny-warning: ^1.0.3
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 483b0ab538f927032cb75c57102caa06567706c71ecc886506307a8c6247c1fab862819f899871923e847901631f693f606c05c7aa0097704485fc03bad2073a
+  languageName: node
+  linkType: hard
+
+"@reach/utils@npm:0.17.0":
+  version: 0.17.0
+  resolution: "@reach/utils@npm:0.17.0"
+  dependencies:
+    tiny-warning: ^1.0.3
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: b9ee31b5d07e7f204f3605be3fa45448c9817937a3364d894054c57de9113d417014019d21ad895aebf848a43c20988924d069ba926c0cb20d6f2e8654d7a11e
+  languageName: node
+  linkType: hard
+
+"@reach/visually-hidden@npm:0.17.0, @reach/visually-hidden@npm:^0.17.0":
+  version: 0.17.0
+  resolution: "@reach/visually-hidden@npm:0.17.0"
+  dependencies:
+    prop-types: ^15.7.2
+    tslib: ^2.3.0
+  peerDependencies:
+    react: ^16.8.0 || 17.x
+    react-dom: ^16.8.0 || 17.x
+  checksum: 8b665ee5740dbd616bcd5b5dd5e3a3e5f2b3984819bb1dc20c5ec11690523c86eeb8b28254b193d5ac9261bc25341287229185bc0a4591e10182cc80ed2882bc
   languageName: node
   linkType: hard
 
@@ -6597,6 +6879,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@xstate/fsm@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@xstate/fsm@npm:1.4.0"
+  checksum: 518080d3ddec480b582d5569ebb7e1ad14e4ca6b3fd070b5426930082e79dcfe7fd36b382a2d703ce85c957534867339fcea5ee60b38227cef29fa48f91d166f
+  languageName: node
+  linkType: hard
+
 "@xtuc/ieee754@npm:^1.2.0":
   version: 1.2.0
   resolution: "@xtuc/ieee754@npm:1.2.0"
@@ -8168,20 +8457,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"codemirror-graphql@npm:^1.2.15":
-  version: 1.3.2
-  resolution: "codemirror-graphql@npm:1.3.2"
+"codemirror-graphql@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "codemirror-graphql@npm:2.0.0"
   dependencies:
-    graphql-language-service: ^5.0.6
+    graphql-language-service: ^5.1.0
   peerDependencies:
     "@codemirror/language": ^0.20.0
     codemirror: ^5.65.3
     graphql: ^15.5.0 || ^16.0.0
-  checksum: d134953dc402c44d1a4572ef6f3f6654cac4611dd9f7fefddbc6f17805d3866e8c86d956b69efcec94fcbcaa1a4d0683561ee46ec4938ea311b1843a001fe5f1
+  checksum: 73cb3fd9c2c06ece261812d348cbb9815d906e7dab855c4a2b64605177d01e9c49d6e532070546e213220d1c9ca396a18b50bde8b262b212f6f77add0befc07e
   languageName: node
   linkType: hard
 
-"codemirror@npm:^5.58.2":
+"codemirror@npm:^5.65.3":
   version: 5.65.8
   resolution: "codemirror@npm:5.65.8"
   checksum: e56a59c2251b357b3d95862f77ac8b8d2b1b0c52db58a2dcf5b8b0531fd249ad4458cbd9a469ce1513475ba48ba39ffd16bd3876eb3870a1305bcafcb157239f
@@ -9240,6 +9529,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"detect-node-es@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "detect-node-es@npm:1.1.0"
+  checksum: e46307d7264644975b71c104b9f028ed1d3d34b83a15b8a22373640ce5ea630e5640b1078b8ea15f202b54641da71e4aa7597093bd4b91f113db520a26a37449
+  languageName: node
+  linkType: hard
+
 "detect-node@npm:^2.0.4":
   version: 2.1.0
   resolution: "detect-node@npm:2.1.0"
@@ -9966,7 +10262,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"escape-html@npm:^1.0.3, escape-html@npm:~1.0.3":
+"escape-html@npm:~1.0.3":
   version: 1.0.3
   resolution: "escape-html@npm:1.0.3"
   checksum: 6213ca9ae00d0ab8bccb6d8d4e0a98e76237b2410302cf7df70aaa6591d509a2a37ce8998008cbecae8fc8ffaadf3fb0229535e6a145f3ce0b211d060decbb24
@@ -10950,6 +11246,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"focus-lock@npm:^0.11.2":
+  version: 0.11.2
+  resolution: "focus-lock@npm:0.11.2"
+  dependencies:
+    tslib: ^2.0.3
+  checksum: f1a62ea7bbdf71fcc7311a49d84e2f0a37f479539007152c887802e44d4910638611421aec915867353c63212c513e5aab4194bb7fe693d1d8dc1c4c7d43366b
+  languageName: node
+  linkType: hard
+
 "follow-redirects@npm:^1.0.0, follow-redirects@npm:^1.14.0":
   version: 1.14.9
   resolution: "follow-redirects@npm:1.14.9"
@@ -11269,6 +11574,13 @@ __metadata:
     has: ^1.0.3
     has-symbols: ^1.0.1
   checksum: a9fe2ca8fa3f07f9b0d30fb202bcd01f3d9b9b6b732452e79c48e79f7d6d8d003af3f9e38514250e3553fdc83c61650851cb6870832ac89deaaceb08e3721a17
+  languageName: node
+  linkType: hard
+
+"get-nonce@npm:^1.0.0":
+  version: 1.0.1
+  resolution: "get-nonce@npm:1.0.1"
+  checksum: e2614e43b4694c78277bb61b0f04583d45786881289285c73770b07ded246a98be7e1f78b940c80cbe6f2b07f55f0b724e6db6fd6f1bcbd1e8bdac16521074ed
   languageName: node
   linkType: hard
 
@@ -11593,24 +11905,37 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphiql@npm:1.8.3":
-  version: 1.8.3
-  resolution: "graphiql@npm:1.8.3"
+"graphiql@npm:2.0.2":
+  version: 2.0.2
+  resolution: "graphiql@npm:2.0.2"
   dependencies:
-    "@graphiql/toolkit": ^0.4.2
-    codemirror: ^5.58.2
-    codemirror-graphql: ^1.2.15
-    copy-to-clipboard: ^3.2.0
+    "@graphiql/react": ^0.11.1
+    "@graphiql/toolkit": ^0.7.0
     entities: ^2.0.0
-    escape-html: ^1.0.3
-    graphql-language-service: ^5.0.1
+    graphql-language-service: ^5.1.0
     markdown-it: ^12.2.0
-    set-value: ^4.1.0
   peerDependencies:
     graphql: ^15.5.0 || ^16.0.0
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
-  checksum: 6027a6daa65500cd89aedacffaa811f240538fde08b1edbe2031d209b55a6d90fa6debe89eb1c64081930c7dd4b57320795620179d5c16a510fd18846822b6d7
+  checksum: ade2b6e32e89d92a5dd979d68bcb3bd1b5d3817134827875b383ce3856a45f055182bb6ca0dcd851669381f07c802de6dbb4946ebc857fbd0abbbfca4b0f1012
+  languageName: node
+  linkType: hard
+
+"graphiql@patch:graphiql@npm:2.0.2#.yarn/patches/graphiql-npm-2.0.2-4c9476e651.patch::locator=merchant-center-graphql-explorer%40workspace%3A.":
+  version: 2.0.2
+  resolution: "graphiql@patch:graphiql@npm%3A2.0.2#.yarn/patches/graphiql-npm-2.0.2-4c9476e651.patch::version=2.0.2&hash=1ff7aa&locator=merchant-center-graphql-explorer%40workspace%3A."
+  dependencies:
+    "@graphiql/react": ^0.11.1
+    "@graphiql/toolkit": ^0.7.0
+    entities: ^2.0.0
+    graphql-language-service: ^5.1.0
+    markdown-it: ^12.2.0
+  peerDependencies:
+    graphql: ^15.5.0 || ^16.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
+  checksum: 04043bf7943b54047dcfdcbd1db659c7e25da0b3f0e3ecd62dfb0b4fa526cae2694fc140100e52c38bb7ef0ed73d8c9331c1c00b0f5924787065dd15eb900697
   languageName: node
   linkType: hard
 
@@ -11637,7 +11962,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graphql-language-service@npm:^5.0.1, graphql-language-service@npm:^5.0.6":
+"graphql-language-service@npm:^5.1.0":
   version: 5.1.0
   resolution: "graphql-language-service@npm:5.1.0"
   dependencies:
@@ -12350,6 +12675,15 @@ __metadata:
   version: 1.2.5
   resolution: "intl@npm:1.2.5"
   checksum: 54c2444ec334b4e7f501c1b988ccfdae96d62a6275a915b9c75a38fc42d611bfc7dd33447e94079b7a8fdb3fbf36b95afd13132af4bfd70e2ec4bf9c9e0935f9
+  languageName: node
+  linkType: hard
+
+"invariant@npm:^2.2.4":
+  version: 2.2.4
+  resolution: "invariant@npm:2.2.4"
+  dependencies:
+    loose-envify: ^1.0.0
+  checksum: cc3182d793aad82a8d1f0af697b462939cb46066ec48bbf1707c150ad5fad6406137e91a262022c269702e01621f35ef60269f6c0d7fd178487959809acdfb14
   languageName: node
   linkType: hard
 
@@ -14491,9 +14825,12 @@ __metadata:
     "@commercetools-uikit/notifications": 15.2.1
     "@commercetools-uikit/spacings": 15.2.1
     "@commercetools-uikit/text": 15.2.1
+    "@commercetools/http-user-agent": 3.0.0
     "@commitlint/cli": 16.3.0
     "@commitlint/config-conventional": 16.2.4
     "@formatjs/cli": 4.8.4
+    "@graphiql/react": 0.11.1
+    "@graphiql/toolkit": 0.7.0
     "@manypkg/cli": 0.19.1
     "@testing-library/cypress": 8.0.3
     "@testing-library/react": 12.1.5
@@ -14503,7 +14840,7 @@ __metadata:
     dotenv: 16.0.1
     eslint: 8.23.0
     eslint-formatter-pretty: 4.1.0
-    graphiql: 1.8.3
+    graphiql: 2.0.2
     graphiql-explorer: 0.9.0
     graphql: 16.6.0
     graphql-config: 4.3.5
@@ -16720,6 +17057,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-clientside-effect@npm:^1.2.6":
+  version: 1.2.6
+  resolution: "react-clientside-effect@npm:1.2.6"
+  dependencies:
+    "@babel/runtime": ^7.12.13
+  peerDependencies:
+    react: ^15.3.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
+  checksum: 7db6110027a51458b1a46109d2b63dd822825f483c71afef7c0c0a671f3b1aa155049dbd8651c9d536ffac83601f8823b7c3f8916b4f4ee5c3cb7647a85cce4e
+  languageName: node
+  linkType: hard
+
 "react-dev-utils@npm:12.0.1":
   version: 12.0.1
   resolution: "react-dev-utils@npm:12.0.1"
@@ -16769,6 +17117,26 @@ __metadata:
   version: 6.0.11
   resolution: "react-error-overlay@npm:6.0.11"
   checksum: ce7b44c38fadba9cedd7c095cf39192e632daeccf1d0747292ed524f17dcb056d16bc197ddee5723f9dd888f0b9b19c3b486c430319e30504289b9296f2d2c42
+  languageName: node
+  linkType: hard
+
+"react-focus-lock@npm:^2.5.2":
+  version: 2.9.1
+  resolution: "react-focus-lock@npm:2.9.1"
+  dependencies:
+    "@babel/runtime": ^7.0.0
+    focus-lock: ^0.11.2
+    prop-types: ^15.6.2
+    react-clientside-effect: ^1.2.6
+    use-callback-ref: ^1.3.0
+    use-sidecar: ^1.1.2
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 4dbc2166ac397d9e9340bd0722c6165c23f21629515f13e9cb96eaff82aa1543a2f7f3cccf15689821f19166e3a3ce59f380c43643099eb119b5f9c529b23181
   languageName: node
   linkType: hard
 
@@ -16876,6 +17244,41 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-remove-scroll-bar@npm:^2.3.3":
+  version: 2.3.3
+  resolution: "react-remove-scroll-bar@npm:2.3.3"
+  dependencies:
+    react-style-singleton: ^2.2.1
+    tslib: ^2.0.0
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: fc8c70014a473b12d4205071ad79bd3cfc6ded173c6589fe6baca01090729757f1ee9966278f16930f3b58029c6923e06d2e3193dcb878ecdcb4eb293b7b9bf4
+  languageName: node
+  linkType: hard
+
+"react-remove-scroll@npm:^2.4.3":
+  version: 2.5.5
+  resolution: "react-remove-scroll@npm:2.5.5"
+  dependencies:
+    react-remove-scroll-bar: ^2.3.3
+    react-style-singleton: ^2.2.1
+    tslib: ^2.1.0
+    use-callback-ref: ^1.3.0
+    use-sidecar: ^1.1.2
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 2c7fe9cbd766f5e54beb4bec2e2efb2de3583037b23fef8fa511ab426ed7f1ae992382db5acd8ab5bfb030a4b93a06a2ebca41377d6eeaf0e6791bb0a59616a4
+  languageName: node
+  linkType: hard
+
 "react-required-if@npm:1.0.3":
   version: 1.0.3
   resolution: "react-required-if@npm:1.0.3"
@@ -16935,6 +17338,23 @@ __metadata:
     react: ^16.8.0 || ^17.0.0 || ^18.0.0
     react-dom: ^16.8.0 || ^17.0.0 || ^18.0.0
   checksum: da896f0f8b3c7f6250148ce9ded1ace60abb35b812be50d34cf7ba980b12ca75533c3bbfd9e722530cc0e70c17e8997c3c7e93743877d84c00b0d90e4da521e6
+  languageName: node
+  linkType: hard
+
+"react-style-singleton@npm:^2.2.1":
+  version: 2.2.1
+  resolution: "react-style-singleton@npm:2.2.1"
+  dependencies:
+    get-nonce: ^1.0.0
+    invariant: ^2.2.4
+    tslib: ^2.0.0
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 7ee8ef3aab74c7ae1d70ff34a27643d11ba1a8d62d072c767827d9ff9a520905223e567002e0bf6c772929d8ea1c781a3ba0cc4a563e92b1e3dc2eaa817ecbe8
   languageName: node
   linkType: hard
 
@@ -18864,6 +19284,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"tabbable@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "tabbable@npm:4.0.0"
+  checksum: cbe1acbdabbe0744ae0088cf5133c3c36a9ebca0b670e00c1e117afaeb209d4f141368811973337b914ad1486a3b71a1ed781b698496cb4844e1804cb062baa9
+  languageName: node
+  linkType: hard
+
 "tapable@npm:^1.0.0":
   version: 1.1.3
   resolution: "tapable@npm:1.1.3"
@@ -19683,6 +20110,37 @@ __metadata:
     punycode: 1.3.2
     querystring: 0.2.0
   checksum: 50d100d3dd2d98b9fe3ada48cadb0b08aa6be6d3ac64112b867b56b19be4bfcba03c2a9a0d7922bfd7ac17d4834e88537749fe182430dfd9b68e520175900d90
+  languageName: node
+  linkType: hard
+
+"use-callback-ref@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "use-callback-ref@npm:1.3.0"
+  dependencies:
+    tslib: ^2.0.0
+  peerDependencies:
+    "@types/react": ^16.8.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 7913df383a5a6fcb399212eedefaac2e0c6f843555202d4e3010bac3848afe38ecaa3d0d6500ad1d936fbeffd637e6c517e68edb024af5e6beca7f27f3ce7b21
+  languageName: node
+  linkType: hard
+
+"use-sidecar@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "use-sidecar@npm:1.1.2"
+  dependencies:
+    detect-node-es: ^1.1.0
+    tslib: ^2.0.0
+  peerDependencies:
+    "@types/react": ^16.9.0 || ^17.0.0 || ^18.0.0
+    react: ^16.8.0 || ^17.0.0 || ^18.0.0
+  peerDependenciesMeta:
+    "@types/react":
+      optional: true
+  checksum: 925d1922f9853e516eaad526b6fed1be38008073067274f0ecc3f56b17bb8ab63480140dd7c271f94150027c996cea4efe83d3e3525e8f3eda22055f6a39220b
   languageName: node
   linkType: hard
 

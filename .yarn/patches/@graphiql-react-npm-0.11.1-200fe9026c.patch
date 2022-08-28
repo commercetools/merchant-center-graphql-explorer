@@ -1,0 +1,13 @@
+diff --git a/dist/index.es.js b/dist/index.es.js
+index 49807e47047fbb92a0f2afcd3aa4152ad672caed..852e4cd0591a51ff5b5d330d177555ffc393a4a7 100644
+--- a/dist/index.es.js
++++ b/dist/index.es.js
+@@ -31,7 +31,7 @@ var __objRest = (source, exclude) => {
+   return target2;
+ };
+ import * as React from "react";
+-import React__default, { createContext as createContext$1, useContext, useRef, useState, useEffect, forwardRef, useLayoutEffect, useCallback, createElement, PureComponent, useId as useId$1, useMemo, Fragment as Fragment$1, memo, useReducer, Children, cloneElement } from "react";
++import React__default, { createContext as createContext$1, useContext, useRef, useState, useEffect, forwardRef, useLayoutEffect, useCallback, createElement, PureComponent, useMemo, Fragment as Fragment$1, memo, useReducer, Children, cloneElement } from "react";
+ import { parse as parse$2, TypeInfo, visit, print, getNamedType, isLeafType, Kind, visitWithTypeInfo, typeFromAST, GraphQLFloat, astFromValue, isSchema, getIntrospectionQuery, buildClientSchema, validateSchema, isNonNullType, isListType, isObjectType, isInterfaceType, isInputObjectType, isNamedType, isEnumType, isAbstractType, isType } from "graphql";
+ import ReactDOM, { createPortal } from "react-dom";
+ var root = "";
