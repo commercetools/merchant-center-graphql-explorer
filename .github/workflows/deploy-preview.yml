@@ -47,7 +47,10 @@ jobs:
         # Extract the branch name and replace `/` with `-`.
         # ${parameter//pattern/string}
         # Notice the double `//` to replace all occurrences.
-        run: echo "::set-output name=name::$(echo ${GITHUB_HEAD_REF//\//-})"
+        run: |
+          echo "Extracting branch name ${{ github.head_ref }}"
+          branch_name=${{ github.head_ref }}
+          echo "::set-output name=name::$(echo ${branch_name//\//-})"
         shell: bash
 
       - name: Deploying to surge (preview)
