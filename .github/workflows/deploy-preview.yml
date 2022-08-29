@@ -4,9 +4,6 @@ name: Deploy preview workflow
 # - on any pull request, trigger the workflow
 # This is to avoid running the workflow twice on pull requests.
 on:
-  push:
-    branches-ignore:
-      - main
   pull_request:
 
 jobs:
@@ -58,7 +55,7 @@ jobs:
         run: yarn deploy
         env:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID_STAGING }}
-          APPLICATION_URL: https://graphql-explorer-commercetools-${{ steps.branch.output.name }}.surge.sh
+          APPLICATION_URL: https://graphql-explorer-commercetools-${{ steps.branch.outputs.name }}.surge.sh
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
           CTP_INITIAL_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
