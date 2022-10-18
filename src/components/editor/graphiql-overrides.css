@@ -1,14 +1,13 @@
-.graphiql-explorer-node {
-  padding-left: 4px;
-}
-
-.graphiql-container .topBar,
-.graphiql-container .history-title-bar,
-.graphiql-container .doc-explorer-title,
 .graphiql-container .doc-explorer-title-bar {
-  height: 48px;
+  display: none;
 }
 
-.graphiql-operation-title-bar input {
-  width: unset !important;
+.graphiql-container .graphiql-sidebar button {
+  width: calc(var(--sidebar-width) - (var(--px-8) * 2));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.graphiql-container .graphiql-sidebar button > svg {
+  padding: 0;
 }

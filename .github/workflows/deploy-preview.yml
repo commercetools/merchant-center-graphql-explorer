@@ -1,15 +1,13 @@
-name: Deploy workflow
+name: Deploy preview workflow
 
 # The event triggers are configured as following:
 # - on any pull request, trigger the workflow
 # This is to avoid running the workflow twice on pull requests.
 on:
-  push:
-    branches:
-      - main
+  pull_request:
 
 jobs:
-  deploy:
+  deploy-preview:
     runs-on: ubuntu-latest
 
     steps:
@@ -42,21 +40,22 @@ jobs:
       - name: Building application
         run: yarn build
 
-      - name: Deploying to surge (staging)
+      - name: Extract branch name
+        id: branch
+        # Extract the branch name and replace `/` with `-`.
+        # ${parameter//pattern/string}
+        # Notice the double `//` to replace all occurrences.
+        run: |
+          echo "Extracting branch name ${{ github.head_ref }}"
+          branch_name=${{ github.head_ref }}
+          echo "::set-output name=name::$(echo ${branch_name//\//-})"
+        shell: bash
+
+      - name: Deploying to surge (preview)
         run: yarn deploy
         env:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID_STAGING }}
-          APPLICATION_URL: https://graphql-explorer-commercetools-staging.surge.sh
-          HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
-          CTP_INITIAL_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}
-          SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
-          SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
-
-      - name: Deploying to surge (production eu)
-        run: yarn deploy
-        env:
-          APPLICATION_ID: ${{ secrets.APPLICATION_ID_PRODUCTION_EU }}
-          APPLICATION_URL: https://graphql-explorer-commercetools-production-eu.surge.sh
+          APPLICATION_URL: https://graphql-explorer-commercetools-${{ steps.branch.outputs.name }}.surge.sh
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
           CTP_INITIAL_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}
           SURGE_LOGIN: ${{ secrets.SURGE_LOGIN }}
