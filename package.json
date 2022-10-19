@@ -48,7 +48,7 @@
     "@graphiql/toolkit": "0.7.0",
     "@manypkg/cli": "0.19.2",
     "@testing-library/cypress": "8.0.3",
-    "@testing-library/react": "12.1.5",
+    "@testing-library/react": "13.4.0",
     "@tsconfig/create-react-app": "1.0.2",
     "@types/codemirror": "5.60.5",
     "cypress": "10.10.0",
