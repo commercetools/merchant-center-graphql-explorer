@@ -79,7 +79,7 @@
     "typescript": "4.8.4"
   },
   "resolutions": {
-    "@flopflip/types": "4.1.25",
+    "@flopflip/types": "13.0.1",
     "@formatjs/ecma402-abstract": "^1.11.8",
     "@graphiql/react@0.11.1": "patch:@graphiql/react@npm:0.11.1#.yarn/patches/@graphiql-react-npm-0.11.1-200fe9026c.patch",
     "@types/react": "17.0.48",
