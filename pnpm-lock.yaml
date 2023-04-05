@@ -39,7 +39,7 @@ dependencies:
     version: 21.17.0
   '@commercetools-frontend/cypress':
     specifier: 21.17.0
-    version: 21.17.0(@apollo/client@3.7.0)(@babel/core@7.21.4)(@testing-library/react-hooks@8.0.1)(@testing-library/react@12.1.5)(cypress@10.10.0)(react-dom@17.0.2)(react-intl@5.25.1)(react-redux@7.2.9)(react-router-dom@5.3.4)(react@17.0.2)(redux@4.2.0)(typescript@4.8.4)
+    version: 21.17.0(@apollo/client@3.7.0)(@babel/core@7.21.4)(@testing-library/react-hooks@8.0.1)(@testing-library/react@12.1.5)(cypress@12.9.0)(react-dom@17.0.2)(react-intl@5.25.1)(react-redux@7.2.9)(react-router-dom@5.3.4)(react@17.0.2)(redux@4.2.0)(typescript@4.8.4)
   '@commercetools-frontend/eslint-config-mc-app':
     specifier: 21.17.0
     version: 21.17.0(eslint@8.25.0)(jest@27.5.1)(prettier@2.7.1)(typescript@4.8.4)
@@ -99,7 +99,7 @@ dependencies:
     version: 0.19.2
   '@testing-library/cypress':
     specifier: 8.0.3
-    version: 8.0.3(cypress@10.10.0)
+    version: 8.0.3(cypress@12.9.0)
   '@testing-library/react':
     specifier: 12.1.5
     version: 12.1.5(react-dom@17.0.2)(react@17.0.2)
@@ -128,8 +128,8 @@ dependencies:
     specifier: ^5.14.5
     version: 5.14.5
   cypress:
-    specifier: 10.10.0
-    version: 10.10.0
+    specifier: 12.9.0
+    version: 12.9.0
   dotenv:
     specifier: 16.0.3
     version: 16.0.3
@@ -2042,7 +2042,7 @@ packages:
       '@babel/runtime-corejs3': 7.21.0
     dev: false
 
-  /@commercetools-frontend/cypress@21.17.0(@apollo/client@3.7.0)(@babel/core@7.21.4)(@testing-library/react-hooks@8.0.1)(@testing-library/react@12.1.5)(cypress@10.10.0)(react-dom@17.0.2)(react-intl@5.25.1)(react-redux@7.2.9)(react-router-dom@5.3.4)(react@17.0.2)(redux@4.2.0)(typescript@4.8.4):
+  /@commercetools-frontend/cypress@21.17.0(@apollo/client@3.7.0)(@babel/core@7.21.4)(@testing-library/react-hooks@8.0.1)(@testing-library/react@12.1.5)(cypress@12.9.0)(react-dom@17.0.2)(react-intl@5.25.1)(react-redux@7.2.9)(react-router-dom@5.3.4)(react@17.0.2)(redux@4.2.0)(typescript@4.8.4):
     resolution: {integrity: sha512-+eCQ8u0BXpxRNpDcyiN7Hh+E/UARd8CtfmXjcb7oLWhGSIyrzkocbBN9vks5ONj8rzooBbR18TaUU4lvtg1rgA==}
     peerDependencies:
       cypress: 8.x || 9.x || 10.x
@@ -2052,7 +2052,7 @@ packages:
       '@commercetools-frontend/application-config': 21.17.0(@babel/core@7.21.4)
       '@commercetools-frontend/application-shell': 21.17.0(@apollo/client@3.7.0)(@babel/core@7.21.4)(@testing-library/react-hooks@8.0.1)(@testing-library/react@12.1.5)(react-dom@17.0.2)(react-intl@5.25.1)(react-redux@7.2.9)(react-router-dom@5.3.4)(react@17.0.2)(redux@4.2.0)(typescript@4.8.4)
       '@manypkg/get-packages': 1.1.3
-      cypress: 10.10.0
+      cypress: 12.9.0
       semver: 7.3.7
       uuid: 8.3.2
     transitivePeerDependencies:
@@ -5207,7 +5207,7 @@ packages:
       defer-to-connect: 1.1.3
     dev: false
 
-  /@testing-library/cypress@8.0.3(cypress@10.10.0):
+  /@testing-library/cypress@8.0.3(cypress@12.9.0):
     resolution: {integrity: sha512-nY2YaSbmuPo5k6kL0iLj/pGPPfka3iwb3kpTx8QN/vOCns92Saz9wfACqB8FJzcR7+lfA4d5HUOWqmTddBzczg==}
     engines: {node: '>=12', npm: '>=6'}
     peerDependencies:
@@ -5215,7 +5215,7 @@ packages:
     dependencies:
       '@babel/runtime': 7.21.0
       '@testing-library/dom': 8.20.0
-      cypress: 10.10.0
+      cypress: 12.9.0
     dev: false
 
   /@testing-library/dom@8.20.0:
@@ -5742,7 +5742,7 @@ packages:
     resolution: {integrity: sha512-Cn6WYCm0tXv8p6k+A8PvbDG763EDpBoTzHdA+Q/MF6H3sapGjCm9NzoaJncJS9tUKSuCoDs9XHxYYsQDgxR6kw==}
     requiresBuild: true
     dependencies:
-      '@types/node': 14.18.42
+      '@types/node': 18.15.11
     dev: false
     optional: true
 
@@ -7598,9 +7598,9 @@ packages:
     resolution: {integrity: sha512-I7K1Uu0MBPzaFKg4nI5Q7Vs2t+3gWWW648spaF+Rg7pI9ds18Ugn+lvg4SHczUdKlHI5LWBXyqfS8+DufyBsgQ==}
     dev: false
 
-  /cypress@10.10.0:
-    resolution: {integrity: sha512-bU8r44x1NIYAUNNXt3CwJpLOVth7HUv2hUhYCxZmgZ1IugowDvuHNpevnoZRQx1KKOEisLvIJW+Xen5Pjn41pg==}
-    engines: {node: '>=12.0.0'}
+  /cypress@12.9.0:
+    resolution: {integrity: sha512-Ofe09LbHKgSqX89Iy1xen2WvpgbvNxDzsWx3mgU1mfILouELeXYGwIib3ItCwoRrRifoQwcBFmY54Vs0zw7QCg==}
+    engines: {node: ^14.0.0 || ^16.0.0 || >=18.0.0}
     hasBin: true
     requiresBuild: true
     dependencies:
