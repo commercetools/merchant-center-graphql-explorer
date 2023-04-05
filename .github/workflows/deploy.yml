@@ -16,34 +16,26 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: Read .nvmrc
-        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
-        id: nvm
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2.2.4
+        id: pnpm-install
+        with:
+          run_install: false
 
       - name: Setup Node (uses version in .nvmrc)
         uses: actions/setup-node@v3
         with:
-          node-version: "${{ steps.nvm.outputs.NVMRC }}"
-
-      - name: Get yarn cache
-        id: yarn-cache
-        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
-
-      - uses: actions/cache@v3
-        with:
-          path: ${{ steps.yarn-cache.outputs.dir }}
-          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-          restore-keys: |
-            ${{ runner.os }}-yarn-
+          node-version-file: '.nvmrc'
+          cache: 'pnpm'
 
       - name: Install dependencies
-        run: yarn install --immutable
+        run: pnpm install
 
       - name: Building application
-        run: yarn build
+        run: pnpm build
 
       - name: Deploying to surge (staging)
-        run: yarn deploy
+        run: pnpm run deploy
         env:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID_STAGING }}
           APPLICATION_URL: https://graphql-explorer-commercetools-staging.surge.sh
@@ -53,7 +45,7 @@ jobs:
           SURGE_TOKEN: ${{ secrets.SURGE_TOKEN }}
 
       - name: Deploying to surge (production eu)
-        run: yarn deploy
+        run: pnpm run deploy
         env:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID_PRODUCTION_EU }}
           APPLICATION_URL: https://graphql-explorer-commercetools-production-eu.surge.sh
