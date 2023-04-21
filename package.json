@@ -18,7 +18,7 @@
     "test": "jest --config jest.test.config.js",
     "test:watch": "jest --config jest.test.config.js --watch",
     "test:e2e": "cypress run",
-    "deploy": "pnpm compile-html && cp public/index.html public/200.html && surge public $APPLICATION_URL",
+    "deploy": "pnpm compile-html && cp public/index.html public/200.html && echo '*' > public/CORS && surge public $APPLICATION_URL",
     "typecheck": "tsc --noEmit",
     "typecheck:cypress": "tsc --noEmit -p cypress"
   },
