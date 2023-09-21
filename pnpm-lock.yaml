@@ -216,8 +216,8 @@ dependencies:
     specifier: 4.2.1
     version: 4.2.1
   start-server-and-test:
-    specifier: 1.15.4
-    version: 1.15.4
+    specifier: 2.0.1
+    version: 2.0.1
   surge:
     specifier: 0.23.1
     version: 0.23.1
@@ -14182,9 +14182,9 @@ packages:
     resolution: {integrity: sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==}
     dev: false
 
-  /start-server-and-test@1.15.4:
-    resolution: {integrity: sha512-ucQtp5+UCr0m4aHlY+aEV2JSYNTiMZKdSKK/bsIr6AlmwAWDYDnV7uGlWWEtWa7T4XvRI5cPYcPcQgeLqpz+Tg==}
-    engines: {node: '>=6'}
+  /start-server-and-test@2.0.1:
+    resolution: {integrity: sha512-8PFo4DLLLCDMuS51/BEEtE1m9CAXw1LNVtZSS1PzkYQh6Qf9JUwM4huYeSoUumaaoAyuwYBwCa9OsrcpMqcOdQ==}
+    engines: {node: '>=16'}
     hasBin: true
     dependencies:
       arg: 5.0.2
