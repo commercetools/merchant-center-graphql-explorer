@@ -1,5 +1,6 @@
 import path from 'path';
 import { defineConfig } from 'cypress';
+import { customApplicationConfig } from '@commercetools-frontend/cypress/task';
 
 export default defineConfig({
   retries: 1,
@@ -15,10 +16,6 @@ export default defineConfig({
         const dotenv = await import('dotenv');
         dotenv.config({ path: envPath });
       }
-
-      const { customApplicationConfig } = await import(
-        '@commercetools-frontend/cypress/task'
-      );
 
       on('task', {
         customApplicationConfig,
