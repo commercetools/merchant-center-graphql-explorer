@@ -1,25 +1,36 @@
 {
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base",
     "schedule:weekly"
   ],
   "separateMajorMinor": true,
+  "prHourlyLimit": 1,
+  "rebaseWhen": "conflicted",
   "packageRules": [
     {
-      "sourceUrlPrefixes": ["https://github.com/commercetools/merchant-center-application-kit"],
-      "groupName": "all application-kit packages"
-    },
-    {
-      "sourceUrlPrefixes": ["https://github.com/commercetools/ui-kit"],
-      "groupName": "all ui-kit packages"
-    },
-    {
-      "packagePatterns": [
-        "*"
-      ],
+      "packagePatterns": ["*"],
       "updateTypes": ["minor", "patch"],
       "groupName": "all dependencies",
       "groupSlug": "all"
+    },
+    {
+      "matchSourceUrls": [
+        "https://github.com/commercetools/merchant-center-application-kit"
+      ],
+      "groupName": "all application-kit packages",
+      "schedule": ["after 10pm every weekday", "before 8am every weekday"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchSourceUrls": ["https://github.com/commercetools/ui-kit"],
+      "groupName": "all ui-kit packages",
+      "schedule": ["after 10pm every weekday", "before 8am every weekday"],
+      "rangeStrategy": "bump"
+    },
+    {
+      "matchPackageNames": ["pnpm"],
+      "groupName": "pnpm"
     }
   ],
   "lockFileMaintenance": {
