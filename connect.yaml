@@ -1,0 +1,12 @@
+deployAs:
+  - name: visualizer
+    applicationType: merchant-center-graphql-explorer
+    endpoint: /
+    configuration:
+      standardConfiguration:
+        - key: APPLICATION_ID
+          description: The Custom Application ID
+          required: true
+        - key: CTP_INITIAL_PROJECT_KEY
+          description: development project key
+          required: false

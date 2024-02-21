@@ -17,10 +17,10 @@
     "format": "prettier --write '**/*.{js,ts,tsx}'",
     "test": "jest --config jest.test.config.js",
     "test:watch": "jest --config jest.test.config.js --watch",
-    "test:e2e": "cypress run",
+    "test:e2e": "merchant-center-graphql-explorer/cypress run",
     "deploy": "pnpm compile-html && cp public/index.html public/200.html && echo '*' > public/CORS && surge public $APPLICATION_URL",
     "typecheck": "tsc --noEmit",
-    "typecheck:cypress": "tsc --noEmit -p cypress"
+    "typecheck:cypress": "tsc --noEmit -p merchant-center-graphql-explorer/cypress"
   },
   "dependencies": {
     "@apollo/client": "3.8.4",
