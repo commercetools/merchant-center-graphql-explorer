@@ -9,5 +9,5 @@ echo "Removing corrupted packages"
 
 echo "Preparing development setup."
 
-pnpm husky install
+#pnpm husky install
 pnpm manypkg check

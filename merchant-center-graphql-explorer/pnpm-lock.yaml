@@ -174,8 +174,8 @@ dependencies:
     specifier: 4.5.0
     version: 4.5.0(@types/node@20.4.7)(graphql@16.8.1)
   husky:
-    specifier: 8.0.3
-    version: 8.0.3
+    specifier: 9.0.11
+    version: 9.0.11
   intl-messageformat:
     specifier: ^10.5.3
     version: 10.5.3
@@ -5441,7 +5441,7 @@ packages:
       react-test-renderer:
         optional: true
     dependencies:
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.23.9
       '@types/react': 17.0.56
       react: 17.0.2
       react-dom: 17.0.2(react@17.0.2)
@@ -10360,9 +10360,9 @@ packages:
     engines: {node: '>=14.18.0'}
     dev: false
 
-  /husky@8.0.3:
-    resolution: {integrity: sha512-+dQSyqPh4x1hlO1swXBiNb2HzTDN1I2IGLQx1GrBuiqFJfoMrnZWwVmatvSiO+Iz8fBUnf+lekwNo4c2LlXItg==}
-    engines: {node: '>=14'}
+  /husky@9.0.11:
+    resolution: {integrity: sha512-AB6lFlbwwyIqMdHYhwPe+kjOC3Oc5P3nThEoW/AaO2BX3vJDjWPFxYLxokUZOo6RNX20He3AaT8sESs9NJcmEw==}
+    engines: {node: '>=18'}
     hasBin: true
     dev: false
 
@@ -13678,7 +13678,7 @@ packages:
     peerDependencies:
       react: '>=16.13.1'
     dependencies:
-      '@babel/runtime': 7.23.2
+      '@babel/runtime': 7.23.9
       react: 17.0.2
     dev: false
 
