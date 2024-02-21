@@ -1,7 +1,7 @@
 import { entryPointUriPath, PERMISSIONS } from './src/constants';
-import type { ConfigOptions } from '@commercetools-frontend/application-config';
+import type { ConfigOptionsForCustomApplication } from '@commercetools-frontend/application-config';
 
-const config: ConfigOptions = {
+const config: ConfigOptionsForCustomApplication = {
   name: 'GraphQL Explorer',
   entryPointUriPath,
   cloudIdentifier: 'gcp-eu',
