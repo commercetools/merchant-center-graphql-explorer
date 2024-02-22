@@ -1,4 +1,5 @@
-src/i18n/*.json
+i18n/data/*.json
+public
 dist/
 public/
 .percy.yml

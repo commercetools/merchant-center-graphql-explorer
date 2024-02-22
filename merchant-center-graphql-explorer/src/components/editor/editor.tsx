@@ -12,7 +12,7 @@ import type {
   ApplicationWindow,
 } from '@commercetools-frontend/constants';
 import createHttpUserAgent from '@commercetools/http-user-agent';
-import explorerPlugin from './plugin-explorer';
+import { explorerPlugin } from '@graphiql/plugin-explorer';
 import QueryContext from './query-context';
 
 declare let window: ApplicationWindow;
@@ -59,6 +59,7 @@ const graphqlFetcher = async (
 const Editor = (props: TEditorProps) => {
   const [query, setQuery] = useState<string>(props.initialQuery);
   const context = useMemo(() => ({ query, setQuery }), [query]);
+  const explorer = explorerPlugin({ showAttribution: true });
   const fetcher = useCallback(
     (graphQLParams: FetcherParams, fetcherOpts?: FetcherOpts) =>
       graphqlFetcher(graphQLParams, {
@@ -80,7 +81,7 @@ const Editor = (props: TEditorProps) => {
           fetcher={fetcher}
           query={query}
           onEditQuery={(newQuery) => setQuery(newQuery)}
-          plugins={[explorerPlugin]}
+          plugins={[explorer]}
         />
       </QueryContext.Provider>
     </div>

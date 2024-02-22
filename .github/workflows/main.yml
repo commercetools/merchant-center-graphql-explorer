@@ -46,7 +46,7 @@ jobs:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
           APPLICATION_URL: https://graphql-explorer-commercetools-staging.surge.sh
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
-          CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
+          CTP_INITIAL_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}
 
       - name: Running linters and tests
         run: pnpm jest --projects jest.{eslint,test}.config.js
@@ -78,5 +78,5 @@ jobs:
           APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
           APPLICATION_URL: https://graphql-explorer-commercetools-staging.surge.sh
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
-          CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
+          CTP_INITIAL_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}
           CLOUD_IDENTIFIER: gcp-eu
