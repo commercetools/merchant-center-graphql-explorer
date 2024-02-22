@@ -1,6 +1,6 @@
 deployAs:
-  - name: visualizer
-    applicationType: merchant-center-graphql-explorer
+  - name: merchant-center-graphql-explorer
+    applicationType: merchant-center-custom-application
     endpoint: /
     configuration:
       standardConfiguration:
