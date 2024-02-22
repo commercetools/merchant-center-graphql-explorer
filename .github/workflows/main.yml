@@ -79,3 +79,4 @@ jobs:
           APPLICATION_URL: https://graphql-explorer-commercetools-staging.surge.sh
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
           CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
+          CLOUD_IDENTIFIER: gcp-eu

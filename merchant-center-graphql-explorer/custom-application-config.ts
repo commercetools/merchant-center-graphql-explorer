@@ -4,7 +4,7 @@ import type { ConfigOptionsForCustomApplication } from '@commercetools-frontend/
 const config: ConfigOptionsForCustomApplication = {
   name: 'GraphQL Explorer',
   entryPointUriPath,
-  cloudIdentifier: 'gcp-eu',
+  cloudIdentifier: '${env:CLOUD_IDENTIFIER}',
   env: {
     development: {
       initialProjectKey: '${env:CTP_INITIAL_PROJECT_KEY}',

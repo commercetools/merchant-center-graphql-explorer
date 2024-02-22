@@ -9,4 +9,11 @@ deployAs:
           required: true
         - key: CTP_INITIAL_PROJECT_KEY
           description: development project key
-          required: false
+          required: true
+        - key: HOST_GCP_STAGING
+          description: one of the following us-central1.gcp.commercetools.com, us-east-2.aws.commercetools.com, europe-west1.gcp.commercetools.com, eu-central-1.aws.commercetools.com, australia-southeast1.gcp.commercetools.com, cn-northwest-1.aws.commercetools.cn
+          required: true
+        - key: CLOUD_IDENTIFIER
+          description: one of the following gcp-us, gcp-eu, aws-us, aws-eu
+          required: true
+          default: 'gcp-eu'
