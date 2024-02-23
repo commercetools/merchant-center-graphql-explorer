@@ -4,7 +4,6 @@ import {
   setupGlobalErrorListener,
 } from '@commercetools-frontend/application-shell';
 import type { ApplicationWindow } from '@commercetools-frontend/constants';
-import { FEATURE_FLAGS } from '../../constants';
 import loadMessages from '../../load-messages';
 
 declare let window: ApplicationWindow;
@@ -13,7 +12,7 @@ declare let window: ApplicationWindow;
 // Splitting by route is usually recommended and you can potentially have a splitting
 // point for each route. More info at https://reactjs.org/docs/code-splitting.html
 const AsyncApplicationRoutes = lazy(
-  () => import('../../routes' /* webpackChunkName: "app-routes" */)
+  () => import('../../routes' /* webpackChunkName: "routes" */)
 );
 
 // Ensure to setup the global error listener before any React component renders
@@ -22,9 +21,9 @@ setupGlobalErrorListener();
 
 const EntryPoint = () => (
   <ApplicationShell
+    enableReactStrictMode
     environment={window.app}
     applicationMessages={loadMessages}
-    featureFlags={FEATURE_FLAGS}
   >
     <AsyncApplicationRoutes />
   </ApplicationShell>

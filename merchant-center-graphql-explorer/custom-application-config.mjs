@@ -1,7 +1,9 @@
-import { entryPointUriPath, PERMISSIONS } from './src/constants';
-import type { ConfigOptionsForCustomApplication } from '@commercetools-frontend/application-config';
+import { PERMISSIONS, entryPointUriPath } from './src/constants';
 
-const config: ConfigOptionsForCustomApplication = {
+/**
+ * @type {import('@commercetools-frontend/application-config').ConfigOptionsForCustomApplication}
+ */
+const config = {
   name: 'GraphQL Explorer',
   entryPointUriPath,
   cloudIdentifier: '${env:CLOUD_IDENTIFIER}',
@@ -50,11 +52,11 @@ const config: ConfigOptionsForCustomApplication = {
       uriPath: 'platform',
       permissions: [PERMISSIONS.View],
       defaultLabel: 'commercetools platform',
-      labelAllLocales: [],
+    labelAllLocales: [],
     },
     {
       uriPath: 'users',
-      permissions: [PERMISSIONS.View],
+    permissions: [PERMISSIONS.View],
       defaultLabel: 'Users',
       labelAllLocales: [],
     },
