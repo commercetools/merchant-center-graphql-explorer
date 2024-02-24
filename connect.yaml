@@ -17,3 +17,7 @@ deployAs:
           description: one of the following gcp-us, gcp-eu, aws-us, aws-eu
           required: true
           default: 'gcp-eu'
+        - key: ENTRY_POINT_URI_PATH
+          description: The unique identifier of the Custom Application.
+          required: false
+          default: 'graphql-explorer-commercetools'
