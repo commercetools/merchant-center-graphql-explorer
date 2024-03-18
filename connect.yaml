@@ -4,9 +4,13 @@ deployAs:
     endpoint: /
     configuration:
       standardConfiguration:
-        - key: APPLICATION_ID
+        - key: CUSTOM_CUSTOM_APPLICATION_ID
           description: The Custom Application ID
           required: true
+        - key: ENTRY_POINT_URI_PATH
+          description: The Application entry point URI path
+          required: true
+          default: 'graphql-explorer-commercetools'
         - key: CTP_INITIAL_PROJECT_KEY
           description: development project key
           required: true
@@ -17,7 +21,3 @@ deployAs:
           description: one of the following gcp-us, gcp-eu, aws-us, aws-eu
           required: true
           default: 'gcp-eu'
-        - key: ENTRY_POINT_URI_PATH
-          description: The unique identifier of the Custom Application.
-          required: false
-          default: 'graphql-explorer-commercetools'

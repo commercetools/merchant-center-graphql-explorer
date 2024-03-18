@@ -12,7 +12,7 @@ const config = {
       initialProjectKey: '${env:CTP_INITIAL_PROJECT_KEY}',
     },
     production: {
-      applicationId: '${env:APPLICATION_ID}',
+      applicationId: '${env:CUSTOM_APPLICATION_ID}',
       url: '${env:APPLICATION_URL}',
     },
   },

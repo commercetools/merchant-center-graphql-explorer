@@ -51,7 +51,7 @@ jobs:
       - name: Building application
         run: yarn build
         env:
-          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          CUSTOM_APPLICATION_ID: ${{ secrets.CUSTOM_APPLICATION_ID }}
           APPLICATION_URL: https://graphql-explorer-commercetools-staging.surge.sh
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
           CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
@@ -83,7 +83,7 @@ jobs:
           CYPRESS_LOGIN_USER: ${{ secrets.CYPRESS_LOGIN_USER }}
           CYPRESS_LOGIN_PASSWORD: ${{ secrets.CYPRESS_LOGIN_PASSWORD }}
           CYPRESS_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}
-          APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
+          CUSTOM_APPLICATION_ID: ${{ secrets.CUSTOM_APPLICATION_ID }}
           APPLICATION_URL: https://graphql-explorer-commercetools-staging.surge.sh
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
           CTP_INITIAL_PROJECT_KEY: ${{ secrets. CYPRESS_PROJECT_KEY }}
