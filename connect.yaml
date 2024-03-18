@@ -6,7 +6,7 @@ deployAs:
         - key: CUSTOM_APPLICATION_ID
           description: The Custom Application ID
           required: true
-        - key: ENTRY_POINT_URI_PATH
+        - key: ENTRY_POINT_URL_PATH
           description: The Application entry point URI path
           required: true
           default: 'graphql-explorer-commercetools'
