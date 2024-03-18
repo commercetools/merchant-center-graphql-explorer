@@ -1,10 +1,9 @@
 deployAs:
   - name: merchant-center-graphql-explorer
     applicationType: merchant-center-custom-application
-    endpoint: /
     configuration:
       standardConfiguration:
-        - key: CUSTOM_CUSTOM_APPLICATION_ID
+        - key: CUSTOM_APPLICATION_ID
           description: The Custom Application ID
           required: true
         - key: ENTRY_POINT_URI_PATH
