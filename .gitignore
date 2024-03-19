@@ -56,15 +56,11 @@ typings/
 .yarn-integrity
 
 # Yarn
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/sdks
-!.yarn/versions
+.yarn/
 
 # dotenv environment variables file
-.env
+!.env
+.env.local
 
 # Lerna changelog cache
 .changelog
