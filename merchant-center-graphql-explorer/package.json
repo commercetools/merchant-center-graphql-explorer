@@ -4,6 +4,7 @@
   "description": "",
   "private": true,
   "scripts": {
+    "prepare": "cd .. && husky merchant-center-graphql-explorer/.husky",
     "build": "mc-scripts build",
     "start": "mc-scripts start",
     "postinstall": "./scripts/postinstall.sh",
@@ -15,13 +16,12 @@
     "test:watch": "jest --config jest.test.config.js --watch",
     "lint": "jest --config jest.eslint.config.js",
     "format": "prettier --write '**/*.{js,ts,tsx}'",
-    "test:e2e": "cypress run",
+    "test:e2e": "merchant-center-graphql-explorer/cypress run",
     "typecheck": "tsc --noEmit",
-    "typecheck:cypress": "tsc --noEmit -p cypress",
+    "typecheck:cypress": "tsc --noEmit -p merchant-center-graphql-explorer/cypress",
     "versions:appkit": "manypkg upgrade @commercetools-frontend",
     "versions:uikit": "manypkg upgrade @commercetools-uikit",
-    "deploy": "yarn compile-html && cp public/index.html public/200.html && echo '*' > public/CORS && surge public $APPLICATION_URL",
-    "prepare": "husky"
+    "deploy": "yarn compile-html && cp public/index.html public/200.html && echo '*' > public/CORS && surge public $APPLICATION_URL"
   },
   "dependencies": {
     "@apollo/client": "3.8.4",

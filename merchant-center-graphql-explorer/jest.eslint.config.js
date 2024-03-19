@@ -4,5 +4,8 @@ module.exports = {
   moduleFileExtensions: ['js', 'ts', 'tsx'],
   modulePathIgnorePatterns: ['dist', 'public'],
   testMatch: ['<rootDir>/**/*.js', '<rootDir>/**/*.ts', '<rootDir>/**/*.tsx'],
-  watchPlugins: ['jest-watch-typeahead/filename'],
+  watchPlugins: [
+    'jest-watch-typeahead/filename',
+    'jest-runner-eslint/watch-fix',
+  ],
 };
