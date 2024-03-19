@@ -1,16 +1,16 @@
-import { entryPointUriPath, PERMISSIONS } from './src/constants';
+import { PERMISSIONS } from './src/constants';
 import type { ConfigOptions } from '@commercetools-frontend/application-config';
 
 const config: ConfigOptions = {
   name: 'GraphQL Explorer',
-  entryPointUriPath,
-  cloudIdentifier: 'gcp-eu',
+  entryPointUriPath: '${env:ENTRY_POINT_URI_PATH}',
+  cloudIdentifier: '${env:CLOUD_IDENTIFIER}',
   env: {
     development: {
       initialProjectKey: '${env:CTP_INITIAL_PROJECT_KEY}',
     },
     production: {
-      applicationId: '${env:APPLICATION_ID}',
+      applicationId: '${env:CUSTOM_APPLICATION_ID}',
       url: '${env:APPLICATION_URL}',
     },
   },

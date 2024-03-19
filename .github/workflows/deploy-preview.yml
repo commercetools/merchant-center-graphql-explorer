@@ -14,23 +14,31 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.4
-        id: pnpm-install
-        with:
-          run_install: false
+      - name: Read .nvmrc
+        run: echo ::set-output name=NVMRC::$(cat .nvmrc)
+        id: nvm
 
       - name: Setup Node (uses version in .nvmrc)
         uses: actions/setup-node@v4
         with:
-          node-version-file: '.nvmrc'
-          cache: 'pnpm'
+          node-version: "${{ steps.nvm.outputs.NVMRC }}"
+
+      - name: Get yarn cache
+        id: yarn-cache
+        run: echo "::set-output name=dir::$(yarn config get cacheFolder)"
+
+      - uses: actions/cache@v3
+        with:
+          path: ${{ steps.yarn-cache.outputs.dir }}
+          key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-yarn-
 
       - name: Install dependencies
-        run: pnpm install
+        run: yarn install --immutable
 
       - name: Building application
-        run: pnpm build
+        run: yarn build
 
       - name: Extract branch name
         id: branch
@@ -44,9 +52,9 @@ jobs:
         shell: bash
 
       - name: Deploying to surge (preview)
-        run: pnpm run deploy
+        run: yarn deploy
         env:
-          APPLICATION_ID: ${{ secrets.APPLICATION_ID_STAGING }}
+          CUSTOM_APPLICATION_ID: ${{ secrets.APPLICATION_ID_STAGING }}
           APPLICATION_URL: https://graphql-explorer-commercetools-${{ steps.branch.outputs.name }}.surge.sh
           HOST_GCP_STAGING: ${{ secrets.HOST_GCP_STAGING }}
           CTP_INITIAL_PROJECT_KEY: ${{ secrets.CYPRESS_PROJECT_KEY }}

@@ -1,0 +1,5 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+cd merchant-center-graphql-explorer
+yarn commitlint --edit $1
