@@ -11,7 +11,7 @@ module.exports = {
     //   Error: An error occurred while adding the reporter at path "/path/to/file".Reporter is not a constructor
     //
     // For that reason, we move the `--onlyChanged` flag next to it.
-    'pnpm lint --reporters=jest-silent-reporter --onlyChanged',
+    'yarn lint --reporters=jest-silent-reporter --onlyChanged',
   ],
   '!(cypress)/**/*.{ts,tsx}': [
     'prettier --write',
@@ -23,7 +23,7 @@ module.exports = {
     //   Error: An error occurred while adding the reporter at path "/path/to/file".Reporter is not a constructor
     //
     // For that reason, we move the `--onlyChanged` flag next to it.
-    'pnpm lint --passWithNoTests --reporters=jest-silent-reporter --onlyChanged',
+    'yarn lint --passWithNoTests --reporters=jest-silent-reporter --onlyChanged',
     // Always include the `client.d.ts` file.
     'tsc-files --noEmit node_modules/@commercetools-frontend/application-config/client.d.ts',
   ],
@@ -37,7 +37,7 @@ module.exports = {
     //   Error: An error occurred while adding the reporter at path "/path/to/file".Reporter is not a constructor
     //
     // For that reason, we move the `--onlyChanged` flag next to it.
-    'pnpm lint --reporters=jest-silent-reporter --onlyChanged',
-    () => 'pnpm typecheck:cypress',
+    'yarn lint --reporters=jest-silent-reporter --onlyChanged',
+    () => 'yarn typecheck:cypress',
   ],
 };

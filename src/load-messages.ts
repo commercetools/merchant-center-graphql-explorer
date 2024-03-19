@@ -6,21 +6,19 @@ import {
 
 const getChunkImport = (locale: string): Promise<TI18NImportData> => {
   switch (locale) {
-    case 'es':
-      return import(
-        './i18n/compiled-data/es.json' /* webpackChunkName: "app-i18n-es" */
-      );
     case 'de':
       return import(
-        './i18n/compiled-data/de.json' /* webpackChunkName: "app-i18n-de" */
+        /* webpackChunkName: "app-i18n-de" */
+        './i18n/data/de.json'
       );
     default:
       return import(
         /* webpackChunkName: "app-i18n-en" */
-        './i18n/compiled-data/en.json'
+        './i18n/data/en.json'
       );
   }
 };
+
 const loadMessages = async (locale: string): Promise<TMessageTranslations> => {
   try {
     const chunkImport = await getChunkImport(locale);
