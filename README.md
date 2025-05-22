@@ -1,3 +1,7 @@
+# This Custom Application is no longer maintained. The GraphQL Explorer is natively integrated into the Merchant Center: https://docs.commercetools.com/merchant-center/developer-settings#graphql-explorer.
+
+---
+
 <p align="center">
   <a href="https://commercetools.com/">
     <img alt="commercetools logo" src="https://unpkg.com/@commercetools-frontend/assets/logos/commercetools_primary-logo_horizontal_RGB.png">
